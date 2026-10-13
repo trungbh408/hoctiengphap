@@ -1,0 +1,563 @@
+
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thư viện luyện tiếng Pháp V4</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f3f6f5;color:#20312c;font:16px/1.6 -apple-system,BlinkMacSystemFont,sans-serif}
+header{background:#174d3d;color:white;padding:22px 16px}
+header h1{margin:0;font-size:23px}
+header p{margin:4px 0 0}
+main{max-width:720px;margin:auto;padding:14px}
+.card{background:white;border:1px solid #dce5e0;border-radius:14px;padding:16px;margin-bottom:14px}
+h2{font-size:19px;margin:0 0 10px}
+label{display:block;font-weight:600;margin-top:9px}
+input,select,button{font:inherit;border:1px solid #ccd8d1;border-radius:9px;padding:10px}
+input{width:100%;margin:5px 0}
+button{background:white;cursor:pointer}
+.primary{background:#176b50;color:white;border-color:#176b50}
+button:disabled{opacity:.45}
+.muted{color:#65766e;font-size:14px}
+.question{border:1px solid #dce5e0;border-radius:10px;padding:12px;margin:12px 0}
+.feedback{font-size:14px;margin-top:8px}
+.good{color:#137547}.bad{color:#b42318}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.notice{background:#fff8e6;padding:10px;border-radius:8px;font-size:14px}
+</style>
+</head>
+<body>
+<header>
+<h1>Thư viện luyện tiếng Pháp V4</h1>
+<p>Học chậm · Ôn kỹ · Theo dõi tiến độ</p>
+</header>
+<main>
+<section class="card">
+<h2>1. Tài khoản và đồng bộ</h2>
+<p class="muted">Đăng nhập để lưu tiến độ lên Supabase. Bản ghi âm không được tải lên.</p>
+<p id="authStatus">Chưa đăng nhập.</p>
+<label for="email">Email</label>
+<input id="email" type="email" placeholder="Email của bạn">
+<label for="password">Mật khẩu</label>
+<input id="password" type="password" placeholder="Mật khẩu từ 6 ký tự">
+<div class="row">
+<button class="primary" id="login">Đăng nhập</button>
+<button id="register">Tạo tài khoản</button>
+<button id="logout" hidden>Đăng xuất</button>
+</div>
+<p id="authMsg" class="muted"></p>
+</section>
+
+<section class="card">
+<h2>2. Thư viện bài học</h2>
+<label for="lesson">Chọn bài học</label>
+<select id="lesson" style="width:100%">
+<option value="bai1">Bài 1 — Imparfait và passé composé</option>
+<option value="bai2">Bài 2 — Ôn chia động từ quá khứ</option>
+</select>
+<p class="muted">Mỗi bài có 5 câu. Mỗi câu đúng được 2 điểm.</p>
+</section>
+
+<section class="card">
+<h2 id="title">Bài 1 — Imparfait và passé composé</h2>
+<div id="questions"></div>
+<div class="row">
+<button class="primary" id="grade">Chấm bài / 10</button>
+<button id="reset">Làm lại bài</button>
+</div>
+<div id="result" aria-live="polite"></div>
+<div class="row">
+<button class="primary" id="next" disabled>Bài tiếp theo →</button>
+<button id="report">Xuất báo cáo</button>
+</div>
+<p id="nextHint" class="muted">Cần đạt ít nhất 8/10 để mở bài tiếp theo.</p>
+</section>
+
+<section class="card">
+<h2>3. Lịch sử kết quả</h2>
+<div id="history">Chưa có kết quả.</div>
+</section>
+<p class="muted">V4 thử nghiệm. Hãy kiểm tra kỹ trước khi thay thế trang chính.</p>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script>
+(function () {
+"use strict";
+
+/* Kết nối Supabase */
+const SUPABASE_URL = "https://tnekexmtmetrzjkvpjxg.supabase.co";
+const SUPABASE_KEY = "sb_publishable_J9qpW7lvhmxt2uXz5Okr9A_nKf8qkid";
+
+const db = window.supabase
+  ? window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY)
+  : null;
+
+const $ = id => document.getElementById(id);
+
+const lessons = {
+  bai1: {
+    title: "Bài 1 — Phân biệt imparfait và passé composé",
+    questions: [
+      {
+        title: "Chơi pickleball",
+        vn: "Hôm qua tôi đã chơi pickleball trong hai giờ.",
+        before: "Hier, j'",
+        after: " au pickleball pendant deux heures.",
+        answer: "ai joué",
+        full: "Hier, j'ai joué au pickleball pendant deux heures.",
+        why: "Passé composé diễn tả hành động đã kết thúc hôm qua."
+      },
+      {
+        title: "Thói quen trước đây",
+        vn: "Trước đây tôi thường chơi tennis vào mỗi Chủ nhật.",
+        before: "Avant, je ",
+        after: " au tennis tous les dimanches.",
+        answer: "jouais",
+        full: "Avant, je jouais au tennis tous les dimanches.",
+        why: "Imparfait diễn tả thói quen lặp lại trong quá khứ."
+      },
+      {
+        title: "Uống cà phê",
+        vn: "Tôi đang uống cà phê thì bạn tôi đến.",
+        before: "Je ",
+        after: " un café quand mon ami est arrivé.",
+        answer: "buvais",
+        full: "Je buvais un café quand mon ami est arrivé.",
+        why: "Imparfait diễn tả hành động đang diễn ra."
+      },
+      {
+        title: "Đi nhà hàng",
+        vn: "Tối qua chúng tôi đã đi nhà hàng.",
+        before: "Hier soir, nous ",
+        after: " au restaurant.",
+        answer: "sommes allés",
+        full: "Hier soir, nous sommes allés au restaurant.",
+        why: "Aller dùng être trong passé composé; allés cho nhóm nam hoặc hỗn hợp."
+      },
+      {
+        title: "Thói quen đi ngủ",
+        vn: "Khi còn trẻ, tôi thường đi ngủ muộn.",
+        before: "Quand j'étais jeune, je ",
+        after: " tard.",
+        answer: "me couchais",
+        full: "Quand j'étais jeune, je me couchais tard.",
+        why: "Imparfait diễn tả thói quen; động từ phản thân cần me."
+      }
+    ]
+  },
+
+  bai2: {
+    title: "Bài 2 — Ôn tập chia động từ trong quá khứ",
+    questions: [
+      {
+        title: "Ngày hôm qua",
+        vn: "Hôm qua tôi đã uống cà phê với vợ.",
+        before: "Hier, j'",
+        after: " un café avec ma femme.",
+        answer: "ai bu",
+        full: "Hier, j'ai bu un café avec ma femme.",
+        why: "Passé composé diễn tả hành động đã hoàn tất."
+      },
+      {
+        title: "Thói quen chơi thể thao",
+        vn: "Trước đây chúng tôi thường chơi tennis vào buổi sáng.",
+        before: "Avant, nous ",
+        after: " au tennis le matin.",
+        answer: "jouions",
+        full: "Avant, nous jouions au tennis le matin.",
+        why: "Imparfait diễn tả thói quen trong quá khứ."
+      },
+      {
+        title: "Trời mưa",
+        vn: "Trời đang mưa khi tôi về nhà.",
+        before: "Il ",
+        after: " quand je suis rentré.",
+        answer: "pleuvait",
+        full: "Il pleuvait quand je suis rentré.",
+        why: "Imparfait mô tả bối cảnh thời tiết."
+      },
+      {
+        title: "Một cuộc gọi",
+        vn: "Tối qua bạn tôi đã gọi điện cho tôi.",
+        before: "Hier soir, mon ami m'",
+        after: ".",
+        answer: "a appelé",
+        full: "Hier soir, mon ami m'a appelé.",
+        why: "Passé composé diễn tả sự kiện đã hoàn tất."
+      },
+      {
+        title: "Đi ngủ sớm",
+        vn: "Khi còn nhỏ, tôi thường đi ngủ sớm.",
+        before: "Quand j'étais petit, je ",
+        after: " tôt.",
+        answer: "me couchais",
+        full: "Quand j'étais petit, je me couchais tôt.",
+        why: "Imparfait diễn tả thói quen khi còn nhỏ."
+      }
+    ]
+  }
+};
+
+function read(key, fallback) {
+  try {
+    const value = JSON.parse(localStorage.getItem(key));
+    return value === null ? fallback : value;
+  } catch (_) {
+    return fallback;
+  }
+}
+
+function write(key, value) {
+  localStorage.setItem(key, JSON.stringify(value));
+}
+
+function normalize(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[’']/g, "'")
+    .replace(/\s+/g, " ");
+}
+
+function escapeHTML(value) {
+  return String(value).replace(/[&<>"']/g, char => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[char]);
+}
+
+let current = "bai1";
+let best = read("frv4-best", {});
+let history = read("frv4-history", []);
+let answers = read("frv4-answers", {});
+let user = null;
+
+function renderLesson() {
+  const lesson = lessons[current];
+  $("title").textContent = lesson.title;
+
+  $("questions").innerHTML = lesson.questions.map((q, i) => `
+    <article class="question">
+      <h3>${i + 1}. ${escapeHTML(q.title)}</h3>
+      <p>${escapeHTML(q.vn)}</p>
+      <p><strong>${escapeHTML(q.before)}
+        <span style="color:#176b50">_____</span>
+        ${escapeHTML(q.after)}</strong></p>
+      <label for="answer${i}">Điền dạng động từ</label>
+      <input id="answer${i}" type="text"
+        autocomplete="off"
+        placeholder="Nhập câu trả lời"
+        value="${escapeHTML((answers[current] || [])[i] || "")}">
+      <div class="row">
+        <button type="button" data-check="${i}">Kiểm tra câu</button>
+        <button type="button" data-read="${i}">Nghe câu mẫu</button>
+      </div>
+      <div id="feedback${i}" class="feedback"></div>
+    </article>
+  `).join("");
+
+  document.querySelectorAll("[data-check]").forEach(button => {
+    button.addEventListener("click", () => checkOne(Number(button.dataset.check)));
+  });
+
+  document.querySelectorAll("[data-read]").forEach(button => {
+    button.addEventListener("click", () => {
+      const q = lesson.questions[Number(button.dataset.read)];
+      if (!("speechSynthesis" in window)) {
+        alert("Trình duyệt chưa hỗ trợ đọc văn bản.");
+        return;
+      }
+      speechSynthesis.cancel();
+      const speech = new SpeechSynthesisUtterance(q.full);
+      speech.lang = "fr-FR";
+      speech.rate = 0.78;
+      speechSynthesis.speak(speech);
+    });
+  });
+
+  $("result").textContent = "";
+  $("next").disabled = !(current === "bai1" && Number(best.bai1) >= 8);
+  $("nextHint").textContent = current === "bai1"
+    ? "Cần đạt ít nhất 8/10 để mở bài tiếp theo."
+    : "Bạn đã đến bài hiện có cuối cùng.";
+
+  renderHistory();
+}
+
+function collectAnswers() {
+  answers[current] = lessons[current].questions.map((_, i) =>
+    $("answer" + i).value
+  );
+  write("frv4-answers", answers);
+}
+
+function checkOne(index) {
+  collectAnswers();
+  const q = lessons[current].questions[index];
+  const actual = answers[current][index];
+  const correct = normalize(actual) === normalize(q.answer);
+
+  $("feedback" + index).innerHTML = correct
+    ? '<span class="good">Chính xác! ' + escapeHTML(q.why) + '</span>'
+    : '<span class="bad">Chưa đúng. Đáp án: <strong>' +
+      escapeHTML(q.answer) + '</strong>. ' +
+      escapeHTML(q.why) + '</span>';
+}
+
+async function syncRecord(record) {
+  if (!db || !user) return;
+
+  const payload = {
+    user_id: user.id,
+    lesson_id: record.lessonId,
+    lesson_title: record.title,
+    completed: record.score >= 8,
+    score: record.score,
+    last_position: {
+      answers: record.answers,
+      attempted_at: record.at
+    },
+    updated_at: record.at
+  };
+
+  const { error } = await db
+    .from("lesson_progress")
+    .upsert(payload, { onConflict: "user_id,lesson_id" });
+
+  $("authMsg").textContent = error
+    ? "Chưa đồng bộ được. Điểm vẫn lưu trên thiết bị: " + error.message
+    : "Đã đồng bộ điểm gần nhất lên Supabase.";
+}
+
+function grade() {
+  collectAnswers();
+
+  const lesson = lessons[current];
+  let correctCount = 0;
+
+  const detail = lesson.questions.map((q, i) => {
+    const answer = answers[current][i];
+    const correct = normalize(answer) === normalize(q.answer);
+    if (correct) correctCount++;
+
+    $("feedback" + i).innerHTML = correct
+      ? '<span class="good">Chính xác! ' + escapeHTML(q.why) + '</span>'
+      : '<span class="bad">Đáp án: <strong>' +
+        escapeHTML(q.answer) + '</strong>. ' +
+        escapeHTML(q.why) + '</span>';
+
+    return {
+      question: q.vn,
+      answer: answer,
+      expected: q.answer,
+      correct: correct
+    };
+  });
+
+  const score = correctCount * 2;
+  const record = {
+    lessonId: current,
+    title: lesson.title,
+    score: score,
+    correct: correctCount,
+    at: new Date().toISOString(),
+    answers: detail
+  };
+
+  history.unshift(record);
+  history = history.slice(0, 50);
+  write("frv4-history", history);
+
+  best[current] = Math.max(Number(best[current]) || 0, score);
+  write("frv4-best", best);
+
+  if (score >= 8) {
+    $("result").innerHTML =
+      '<p class="good"><strong>Kết quả: ' + score +
+      '/10.</strong> Bạn đạt yêu cầu.</p>';
+  } else {
+    $("result").innerHTML =
+      '<p class="bad"><strong>Kết quả: ' + score +
+      '/10.</strong> Chưa đạt 8/10. Hãy xem giải thích ở câu sai rồi làm lại.</p>';
+  }
+
+  $("next").disabled = !(current === "bai1" && score >= 8);
+  $("nextHint").textContent = score >= 8
+    ? "Bạn đã đạt điều kiện mở bài tiếp theo."
+    : "Cần đạt ít nhất 8/10 trong một lần làm bài.";
+
+  renderHistory();
+  syncRecord(record);
+}
+
+function renderHistory() {
+  if (!history.length) {
+    $("history").textContent = "Chưa có kết quả.";
+    return;
+  }
+
+  $("history").innerHTML = history.slice(0, 10).map(record => `
+    <article class="question">
+      <strong>${escapeHTML(record.title)}</strong>
+      <p>Điểm: ${record.score}/10</p>
+      <p class="muted">${new Date(record.at).toLocaleString("vi-VN")}</p>
+      <details>
+        <summary>Xem câu trả lời</summary>
+        ${(record.answers || []).map((a, i) => `
+          <p>${i + 1}. ${escapeHTML(a.question || "")}<br>
+          Bạn trả lời: ${escapeHTML(a.answer || "(để trống)")}<br>
+          Đáp án: ${escapeHTML(a.expected || "")} —
+          ${a.correct ? "Đúng" : "Chưa đúng"}</p>
+        `).join("")}
+      </details>
+    </article>
+  `).join("");
+}
+
+$("lesson").addEventListener("change", event => {
+  collectAnswers();
+  current = event.target.value;
+  renderLesson();
+});
+
+$("grade").addEventListener("click", grade);
+
+$("reset").addEventListener("click", () => {
+  if (!confirm("Xóa câu trả lời hiện tại? Lịch sử điểm vẫn được giữ.")) return;
+  answers[current] = [];
+  write("frv4-answers", answers);
+  renderLesson();
+});
+
+$("next").addEventListener("click", () => {
+  if (current === "bai1" && Number(best.bai1) >= 8) {
+    current = "bai2";
+    $("lesson").value = current;
+    renderLesson();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+});
+
+$("report").addEventListener("click", () => {
+  const report = {
+    exportedAt: new Date().toISOString(),
+    bestScores: best,
+    history: history
+  };
+  const blob = new Blob([JSON.stringify(report, null, 2)], {
+    type: "application/json"
+  });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "bao-cao-hoc-tieng-phap-v4.json";
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+});
+
+/* Tài khoản Supabase */
+function updateAuthUI() {
+  $("authStatus").textContent = user
+    ? "Đã đăng nhập: " + user.email
+    : "Chưa đăng nhập.";
+
+  $("login").hidden = !!user;
+  $("register").hidden = !!user;
+  $("logout").hidden = !user;
+}
+
+async function authenticate(isRegister) {
+  if (!db) {
+    $("authMsg").textContent = "Không tải được Supabase. Kiểm tra Internet.";
+    return;
+  }
+
+  const email = $("email").value.trim();
+  const password = $("password").value;
+
+  if (!email || password.length < 6) {
+    $("authMsg").textContent = "Nhập email và mật khẩu từ 6 ký tự trở lên.";
+    return;
+  }
+
+  $("authMsg").textContent = "Đang xử lý...";
+
+  const result = isRegister
+    ? await db.auth.signUp({ email, password })
+    : await db.auth.signInWithPassword({ email, password });
+
+  if (result.error) {
+    $("authMsg").textContent = "Lỗi: " + result.error.message;
+    return;
+  }
+
+  if (isRegister && !result.data.session) {
+    $("authMsg").textContent =
+      "Yêu cầu tạo tài khoản đã gửi. Hãy kiểm tra email xác nhận nếu được yêu cầu.";
+    return;
+  }
+
+  user = result.data.user;
+  updateAuthUI();
+  await loadCloudProgress();
+}
+
+async function loadCloudProgress() {
+  if (!db || !user) return;
+
+  const { data, error } = await db
+    .from("lesson_progress")
+    .select("lesson_id,score,updated_at")
+    .eq("user_id", user.id);
+
+  if (error) {
+    $("authMsg").textContent = "Chưa tải được tiến độ: " + error.message;
+    return;
+  }
+
+  (data || []).forEach(row => {
+    best[row.lesson_id] = Math.max(
+      Number(best[row.lesson_id]) || 0,
+      Number(row.score) || 0
+    );
+  });
+
+  write("frv4-best", best);
+  renderLesson();
+  $("authMsg").textContent = "Đã tải điểm gần nhất từ Supabase.";
+}
+
+$("login").addEventListener("click", () => authenticate(false));
+$("register").addEventListener("click", () => authenticate(true));
+
+$("logout").addEventListener("click", async () => {
+  if (db) await db.auth.signOut();
+  user = null;
+  updateAuthUI();
+  $("authMsg").textContent = "Đã đăng xuất.";
+});
+
+if (db) {
+  db.auth.getSession().then(async ({ data }) => {
+    user = data.session ? data.session.user : null;
+    updateAuthUI();
+    if (user) await loadCloudProgress();
+  });
+} else {
+  $("authMsg").textContent =
+    "Chưa tải được Supabase. Kiểm tra kết nối Internet.";
+}
+
+renderLesson();
+updateAuthUI();
+
+})();
+</script>
+</body>
+</html>
