@@ -786,4 +786,66 @@ renderList();renderLyrics();
 })();
 </script>
 
+
+<script>
+/* index037: standalone recovery for the French music YouTube button */
+(function(){
+  function initMusicYoutubeRecovery(){
+    const input=document.getElementById('musicUrl');
+    const button=document.getElementById('musicLoad');
+    const box=document.getElementById('musicPlayer');
+    if(!input||!button||!box)return;
+    function show(message){
+      box.replaceChildren();
+      const p=document.createElement('p');
+      p.className='muted';
+      p.textContent=message;
+      box.appendChild(p);
+    }
+    function loadVideo(){
+      const raw=(input.value||'').trim();
+      if(!raw){show('Anh hãy dán link YouTube vào ô phía trên trước, rồi nhấn “Mở trình phát”.');input.focus();return;}
+      let id='',listId='',playlist=false;
+      try{
+        const url=new URL(raw.includes('://')?raw:'https://youtu.be/'+raw);
+        let host=url.hostname.toLowerCase().replace(/^www\./,'');
+        const parts=url.pathname.split('/').filter(Boolean);
+        if(host==='youtu.be') id=parts[0]||'';
+        if(host==='youtube.com'||host.endsWith('.youtube.com')){
+          id=url.searchParams.get('v')||'';
+          if(!id){const n=parts.findIndex(x=>['embed','shorts','live'].includes(x));if(n>=0)id=parts[n+1]||'';}
+          listId=url.searchParams.get('list')||'';
+          playlist=parts.includes('playlist')||(!id&&!!listId);
+        }
+      }catch(e){}
+      if(!id){const m=raw.match(/(?:youtu\.be\/|[?&]v=|youtube\.com\/(?:embed|shorts|live)\/)([A-Za-z0-9_-]{11})/);if(m)id=m[1];}
+      id=(id||'').split(/[?&#]/)[0];
+      if(!/^[A-Za-z0-9_-]{11}$/.test(id))id='';
+      if(!/^[A-Za-z0-9_-]{10,}$/.test(listId))listId='';
+      if(playlist&&!listId)playlist=false;
+      if(!id&&!playlist){show('Chưa nhận diện được link YouTube. Hãy kiểm tra link rồi thử lại.');return;}
+      box.replaceChildren();
+      const frame=document.createElement('iframe');
+      frame.title='Trình phát video YouTube';
+      frame.width='100%';frame.height='270';frame.style.border='0';frame.style.borderRadius='12px';
+      frame.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+      frame.setAttribute('allowfullscreen','');
+      frame.setAttribute('referrerpolicy','strict-origin-when-cross-origin');
+      frame.src=playlist?'https://www.youtube-nocookie.com/embed/videoseries?list='+encodeURIComponent(listId)+'&playsinline=1&rel=0&controls=1':'https://www.youtube-nocookie.com/embed/'+encodeURIComponent(id)+'?playsinline=1&rel=0&controls=1';
+      box.appendChild(frame);
+      const p=document.createElement('p');p.style.marginTop='8px';
+      const a=document.createElement('a');
+      a.href=playlist?'https://www.youtube.com/playlist?list='+encodeURIComponent(listId):'https://www.youtube.com/watch?v='+encodeURIComponent(id);
+      a.target='_blank';a.rel='noopener noreferrer';a.textContent='▶ Nếu video không phát trong khung, mở trực tiếp trên YouTube ↗';
+      p.appendChild(a);box.appendChild(p);
+      const note=document.createElement('p');note.className='muted';note.textContent='Đã nhận link YouTube. Nếu khung vẫn đen hoặc báo không khả dụng, video có thể chặn nhúng; hãy dùng liên kết mở trực tiếp bên dưới.';box.appendChild(note);
+    }
+    button.onclick=loadVideo;
+    input.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();loadVideo();}});
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initMusicYoutubeRecovery);
+  else initMusicYoutubeRecovery();
+})();
+</script>
+
 </body></html>
