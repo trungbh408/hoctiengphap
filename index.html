@@ -28,6 +28,14 @@
 <div id="localAudioName" class="muted" style="margin-top:8px">Chưa chọn tệp âm thanh.</div>
 <audio id="localAudioPlayer" controls playsinline preload="metadata" style="display:none;width:100%;margin-top:10px"></audio>
 <p class="muted">Lưu ý: tệp được phát trực tiếp từ thiết bị và cần chọn lại sau khi tải lại trang. Hãy thử phát rồi khóa màn hình trong 10–15 giây để kiểm tra trên iPhone của anh.</p>
+<hr style="margin:16px 0;border:0;border-top:1px solid #ddd">
+<h3>☁️ Phát file âm thanh từ Google Drive</h3>
+<p class="muted">Dán liên kết chia sẻ của file MP3/M4A trên Google Drive. File cần được chia sẻ ở chế độ “Bất kỳ ai có đường liên kết”. Nếu Drive không phát trực tiếp, hãy tải file về ứng dụng Tệp rồi chọn ở mục trên.</p>
+<label for="driveAudioUrl">Liên kết Google Drive của file âm thanh</label>
+<input id="driveAudioUrl" type="url" placeholder="https://drive.google.com/file/d/..." inputmode="url">
+<div class="row"><button type="button" class="primary" id="driveAudioLoad">▶ Phát file từ Drive</button><button type="button" class="light" id="driveAudioOpen">↗ Mở Drive</button></div>
+<div id="driveAudioStatus" class="muted" style="margin-top:8px">Chưa mở file từ Google Drive.</div>
+<p class="muted">Lưu ý: đây là cách phát thử qua liên kết chia sẻ, không phải kết nối toàn bộ thư viện Drive. Khả năng phát nền khi khóa màn hình tùy thuộc vào iPhone, Safari và cách Google Drive phân phối file.</p>
 </div>
 <div class="card">
 <label for="musicLyrics">Lời bài hát / đoạn muốn luyện</label><textarea id="musicLyrics" rows="8" placeholder="Dán lời bài hát hoặc một đoạn ngắn anh muốn luyện..."></textarea>
@@ -727,6 +735,9 @@ async function cloudLoad(){const u=await who(),c=await api();const {data,error}=
 function loadItem(x){if(!x)return;selected=x.id;$('musicTitle').value=x.title||'';$('musicArtist').value=x.artist||'';$('musicUrl').value=x.video_url||'';$('musicLyrics').value=x.lyrics||'';recordingPath=x.recording_path||'';renderLyrics();if(x.video_url)embed();say('Đã mở bài luyện: '+(x.title||''))}
 let localAudioObjectUrl='';
 $('localAudioFile').addEventListener('change',()=>{const file=$('localAudioFile').files?.[0];const player=$('localAudioPlayer');if(localAudioObjectUrl){URL.revokeObjectURL(localAudioObjectUrl);localAudioObjectUrl=''}if(!file){player.pause();player.removeAttribute('src');player.load();player.style.display='none';$('localAudioName').textContent='Chưa chọn tệp âm thanh.';return}if(!file.type.startsWith('audio/')&&!/\.(mp3|m4a|aac|wav|ogg|flac)$/i.test(file.name)){ $('localAudioName').textContent='Tệp này có vẻ không phải âm thanh. Hãy chọn MP3, M4A hoặc tệp âm thanh khác.';return}localAudioObjectUrl=URL.createObjectURL(file);player.src=localAudioObjectUrl;player.style.display='block';player.load();$('localAudioName').textContent='Đã chọn: '+file.name+' — nhấn ▶ trên trình phát để nghe.'});
+function getDriveFileId(raw){try{const u=new URL(raw.trim());const host=u.hostname.toLowerCase();if(host!=='drive.google.com'&&!host.endsWith('.drive.google.com')&&host!=='docs.google.com')return '';let m=u.pathname.match(/\/file\/d\/([A-Za-z0-9_-]+)/);if(m)return m[1];return u.searchParams.get('id')||''}catch{return ''}}
+$('driveAudioLoad').onclick=()=>{const raw=$('driveAudioUrl').value.trim();const id=getDriveFileId(raw);const status=$('driveAudioStatus');const player=$('localAudioPlayer');if(!id){status.textContent='Không nhận diện được link file Drive. Hãy dùng “Chia sẻ” → “Sao chép đường liên kết” của file MP3/M4A.';return}if(localAudioObjectUrl){URL.revokeObjectURL(localAudioObjectUrl);localAudioObjectUrl=''}player.pause();player.src='https://drive.google.com/uc?export=download&id='+encodeURIComponent(id);player.style.display='block';player.load();$('localAudioName').textContent='Nguồn: Google Drive — nếu file không phát, hãy tải file về ứng dụng Tệp.';status.textContent='Đã gửi file Drive đến trình phát. Nhấn ▶ để thử nghe. File phải được chia sẻ với “Bất kỳ ai có đường liên kết”. Nếu thấy lỗi hoặc trang xác nhận của Google, hãy tải file về iPhone và chọn ở mục trên.'};
+$('driveAudioOpen').onclick=()=>{const raw=$('driveAudioUrl').value.trim();if(!raw){$('driveAudioStatus').textContent='Hãy dán link Google Drive trước.';return}try{const u=new URL(raw);if(!['drive.google.com','docs.google.com'].includes(u.hostname.toLowerCase()))throw new Error();GenUI.openUrl(u.href)}catch{$('driveAudioStatus').textContent='Link chưa hợp lệ. Hãy dán đường liên kết chia sẻ từ Google Drive.'}};
 $('musicLoad').onclick=embed;
 $('musicSearch').onclick=()=>{const q=[$('musicTitle').value,$('musicArtist').value,'paroles karaoké'].filter(Boolean).join(' ');GenUI.openUrl('https://www.youtube.com/results?search_query='+encodeURIComponent(q))};
 $('musicLyrics').addEventListener('input',renderLyrics);
