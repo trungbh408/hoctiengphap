@@ -537,7 +537,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 <script>
 (function(){
 'use strict';
-const URL='https://tnekexmtmetrzjkvpjxg.supabase.co';
+const SUPABASE_URL='https://tnekexmtmetrzjkvpjxg.supabase.co';
 const KEY='sb_publishable_J9qpW7lvhmxt2uXz5Okr9A_nKf8qkid';
 const BUCKET='french-recordings';
 const DB='monprof-recordings-v1';
@@ -552,7 +552,7 @@ const del=id=>tx('readwrite',s=>s.delete(id));
 function format(d){return new Date(d).toLocaleString('vi-VN')}
 async function supa(){if(client)return client;const existing=window.supabase?.createClient; if(existing){client=existing(URL,KEY,{auth:{persistSession:true,storageKey:'monprof-recording-auth'}});return client}
 await new Promise((resolve,reject)=>{const sc=document.createElement('script');sc.src='https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/dist/umd/supabase.min.js';sc.onload=resolve;sc.onerror=reject;document.head.append(sc)});
-client=window.supabase.createClient(URL,KEY,{auth:{persistSession:true,storageKey:'monprof-recording-auth'}});return client}
+client=window.supabase.createClient(SUPABASE_URL,KEY,{auth:{persistSession:true,storageKey:'monprof-recording-auth'}});return client}
 async function getSession(){const c=await supa();const r=await c.auth.getUser();return r.data.user||null}
 async function syncOne(c){const user=await getSession();if(!user)throw Error('Hãy đăng nhập Supabase trước khi đồng bộ');const api=await supa();const ext=c.type.includes('mp4')?'mp4':c.type.includes('ogg')?'ogg':'webm';const path=user.id+'/'+c.id+'.'+ext;
 const {error}=await api.storage.from(BUCKET).upload(path,c.blob,{contentType:c.type,upsert:false});if(error&& !/already exists|duplicate/i.test(error.message))throw error;
