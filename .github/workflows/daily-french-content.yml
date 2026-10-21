@@ -1,0 +1,21 @@
+name: Daily French content checks
+on:
+  schedule:
+    - cron: '15 1 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate existing lesson file
+        run: |
+          test -s index032.html
+          python3 - <<'PY'
+          from pathlib import Path
+          text = Path("index032.html").read_text(encoding="utf-8")
+          assert "<html" in text.lower() and "</html>" in text.lower()
+          print("index032.html is present and readable")
+          PY
