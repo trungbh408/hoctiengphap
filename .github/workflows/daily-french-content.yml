@@ -1,0 +1,31 @@
+name: Publish curated French lessons daily
+on:
+  schedule:
+    - cron: '15 1 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: daily-french-content
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Validate app and publish next curated lesson
+        run: |
+          test -s index032.html
+          python3 automation/publish.py
+          python3 -m json.tool automation/published.json > /dev/null
+      - name: Commit only published content when changed
+        run: |
+          git add automation/published.json
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Publish daily curated French lesson'
+            git push
+          else
+            echo "Nothing to publish"
+          fi
