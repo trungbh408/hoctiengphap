@@ -1,0 +1,524 @@
+{
+  "start_date": "2026-10-22",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "days": [
+    {
+      "day": 1,
+      "level": "A1",
+      "title": "Au marché",
+      "story": "Je vais au marché le samedi. J'achète des pommes et du pain. La vendeuse me demande si je veux un sac. Je réponds : non merci, j'ai mon panier.",
+      "vocabulary": [
+        {
+          "word": "le panier",
+          "vi": "giỏ mua hàng",
+          "example": "Je prends mon panier."
+        },
+        {
+          "word": "la vendeuse",
+          "vi": "người bán hàng nữ",
+          "example": "La vendeuse est souriante."
+        },
+        {
+          "word": "frais",
+          "vi": "tươi",
+          "example": "Ces légumes sont frais."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "acheter",
+          "vi": "mua",
+          "present": "j'achète",
+          "passe_compose": "j'ai acheté"
+        },
+        {
+          "infinitive": "vouloir",
+          "vi": "muốn",
+          "present": "je veux",
+          "passe_compose": "j'ai voulu"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "level": "A1",
+      "title": "À la gare",
+      "story": "Ce matin, Lina arrive à la gare. Son train a dix minutes de retard. Elle lit le panneau et attend sur le quai numéro trois.",
+      "vocabulary": [
+        {
+          "word": "le quai",
+          "vi": "sân ga",
+          "example": "Le train arrive sur le quai."
+        },
+        {
+          "word": "le retard",
+          "vi": "sự chậm trễ",
+          "example": "Le bus a du retard."
+        },
+        {
+          "word": "le billet",
+          "vi": "vé tàu",
+          "example": "Je garde mon billet."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "attendre",
+          "vi": "chờ",
+          "present": "j'attends",
+          "passe_compose": "j'ai attendu"
+        },
+        {
+          "infinitive": "partir",
+          "vi": "khởi hành",
+          "present": "je pars",
+          "passe_compose": "je suis parti(e)"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "level": "A2",
+      "title": "La bibliothèque",
+      "story": "Karim cherche un livre facile en français. La bibliothécaire lui montre un rayon pour les débutants. Il emprunte un roman et promet de le rendre vendredi.",
+      "vocabulary": [
+        {
+          "word": "emprunter",
+          "vi": "mượn",
+          "example": "Je peux emprunter ce livre."
+        },
+        {
+          "word": "le rayon",
+          "vi": "kệ sách; khu trưng bày",
+          "example": "Le rayon est au fond."
+        },
+        {
+          "word": "rendre",
+          "vi": "trả lại",
+          "example": "Je dois rendre le livre."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "chercher",
+          "vi": "tìm",
+          "present": "je cherche",
+          "passe_compose": "j'ai cherché"
+        },
+        {
+          "infinitive": "lire",
+          "vi": "đọc",
+          "present": "je lis",
+          "passe_compose": "j'ai lu"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "level": "A2",
+      "title": "Chez le médecin",
+      "story": "Depuis hier, Zoé a mal à la gorge. Elle téléphone au cabinet médical et obtient un rendez-vous. Le médecin lui conseille de se reposer et de boire de l'eau.",
+      "vocabulary": [
+        {
+          "word": "la gorge",
+          "vi": "cổ họng",
+          "example": "J'ai mal à la gorge."
+        },
+        {
+          "word": "le rendez-vous",
+          "vi": "cuộc hẹn",
+          "example": "J'ai un rendez-vous demain."
+        },
+        {
+          "word": "se reposer",
+          "vi": "nghỉ ngơi",
+          "example": "Je dois me reposer."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "conseiller",
+          "vi": "khuyên",
+          "present": "je conseille",
+          "passe_compose": "j'ai conseillé"
+        },
+        {
+          "infinitive": "boire",
+          "vi": "uống",
+          "present": "je bois",
+          "passe_compose": "j'ai bu"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "level": "A2",
+      "title": "Un appartement",
+      "story": "Paul visite un petit appartement près du centre-ville. Le salon est lumineux, mais la cuisine est étroite. Il demande si les charges sont comprises dans le loyer.",
+      "vocabulary": [
+        {
+          "word": "le loyer",
+          "vi": "tiền thuê nhà",
+          "example": "Le loyer est de huit cents euros."
+        },
+        {
+          "word": "les charges",
+          "vi": "phí sinh hoạt đi kèm",
+          "example": "Les charges sont comprises."
+        },
+        {
+          "word": "lumineux",
+          "vi": "nhiều ánh sáng",
+          "example": "Le salon est lumineux."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "visiter",
+          "vi": "tham quan",
+          "present": "je visite",
+          "passe_compose": "j'ai visité"
+        },
+        {
+          "infinitive": "comprendre",
+          "vi": "bao gồm; hiểu",
+          "present": "je comprends",
+          "passe_compose": "j'ai compris"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "level": "B1",
+      "title": "Au travail",
+      "story": "Nadia commence son nouveau travail lundi. Sa collègue lui explique comment utiliser le logiciel. À midi, toute l'équipe déjeune ensemble à la cantine.",
+      "vocabulary": [
+        {
+          "word": "la collègue",
+          "vi": "đồng nghiệp nữ",
+          "example": "Ma collègue m'aide."
+        },
+        {
+          "word": "le logiciel",
+          "vi": "phần mềm",
+          "example": "Ce logiciel est pratique."
+        },
+        {
+          "word": "la cantine",
+          "vi": "nhà ăn tập thể",
+          "example": "Nous mangeons à la cantine."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "commencer",
+          "vi": "bắt đầu",
+          "present": "je commence",
+          "passe_compose": "j'ai commencé"
+        },
+        {
+          "infinitive": "expliquer",
+          "vi": "giải thích",
+          "present": "j'explique",
+          "passe_compose": "j'ai expliqué"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "level": "B1",
+      "title": "La météo",
+      "story": "Il pleuvait quand Hugo est sorti de chez lui. Il avait oublié son parapluie. Heureusement, son voisin lui a proposé de marcher sous le même parapluie.",
+      "vocabulary": [
+        {
+          "word": "le parapluie",
+          "vi": "ô; dù che mưa",
+          "example": "J'ai oublié mon parapluie."
+        },
+        {
+          "word": "heureusement",
+          "vi": "may mắn thay",
+          "example": "Heureusement, il est arrivé."
+        },
+        {
+          "word": "le voisin",
+          "vi": "hàng xóm nam",
+          "example": "Mon voisin est gentil."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "oublier",
+          "vi": "quên",
+          "present": "j'oublie",
+          "passe_compose": "j'ai oublié"
+        },
+        {
+          "infinitive": "proposer",
+          "vi": "đề nghị",
+          "present": "je propose",
+          "passe_compose": "j'ai proposé"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "level": "A2",
+      "title": "À la poste",
+      "story": "Marie doit envoyer un colis à Strasbourg. L'employé pèse le paquet et lui propose deux tarifs. Elle choisit l'envoi avec suivi pour connaître la date de livraison.",
+      "vocabulary": [
+        {
+          "word": "le colis",
+          "vi": "bưu kiện",
+          "example": "J'envoie un colis."
+        },
+        {
+          "word": "le suivi",
+          "vi": "việc theo dõi đơn hàng",
+          "example": "Je vérifie le suivi."
+        },
+        {
+          "word": "la livraison",
+          "vi": "việc giao hàng",
+          "example": "La livraison arrive demain."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "envoyer",
+          "vi": "gửi",
+          "present": "j'envoie",
+          "passe_compose": "j'ai envoyé"
+        },
+        {
+          "infinitive": "choisir",
+          "vi": "chọn",
+          "present": "je choisis",
+          "passe_compose": "j'ai choisi"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "level": "B1",
+      "title": "Le voisinage",
+      "story": "Chaque dimanche, les habitants de l'immeuble nettoient le jardin commun. Cette semaine, ils plantent des fleurs. Les enfants apportent de l'eau et tout le monde participe.",
+      "vocabulary": [
+        {
+          "word": "l'immeuble",
+          "vi": "tòa nhà chung cư",
+          "example": "J'habite dans cet immeuble."
+        },
+        {
+          "word": "commun",
+          "vi": "chung",
+          "example": "C'est un jardin commun."
+        },
+        {
+          "word": "participer",
+          "vi": "tham gia",
+          "example": "Tout le monde participe."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "nettoyer",
+          "vi": "dọn sạch",
+          "present": "je nettoie",
+          "passe_compose": "j'ai nettoyé"
+        },
+        {
+          "infinitive": "apporter",
+          "vi": "mang đến",
+          "present": "j'apporte",
+          "passe_compose": "j'ai apporté"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "level": "A1",
+      "title": "Au restaurant",
+      "story": "Le serveur apporte la carte à Sophie. Elle hésite entre le poisson et le plat végétarien. Finalement, elle commande une soupe et demande une carafe d'eau.",
+      "vocabulary": [
+        {
+          "word": "la carte",
+          "vi": "thực đơn",
+          "example": "Puis-je voir la carte ?"
+        },
+        {
+          "word": "hésiter",
+          "vi": "do dự",
+          "example": "J'hésite entre deux plats."
+        },
+        {
+          "word": "la carafe",
+          "vi": "bình nước",
+          "example": "Une carafe d'eau, s'il vous plaît."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "commander",
+          "vi": "gọi món; đặt hàng",
+          "present": "je commande",
+          "passe_compose": "j'ai commandé"
+        },
+        {
+          "infinitive": "demander",
+          "vi": "hỏi; yêu cầu",
+          "present": "je demande",
+          "passe_compose": "j'ai demandé"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "level": "B2",
+      "title": "Un entretien",
+      "story": "Avant son entretien d'embauche, Minh relit son CV. Il prépare des exemples de projets réalisés. Pendant la rencontre, il parle calmement de son expérience.",
+      "vocabulary": [
+        {
+          "word": "l'entretien d'embauche",
+          "vi": "buổi phỏng vấn xin việc",
+          "example": "Mon entretien est mardi."
+        },
+        {
+          "word": "le CV",
+          "vi": "sơ yếu lý lịch xin việc",
+          "example": "J'envoie mon CV."
+        },
+        {
+          "word": "l'expérience",
+          "vi": "kinh nghiệm",
+          "example": "J'ai de l'expérience."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "préparer",
+          "vi": "chuẩn bị",
+          "present": "je prépare",
+          "passe_compose": "j'ai préparé"
+        },
+        {
+          "infinitive": "réaliser",
+          "vi": "thực hiện",
+          "present": "je réalise",
+          "passe_compose": "j'ai réalisé"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "level": "A2",
+      "title": "À la mairie",
+      "story": "Élodie se rend à la mairie pour demander un document. À l'accueil, on lui indique le bon guichet. Elle présente sa pièce d'identité et remplit un formulaire.",
+      "vocabulary": [
+        {
+          "word": "la mairie",
+          "vi": "tòa thị chính",
+          "example": "Je vais à la mairie."
+        },
+        {
+          "word": "le guichet",
+          "vi": "quầy tiếp nhận",
+          "example": "Le guichet ouvre à neuf heures."
+        },
+        {
+          "word": "le formulaire",
+          "vi": "mẫu đơn",
+          "example": "Je remplis le formulaire."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "remplir",
+          "vi": "điền",
+          "present": "je remplis",
+          "passe_compose": "j'ai rempli"
+        },
+        {
+          "infinitive": "présenter",
+          "vi": "xuất trình; giới thiệu",
+          "present": "je présente",
+          "passe_compose": "j'ai présenté"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "level": "B1",
+      "title": "Une promenade",
+      "story": "Après le déjeuner, Antoine se promène le long de la rivière. Il remarque un petit pont en pierre et s'arrête pour prendre une photo. Le paysage lui rappelle son enfance.",
+      "vocabulary": [
+        {
+          "word": "la rivière",
+          "vi": "dòng sông",
+          "example": "La rivière traverse la ville."
+        },
+        {
+          "word": "le pont",
+          "vi": "cây cầu",
+          "example": "Nous traversons le pont."
+        },
+        {
+          "word": "le paysage",
+          "vi": "phong cảnh",
+          "example": "Le paysage est magnifique."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "remarquer",
+          "vi": "nhận thấy",
+          "present": "je remarque",
+          "passe_compose": "j'ai remarqué"
+        },
+        {
+          "infinitive": "se promener",
+          "vi": "đi dạo",
+          "present": "je me promène",
+          "passe_compose": "je me suis promené(e)"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "level": "A2",
+      "title": "Un cours de français",
+      "story": "Pendant le cours, Ana ne comprend pas une expression. Elle demande au professeur de répéter plus lentement. Après plusieurs exemples, elle réussit à utiliser l'expression.",
+      "vocabulary": [
+        {
+          "word": "l'expression",
+          "vi": "cách diễn đạt",
+          "example": "Cette expression est utile."
+        },
+        {
+          "word": "lentement",
+          "vi": "chậm rãi",
+          "example": "Parlez lentement, s'il vous plaît."
+        },
+        {
+          "word": "réussir",
+          "vi": "thành công; làm được",
+          "example": "Je réussis l'exercice."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "répéter",
+          "vi": "lặp lại",
+          "present": "je répète",
+          "passe_compose": "j'ai répété"
+        },
+        {
+          "infinitive": "utiliser",
+          "vi": "sử dụng",
+          "present": "j'utilise",
+          "passe_compose": "j'ai utilisé"
+        }
+      ]
+    }
+  ]
+}
