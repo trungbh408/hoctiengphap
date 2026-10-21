@@ -20,6 +20,15 @@
 <div id="musicPlayer" style="margin-top:12px"></div>
 <p class="muted">Mẹo: tìm “tên bài + paroles” để xem lời, hoặc “karaoké” để hát theo nhạc nền. Nếu video không cho nhúng, mở video trực tiếp trên YouTube.</p>
 </div>
+<div class="card" id="localAudioCard">
+<h3>🎧 Nghe tệp âm thanh khi khóa màn hình</h3>
+<p class="muted">Chọn tệp âm thanh có sẵn trong ứng dụng Tệp (Files) trên iPhone. Trình phát âm thanh riêng có thể tiếp tục phát khi khóa màn hình nếu Safari/iOS cho phép. Tệp YouTube không được tự chuyển thành tệp âm thanh.</p>
+<label for="localAudioFile">Chọn tệp âm thanh</label>
+<input id="localAudioFile" type="file" accept="audio/*,.mp3,.m4a,.aac,.wav,.ogg,.flac">
+<div id="localAudioName" class="muted" style="margin-top:8px">Chưa chọn tệp âm thanh.</div>
+<audio id="localAudioPlayer" controls playsinline preload="metadata" style="display:none;width:100%;margin-top:10px"></audio>
+<p class="muted">Lưu ý: tệp được phát trực tiếp từ thiết bị và cần chọn lại sau khi tải lại trang. Hãy thử phát rồi khóa màn hình trong 10–15 giây để kiểm tra trên iPhone của anh.</p>
+</div>
 <div class="card">
 <label for="musicLyrics">Lời bài hát / đoạn muốn luyện</label><textarea id="musicLyrics" rows="8" placeholder="Dán lời bài hát hoặc một đoạn ngắn anh muốn luyện..."></textarea>
 <div class="row"><button type="button" class="primary" id="musicSave">💾 Lưu bài luyện</button><button type="button" class="light" id="musicNew">＋ Bài mới</button><button type="button" class="light" id="musicSpeak">🔊 Đọc lời tiếng Pháp</button><button type="button" class="light" id="musicStopSpeak">■ Dừng đọc</button></div>
@@ -716,6 +725,8 @@ function saveLocal(item){const a=all(),i=a.findIndex(x=>x.id===item.id);if(i<0)a
 async function cloudSave(){const item=getForm();if(!item.title||!item.lyrics)throw Error('Nhập tên bài và lời/đoạn luyện trước khi lưu.');const u=await who(),c=await api();const {error}=await c.from('music_practice').upsert({id:item.id,user_id:u.id,title:item.title,artist:item.artist,video_url:item.video_url,lyrics:item.lyrics,recording_path:recordingPath||null,updated_at:item.updated_at},{onConflict:'user_id,id'});if(error)throw error;saveLocal(item);say('Đã lưu bài luyện lên Supabase và giữ bản trên thiết bị.')}
 async function cloudLoad(){const u=await who(),c=await api();const {data,error}=await c.from('music_practice').select('id,title,artist,video_url,lyrics,recording_path,updated_at').eq('user_id',u.id).order('updated_at',{ascending:false});if(error)throw error;const map=new Map(all().map(x=>[x.id,x]));for(const x of data||[]){const prev=map.get(x.id);if(!prev||String(x.updated_at)>String(prev.updated_at||''))map.set(x.id,x)}setAll([...map.values()]);renderList();if(data?.length){$('musicSaved').value=data[0].id;$('musicSaved').dispatchEvent(new Event('change'))}say('Đã tải '+(data||[]).length+' bài luyện từ kho đám mây.')}
 function loadItem(x){if(!x)return;selected=x.id;$('musicTitle').value=x.title||'';$('musicArtist').value=x.artist||'';$('musicUrl').value=x.video_url||'';$('musicLyrics').value=x.lyrics||'';recordingPath=x.recording_path||'';renderLyrics();if(x.video_url)embed();say('Đã mở bài luyện: '+(x.title||''))}
+let localAudioObjectUrl='';
+$('localAudioFile').addEventListener('change',()=>{const file=$('localAudioFile').files?.[0];const player=$('localAudioPlayer');if(localAudioObjectUrl){URL.revokeObjectURL(localAudioObjectUrl);localAudioObjectUrl=''}if(!file){player.pause();player.removeAttribute('src');player.load();player.style.display='none';$('localAudioName').textContent='Chưa chọn tệp âm thanh.';return}if(!file.type.startsWith('audio/')&&!/\.(mp3|m4a|aac|wav|ogg|flac)$/i.test(file.name)){ $('localAudioName').textContent='Tệp này có vẻ không phải âm thanh. Hãy chọn MP3, M4A hoặc tệp âm thanh khác.';return}localAudioObjectUrl=URL.createObjectURL(file);player.src=localAudioObjectUrl;player.style.display='block';player.load();$('localAudioName').textContent='Đã chọn: '+file.name+' — nhấn ▶ trên trình phát để nghe.'});
 $('musicLoad').onclick=embed;
 $('musicSearch').onclick=()=>{const q=[$('musicTitle').value,$('musicArtist').value,'paroles karaoké'].filter(Boolean).join(' ');GenUI.openUrl('https://www.youtube.com/results?search_query='+encodeURIComponent(q))};
 $('musicLyrics').addEventListener('input',renderLyrics);
