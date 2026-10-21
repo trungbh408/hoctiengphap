@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bài học tiếng Pháp mỗi ngày | Mon Prof de Français</title>
+<style>body{font:16px/1.65 system-ui,-apple-system,sans-serif;max-width:760px;margin:auto;padding:18px;color:#19344b;background:#f3f6fa}h1{font-size:1.55rem}h2{font-size:1.15rem}.card{background:white;border:1px solid #dae4ee;border-radius:14px;padding:16px;margin:14px 0}.muted{color:#637588}.fr{font-size:1.12rem}button,select{font:inherit;padding:9px;border:1px solid #b7c8d6;border-radius:9px;background:white}button{cursor:pointer}a{color:#165d89}label{display:block;margin:12px 0}p{margin:8px 0}</style></head>
+<body><a href="index032.html">← Trở về ứng dụng chính (bản 032)</a>
+<h1>📚 Bài học tiếng Pháp mỗi ngày</h1><p class="muted">Nội dung đã biên soạn trước, tự mở khóa mỗi ngày. Không dùng API trả phí.</p>
+<p id="status">Đang tải nội dung...</p><label>Chọn bài đã phát hành: <select id="lessons" disabled></select></label><main id="lesson"></main>
+<script>
+const $=id=>document.getElementById(id);
+const add=(parent,tag,txt,cls)=>{const e=document.createElement(tag);e.textContent=txt;if(cls)e.className=cls;parent.appendChild(e);return e};
+function speak(s){if(!('speechSynthesis' in window))return alert('Trình duyệt không hỗ trợ đọc tiếng Pháp.');speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(s);u.lang='fr-FR';u.rate=.85;speechSynthesis.speak(u)}
+function audio(p,s){const b=add(p,'button','Nghe tiếng Pháp');b.onclick=()=>speak(s)}
+function show(d){const root=$('lesson');root.replaceChildren();let c=add(root,'section','', 'card');add(c,'h2',d.title+' · '+d.level);add(c,'p',d.story,'fr');audio(c,d.story);
+c=add(root,'section','', 'card');add(c,'h2','Từ vựng');for(const w of d.vocabulary){const p=add(c,'p',w.word+' — '+w.vi);add(c,'p',w.example,'fr');audio(c,w.example)}
+c=add(root,'section','', 'card');add(c,'h2','Động từ');for(const v of d.verbs){add(c,'p',v.infinitive+' — '+v.vi);add(c,'p','Présent: '+v.present+' · Passé composé: '+v.passe_compose,'fr');audio(c,v.present+'. '+v.passe_compose)}}
+fetch('automation/published.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{const ds=data.lessons||[];if(!ds.length){$('status').textContent='Chưa phát hành bài nào. Hãy quay lại sau khi lịch tự động chạy.';return}$('status').textContent='Đã phát hành '+ds.length+' / '+data.total_prepared+' bài · cập nhật '+data.last_checked;const s=$('lessons');ds.forEach((d,i)=>{const o=document.createElement('option');o.value=i;o.textContent='Bài '+d.day+' — '+d.title;s.appendChild(o)});s.disabled=false;s.value=String(ds.length-1);s.onchange=()=>show(ds[Number(s.value)]);show(ds[ds.length-1])}).catch(e=>{$('status').textContent='Chưa tải được dữ liệu: '+e.message})
+</script></body></html>
