@@ -876,4 +876,52 @@ renderList();renderLyrics();
 })();
 </script>
 
+<!-- LOCAL_AUDIO_IPHONE_RECOVERY_V1 -->
+<script>
+(function(){
+  function init(){
+    const fileInput=document.getElementById('localAudioFile');
+    const player=document.getElementById('localAudioPlayer');
+    const playButton=document.getElementById('localAudioPlayButton');
+    const label=document.getElementById('localAudioName');
+    const status=document.getElementById('localAudioPlayStatus');
+    if(!fileInput||!player||!playButton||!label||!status)return;
+    let currentFile=null,objectUrl='';
+    function onSelection(event){
+      event.stopImmediatePropagation();
+      const file=fileInput.files&&fileInput.files[0];
+      if(!file){status.textContent='Chưa chọn tệp. Hãy chọn MP3 hoặc M4A từ ứng dụng Tệp.';return;}
+      currentFile=file;
+      player.pause();
+      if(objectUrl){URL.revokeObjectURL(objectUrl);objectUrl='';}
+      try{
+        objectUrl=URL.createObjectURL(file);
+        player.src=objectUrl;
+        player.load();
+        label.textContent='Đã chọn: '+file.name+' ('+(file.size/1048576).toFixed(2)+' MB)';
+        status.textContent='Đã nhận tệp. Nhấn nút Phát nhạc.';
+        playButton.textContent='▶ Phát nhạc đã chọn';
+        playButton.disabled=false;
+      }catch(err){status.textContent='Không mở được tệp: '+(err.message||err);}
+    }
+    fileInput.addEventListener('change',onSelection,true);
+    playButton.addEventListener('click',async function(event){
+      event.stopImmediatePropagation();
+      if(!currentFile){
+        const file=fileInput.files&&fileInput.files[0];
+        if(file){onSelection({stopImmediatePropagation:function(){}});}
+      }
+      if(!currentFile){status.textContent='Chưa nhận tệp. Anh chọn lại tệp MP3/M4A trước nhé.';return;}
+      try{
+        if(player.paused){await player.play();status.textContent='Đang phát: '+currentFile.name;playButton.textContent='⏸ Tạm dừng';}
+        else{player.pause();status.textContent='Đã tạm dừng.';playButton.textContent='▶ Tiếp tục phát';}
+      }catch(err){status.textContent='Không phát được '+currentFile.name+': '+(err.message||'Định dạng hoặc codec không được hỗ trợ');}
+    },true);
+    player.addEventListener('error',function(){if(currentFile){const code=player.error&&player.error.code;status.textContent='Không giải mã được '+currentFile.name+' (mã '+(code||'?')+'). Hãy thử MP3 chuẩn.';}});
+    player.addEventListener('ended',function(){if(currentFile)playButton.textContent='▶ Phát lại';});
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);
+  else init();
+})();
+</script>
 </body></html>
