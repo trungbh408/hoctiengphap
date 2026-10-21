@@ -1,10 +1,14 @@
-# Tự động cập nhật nội dung tiếng Pháp
+# Tự động xuất bản bài tiếng Pháp hằng ngày (không API key)
 
-Đây là bước khởi tạo **an toàn**, chưa tự sinh bài mới hoặc sửa website.
+Sau khi merge PR vào nhánh `main`, GitHub Actions chạy theo lịch mỗi ngày khoảng **08:15 Việt Nam** (có thể trễ) hoặc chạy thủ công từ tab Actions.
 
-- Workflow chạy mỗi ngày khoảng 08:15 giờ Việt Nam (GitHub Actions có thể chạy trễ).
-- Kiểm tra tệp `index032.html` tồn tại và đọc được.
-- Không sửa `index.html`, không ghi đè `index032.html`.
-- Để tự sinh từ vựng, truyện và động từ, cần bổ sung nguồn tạo nội dung, bộ kiểm tra trùng lặp/chất lượng, và cơ chế xuất bản. Không đưa API key trực tiếp vào repository; sử dụng GitHub Actions Secrets.
+- **Nguồn nội dung:** `automation/content-queue.json` gồm 14 bài gốc chuẩn bị sẵn; mỗi ngày phát hành thêm một bài bắt đầu từ **22/10/2026**.
+- **Tác vụ:** `automation/publish.py` kiểm tra dữ liệu và cập nhật `automation/published.json`; workflow commit khi có thay đổi.
+- **Trang đọc mới:** `daily.html`, truy cập qua GitHub Pages.
+- **An toàn:** Không sửa `index032.html`, `index.html` hoặc các tệp phiên bản khác.
+- **Không dùng AI API:** Hệ thống phát hành nội dung được biên soạn trước, không tự sáng tác vô hạn. **Sau 14 ngày phải bổ sung nội dung vào hàng đợi**; khi hết, workflow không tạo nội dung mới.
+- **Đổi ngày để thử cục bộ:** `CONTENT_DATE=2026-10-22 python3 automation/publish.py`.
 
-Sau khi kiểm tra và thống nhất nguồn tạo nội dung, có thể mở rộng workflow để cập nhật các tệp JSON và tạo pull request tự động trước khi xuất bản.
+**Điều kiện:** GitHub Actions phải được bật, quyền Workflow permissions cho phép ghi (`Read and write permissions`), và GitHub Pages xuất bản từ nhánh `main` (hoặc thiết lập Pages tương ứng). Nếu nhánh được bảo vệ không cho bot push, cần điều chỉnh workflow sang pull request.
+
+Đường dẫn học: `https://trungbh408.github.io/hoctiengphap/daily.html`.
