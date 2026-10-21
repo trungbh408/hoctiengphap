@@ -24,7 +24,9 @@
 <h3>🎧 Nghe tệp âm thanh khi khóa màn hình</h3>
 <p class="muted">Chọn tệp âm thanh có sẵn trong ứng dụng Tệp (Files) trên iPhone. Trình phát âm thanh riêng có thể tiếp tục phát khi khóa màn hình nếu Safari/iOS cho phép. Tệp YouTube không được tự chuyển thành tệp âm thanh.</p>
 <label for="localAudioFile">Chọn tệp âm thanh</label>
-<input id="localAudioFile" type="file" accept="audio/*,.mp3,.m4a,.aac,.wav,.ogg,.flac">
+<p class="muted" style="margin:4px 0">Chạm nút <b>Chọn tệp</b> bên dưới để mở ứng dụng Tệp trên iPhone.</p>
+<input id="localAudioFile" type="file" accept="audio/*,.mp3,.m4a,.aac,.wav,.ogg,.flac" aria-label="Chọn tệp âm thanh từ ứng dụng Tệp" style="display:block;width:100%;min-height:58px;padding:10px;background:#f0f6fc;border:2px solid #2563eb;border-radius:12px;color:#183044;font-size:16px;cursor:pointer">
+<style>#localAudioFile::file-selector-button{font:inherit;font-weight:700;color:#fff;background:#164d77;border:0;border-radius:8px;padding:10px 14px;margin:0 10px 0 0;min-height:40px}#localAudioFile::-webkit-file-upload-button{font:inherit;font-weight:700;color:#fff;background:#164d77;border:0;border-radius:8px;padding:10px 14px;margin:0 10px 0 0;min-height:40px}</style>
 <div id="localAudioName" class="muted" style="margin-top:8px">Chưa chọn tệp âm thanh.</div>
 <audio id="localAudioPlayer" controls playsinline preload="metadata" style="display:none;width:100%;margin-top:10px"></audio>
 <p class="muted">Lưu ý: tệp được phát trực tiếp từ thiết bị và cần chọn lại sau khi tải lại trang. Hãy thử phát rồi khóa màn hình trong 10–15 giây để kiểm tra trên iPhone của anh.</p>
