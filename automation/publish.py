@@ -16,7 +16,11 @@ for d in days:
     assert d["story"] and len(d["vocabulary"]) >= 3 and len(d["verbs"]) >= 2
 today = dt.date.fromisoformat(os.environ.get("CONTENT_DATE", dt.datetime.now(ZoneInfo(queue["timezone"])).date().isoformat()))
 elapsed = (today - dt.date.fromisoformat(queue["start_date"])).days + 1
-released = [d for d in days if d["day"] <= elapsed]
+released = [dict(d, kind="new") for d in days if d["day"] <= elapsed]
+if elapsed > len(days):
+    for n in range(len(days) + 1, elapsed + 1):
+        source = days[(n - len(days) - 1) % len(days)]
+        released.append(dict(source, day=n, kind="review", title="Ôn tập — " + source["title"]))
 output = {"last_checked": today.isoformat(), "released_count": len(released), "total_prepared": len(days), "lessons": released}
 path = ROOT / "automation/published.json"
 serialized = json.dumps(output, ensure_ascii=False, indent=2) + "\n"
@@ -26,4 +30,4 @@ if not path.exists() or path.read_text(encoding="utf-8") != serialized:
 else:
     print("No changes")
 if elapsed > len(days):
-    print("WARNING: curated content queue exhausted; prepare more lessons.")
+    print("INFO: publishing labelled reviews until new curated content is added.")
