@@ -712,7 +712,16 @@ if(match)id=match[1];
 else {const u=new URL(clean.startsWith('http')?clean:'https://'+clean);const v=u.searchParams.get('v');if(v&&/^[A-Za-z0-9_-]{11}$/.test(v))id=v;}
 if(!id&&/^[A-Za-z0-9_-]{11}$/.test(clean))id=clean;
 }catch(e){}
-const box=$('musicPlayer');box.replaceChildren();if(!id){const msg=document.createElement('p');msg.textContent='Chưa nhận diện được đường dẫn YouTube. Hãy dán URL dạng youtube.com/watch?v=… hoặc youtu.be/…';box.append(msg);return}
+const box=$('musicPlayer');box.replaceChildren();
+const playlistMatch=raw.match(/[?&]list=([A-Za-z0-9_-]+)/i);
+if(playlistMatch){
+ const listId=playlistMatch[1];
+ const frame=document.createElement('iframe');frame.width='100%';frame.height='320';frame.style.border='0';frame.style.borderRadius='12px';frame.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';frame.allowFullscreen=true;frame.referrerPolicy='strict-origin-when-cross-origin';
+ frame.src='https://www.youtube.com/embed/videoseries?list='+encodeURIComponent(listId);box.append(frame);
+ const a=document.createElement('a');a.href='https://www.youtube.com/playlist?list='+encodeURIComponent(listId);a.target='_blank';a.rel='noopener noreferrer';a.textContent='▶ Mở toàn bộ playlist trong YouTube';a.style.cssText='display:inline-block;margin-top:10px;padding:10px 14px;border-radius:10px;background:#e9f2ff;color:#075f9b;font-weight:600;text-decoration:none';box.append(a);
+ const note=document.createElement('p');note.className='muted';note.textContent='Playlist YouTube có thể bị hạn chế phát nhúng hoặc phát khi khóa màn hình. Để phát nền ổn định, hãy dùng tệp audio được phép tải trong trình phát MP3/M4A.';box.append(note);return;
+}
+if(!id){const msg=document.createElement('p');msg.textContent='Chưa nhận diện được đường dẫn YouTube. Hãy dán URL dạng youtube.com/watch?v=… hoặc youtu.be/…';box.append(msg);return}
 const frame=document.createElement('iframe');frame.width='100%';frame.height='220';frame.style.border='0';frame.style.borderRadius='12px';frame.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';frame.allowFullscreen=true;frame.referrerPolicy='strict-origin-when-cross-origin';frame.src='https://www.youtube-nocookie.com/embed/'+encodeURIComponent(id);box.append(frame);
 const fallback=document.createElement('div');fallback.style.marginTop='10px';
 const a=document.createElement('a');a.href='https://www.youtube.com/watch?v='+encodeURIComponent(id);a.target='_blank';a.rel='noopener noreferrer';a.textContent='▶ Mở trực tiếp trên YouTube (khi video không phát trong trang)';a.style.cssText='display:inline-block;padding:10px 14px;border-radius:10px;background:#e9f2ff;color:#075f9b;font-weight:600;text-decoration:none';fallback.append(a);
