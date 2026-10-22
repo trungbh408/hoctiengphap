@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bài tiếng Pháp mỗi ngày</title><style>
 body{font-family:system-ui,-apple-system,sans-serif;max-width:780px;margin:0 auto;padding:18px;color:#17324c;background:#f5f7fa}article{background:#fff;padding:18px;border-radius:14px;margin:14px 0;border:1px solid #dce4eb}h1{font-size:25px}h2{font-size:20px}li{margin:8px 0;line-height:1.6}.story{font-size:18px;line-height:1.7}a{color:#075f9b}small{color:#52667a}
-</style></head><body><h1>🇫🇷 Tiếng Pháp mỗi ngày</h1><p><a href="index032.html">← Trở về Mon Prof de Français (032)</a></p><p id="status">Đang tải nội dung…</p><main id="lessons"></main><script>
+</style></head><body><h1>🇫🇷 Tiếng Pháp mỗi ngày</h1><p><a href="index039.html">← Trở về Mon Prof de Français (039)</a></p><p id="status">Đang tải nội dung…</p><main id="lessons"></main><script>
 fetch('automation/published.json?x='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Chưa có dữ liệu xuất bản');return r.json()}).then(data=>{
-document.getElementById('status').textContent='Đã mở '+data.released_count+'/'+data.total_prepared+' bài chuẩn bị sẵn. Kiểm tra: '+data.last_checked+'.';
+document.getElementById('status').textContent='Đã xuất bản '+data.released_count+' bài (gồm '+data.total_prepared+' bài biên soạn; các ngày tiếp theo là bài ôn tập có ghi nhãn). Kiểm tra: '+data.last_checked+'.';
 const root=document.getElementById('lessons');
 for(const d of [...data.lessons].reverse()){
-const article=document.createElement('article');const h=document.createElement('h2');h.textContent='Ngày '+d.day+' · '+d.level+' · '+d.title;article.append(h);
+const article=document.createElement('article');const h=document.createElement('h2');h.textContent='Ngày '+d.day+' · '+(d.kind==='review'?'ÔN TẬP · ':'')+d.level+' · '+d.title;article.append(h);
 const story=document.createElement('p');story.className='story';story.lang='fr';story.textContent=d.story;article.append(story);
 const vocab=document.createElement('h3');vocab.textContent='Từ vựng';article.append(vocab);
 const ul=document.createElement('ul');for(const w of d.vocabulary){const li=document.createElement('li');li.textContent=w.word+' — '+w.vi+' | '+w.example;ul.append(li)}article.append(ul);
