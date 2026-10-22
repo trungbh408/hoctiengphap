@@ -12,7 +12,7 @@ for item in root.findall("./channel/item"):
     desc=" ".join(item.itertext()).lower()
     if not url.startswith("https://"): continue
     # Prefer beginner episodes, exclude longer intermediate material.
-    if not re.search(r"\\b(a1|a2|d[eé]butant|beginner|niveau facile)\\b",title+" "+desc,re.I): continue
+    if not re.search(r"\b(a1|a2|d[eé]butant|beginner|niveau facile)\b",title+" "+desc,re.I): continue
     items.append({"title":title,"url":url,"source":"Le français c'est facile avec Adrien","page":item.findtext("link") or "https://francaisfacileadrien.com/","level":"A1–A2"})
 Path("audio-a1a2.json").write_text(json.dumps(items[:300],ensure_ascii=False,indent=2),encoding="utf-8")
 print("Selected episodes:",len(items[:300]))
