@@ -1,6 +1,45 @@
 {
-  "last_checked": "2026-10-21",
-  "released_count": 0,
+  "last_checked": "2026-10-22",
+  "released_count": 1,
   "total_prepared": 14,
-  "lessons": []
+  "lessons": [
+    {
+      "day": 1,
+      "level": "A1",
+      "title": "Au marché",
+      "story": "Je vais au marché le samedi. J'achète des pommes et du pain. La vendeuse me demande si je veux un sac. Je réponds : non merci, j'ai mon panier.",
+      "vocabulary": [
+        {
+          "word": "le panier",
+          "vi": "giỏ mua hàng",
+          "example": "Je prends mon panier."
+        },
+        {
+          "word": "la vendeuse",
+          "vi": "người bán hàng nữ",
+          "example": "La vendeuse est souriante."
+        },
+        {
+          "word": "frais",
+          "vi": "tươi",
+          "example": "Ces légumes sont frais."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "acheter",
+          "vi": "mua",
+          "present": "j'achète",
+          "passe_compose": "j'ai acheté"
+        },
+        {
+          "infinitive": "vouloir",
+          "vi": "muốn",
+          "present": "je veux",
+          "passe_compose": "j'ai voulu"
+        }
+      ],
+      "kind": "new"
+    }
+  ]
 }
