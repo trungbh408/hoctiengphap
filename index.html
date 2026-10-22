@@ -20,41 +20,6 @@
 <div id="musicPlayer" style="margin-top:12px"></div>
 <p class="muted">Mẹo: tìm “tên bài + paroles” để xem lời, hoặc “karaoké” để hát theo nhạc nền. Nếu video không cho nhúng, mở video trực tiếp trên YouTube.</p>
 </div>
-<div class="card" id="localAudioCard">
-<h3>🎧 Nghe tệp âm thanh khi khóa màn hình</h3>
-<p class="muted">Chọn tệp âm thanh có sẵn trong ứng dụng Tệp (Files) trên iPhone. Trình phát âm thanh riêng có thể tiếp tục phát khi khóa màn hình nếu Safari/iOS cho phép. Tệp YouTube không được tự chuyển thành tệp âm thanh.</p>
-<label for="localAudioFile">Chọn tệp âm thanh</label>
-<p class="muted" style="margin:4px 0">Chạm nút <b>Chọn tệp</b> bên dưới để mở ứng dụng Tệp trên iPhone.</p>
-<input id="localAudioFile" type="file" accept="audio/*,video/mp4,.mp3,.m4a,.aac,.wav,.ogg,.flac,.mp4" aria-label="Chọn tệp âm thanh từ ứng dụng Tệp" style="display:block;width:100%;min-height:58px;padding:10px;background:#f0f6fc;border:2px solid #2563eb;border-radius:12px;color:#183044;font-size:16px;cursor:pointer">
-<style>#localAudioFile::file-selector-button{font:inherit;font-weight:700;color:#fff;background:#164d77;border:0;border-radius:8px;padding:10px 14px;margin:0 10px 0 0;min-height:40px}#localAudioFile::-webkit-file-upload-button{font:inherit;font-weight:700;color:#fff;background:#164d77;border:0;border-radius:8px;padding:10px 14px;margin:0 10px 0 0;min-height:40px}</style>
-<div id="localAudioName" class="muted" style="margin-top:8px">Chưa chọn tệp âm thanh.</div>
-<button type="button" id="localAudioPlayButton" class="primary" style="display:block;width:100%;min-height:54px;font-size:18px;margin-top:10px">▶ Phát nhạc đã chọn</button>
-<audio id="localAudioPlayer" controls playsinline preload="metadata" style="display:block;width:100%;min-height:54px;margin-top:10px"></audio>
-<div id="localAudioPlayStatus" class="muted" style="margin-top:6px">Sau khi chọn tệp, bấm nút phát nhạc.</div>
-<p class="muted">Lưu ý: tệp được phát trực tiếp từ thiết bị và cần chọn lại sau khi tải lại trang. Hãy thử phát rồi khóa màn hình trong 10–15 giây để kiểm tra trên iPhone của anh.</p>
-<hr style="margin:16px 0;border:0;border-top:1px solid #ddd">
-<h3>☁️ Phát file âm thanh từ Google Drive</h3>
-<p class="muted">Dán liên kết chia sẻ của file MP3/M4A trên Google Drive. File cần được chia sẻ ở chế độ “Bất kỳ ai có đường liên kết”. Nếu Drive không phát trực tiếp, hãy tải file về ứng dụng Tệp rồi chọn ở mục trên.</p>
-<label for="driveAudioUrl">Liên kết Google Drive của file âm thanh</label>
-<input id="driveAudioUrl" type="url" placeholder="https://drive.google.com/file/d/..." inputmode="url">
-<div class="row"><button type="button" class="primary" id="driveAudioLoad">▶ Phát file từ Drive</button><button type="button" class="light" id="driveAudioOpen">↗ Mở Drive</button></div>
-<div id="driveAudioStatus" class="muted" style="margin-top:8px">Chưa mở file từ Google Drive.</div>
-<p class="muted">Lưu ý: đây là cách phát thử qua liên kết chia sẻ, không phải kết nối toàn bộ thư viện Drive. Khả năng phát nền khi khóa màn hình tùy thuộc vào iPhone, Safari và cách Google Drive phân phối file.</p>
-</div>
-<div class="card" id="driveLibraryCard">
-<h3>🎼 Thư viện nhạc Google Drive</h3>
-<p class="muted">Dùng cho thư mục Drive công khai. Để website tự liệt kê bài hát, cần bật Google Drive API và dùng API key giới hạn theo tên miền website. Website chỉ tìm các file âm thanh nằm ngay trong thư mục đã chọn (không tự quét thư mục con).</p>
-<label for="driveFolderUrl">Link thư mục Google Drive</label>
-<input id="driveFolderUrl" type="url" placeholder="https://drive.google.com/drive/folders/..." inputmode="url">
-<label for="driveApiKey" style="margin-top:10px">Google Drive API key</label>
-<input id="driveApiKey" type="password" placeholder="Dán API key đã giới hạn theo tên miền website" autocomplete="off">
-<div class="row"><button type="button" class="primary" id="driveLibraryLoad">☁️ Tải danh sách nhạc</button><button type="button" class="light" id="driveLibraryHelp">Hướng dẫn lấy API key</button></div>
-<div id="driveLibraryStatus" class="muted" role="status" style="margin-top:8px">Chưa tải danh sách nhạc.</div>
-<div class="row" style="margin-top:10px"><button type="button" class="light" id="drivePrev" disabled>⏮ Bài trước</button><button type="button" class="light" id="driveNext" disabled>⏭ Bài tiếp</button><button type="button" class="light" id="driveAuto" aria-pressed="true">🔁 Phát liên tục: bật</button></div>
-<div id="driveNowPlaying" class="muted" style="margin-top:8px">Chưa chọn bài.</div>
-<ol id="driveTrackList" style="padding-left:24px;line-height:1.9"></ol>
-<p class="muted">Lưu ý: file phải được chia sẻ công khai. Nếu Google Drive yêu cầu xác nhận tải xuống, giới hạn lưu lượng hoặc không hỗ trợ phát trực tiếp, bài đó có thể không phát được trong trình duyệt. API key là thông tin công khai phía trình duyệt, vì vậy hãy giới hạn theo HTTP referrer của website và chỉ bật Drive API.</p>
-</div>
 <div class="card">
 <label for="musicLyrics">Lời bài hát / đoạn muốn luyện</label><textarea id="musicLyrics" rows="8" placeholder="Dán lời bài hát hoặc một đoạn ngắn anh muốn luyện..."></textarea>
 <div class="row"><button type="button" class="primary" id="musicSave">💾 Lưu bài luyện</button><button type="button" class="light" id="musicNew">＋ Bài mới</button><button type="button" class="light" id="musicSpeak">🔊 Đọc lời tiếng Pháp</button><button type="button" class="light" id="musicStopSpeak">■ Dừng đọc</button></div>
@@ -740,60 +705,24 @@ function setAll(a){localStorage.setItem(LOCAL,JSON.stringify(a))}
 function getForm(){return {id:selected||'music_'+Date.now(),title:$('musicTitle').value.trim(),artist:$('musicArtist').value.trim(),video_url:$('musicUrl').value.trim(),lyrics:$('musicLyrics').value.trim(),updated_at:new Date().toISOString()}}
 function renderList(){const s=$('musicSaved'),old=s.value;s.replaceChildren(new Option('— Chọn bài đã lưu —',''));all().sort((a,b)=>String(b.updated_at||'').localeCompare(String(a.updated_at||''))).forEach(x=>s.add(new Option((x.title||'Chưa đặt tên')+(x.artist?' — '+x.artist:''),x.id)));s.value=selected||old||''}
 function renderLyrics(){const out=$('musicLyricsView');out.replaceChildren();const t=$('musicLyrics').value;for(const line of t.split('\n')){const p=document.createElement('div');p.textContent=line||' ';out.append(p)}}
-function embed(){const raw=$('musicUrl').value.trim();let id='',listId='',isPlaylist=false;try{const normalized=raw.includes('://')?raw:'https://youtu.be/'+raw;const u=new URL(normalized);let host=u.hostname.toLowerCase();if(host.startsWith('www.'))host=host.slice(4);const parts=u.pathname.split('/').filter(Boolean);if(host==='youtu.be'){id=parts[0]||''}else if(host==='youtube.com'||host.endsWith('.youtube.com')){id=u.searchParams.get('v')||'';if(!id){const marker=parts.findIndex(p=>['embed','shorts','live'].includes(p));if(marker>=0)id=parts[marker+1]||''}listId=u.searchParams.get('list')||'';isPlaylist=parts.includes('playlist')||(!id&&!!listId)}}catch{}if(!id){const m=raw.match(/(?:youtu\.be\/|[?&]v=|youtube\.com\/(?:embed|shorts|live)\/)([A-Za-z0-9_-]{11})/);if(m)id=m[1]}id=(id||'').split(/[?&#]/)[0];if(!/^[A-Za-z0-9_-]{11}$/.test(id))id='';if(!/^[A-Za-z0-9_-]{10,}$/.test(listId))listId='';if(isPlaylist&&!listId)isPlaylist=false;
-const box=$('musicPlayer');box.replaceChildren();if(!id&&!isPlaylist){const msg=document.createElement('p');msg.textContent='Chưa nhận diện được link. Hãy dán link YouTube đầy đủ hoặc mã video/danh sách phát rồi nhấn “Mở trình phát”.';box.append(msg);return}
-const frame=document.createElement('iframe');frame.width='100%';frame.height='270';frame.style.border='0';frame.style.borderRadius='12px';frame.style.maxWidth='100%';frame.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';frame.allowFullscreen=true;frame.loading='eager';frame.referrerPolicy='strict-origin-when-cross-origin';frame.title=isPlaylist?'Trình phát danh sách nhạc YouTube':'Trình phát video YouTube';frame.src=isPlaylist?'https://www.youtube.com/embed/videoseries?list='+encodeURIComponent(listId)+'&playsinline=1&rel=0&controls=1':'https://www.youtube.com/embed/'+encodeURIComponent(id)+'?playsinline=1&rel=0&controls=1';box.append(frame);
-const fallback=document.createElement('p');fallback.style.marginTop='8px';const link=document.createElement('a');link.href=isPlaylist?'https://www.youtube.com/playlist?list='+encodeURIComponent(listId):'https://www.youtube.com/watch?v='+encodeURIComponent(id);link.target='_blank';link.rel='noopener noreferrer';link.textContent=isPlaylist?'▶ Mở danh sách phát trên YouTube ↗':'▶ Mở riêng bài hát này trên YouTube ↗';fallback.append(link);box.append(fallback);
-const note=document.createElement('p');note.className='muted';note.textContent='Nếu khung nhúng không phát, hãy thử liên kết mở bên ngoài. Một số video bị chủ kênh chặn nhúng hoặc bị giới hạn theo tài khoản/khu vực.';box.append(note)}
+function embed(){const raw=$('musicUrl').value.trim();let id='';try{
+const clean=raw.replace(/[\u200B-\u200D\uFEFF]/g,'').trim();
+const match=clean.match(/(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:watch\?[^\s]*?v=|shorts\/|embed\/|live\/)|[?&]v=)([A-Za-z0-9_-]{11})/i);
+if(match)id=match[1];
+else {const u=new URL(clean.startsWith('http')?clean:'https://'+clean);const v=u.searchParams.get('v');if(v&&/^[A-Za-z0-9_-]{11}$/.test(v))id=v;}
+if(!id&&/^[A-Za-z0-9_-]{11}$/.test(clean))id=clean;
+}catch(e){}
+const box=$('musicPlayer');box.replaceChildren();if(!id){const msg=document.createElement('p');msg.textContent='Chưa nhận diện được đường dẫn YouTube. Hãy dán URL dạng youtube.com/watch?v=… hoặc youtu.be/…';box.append(msg);return}
+const frame=document.createElement('iframe');frame.width='100%';frame.height='220';frame.style.border='0';frame.style.borderRadius='12px';frame.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';frame.allowFullscreen=true;frame.referrerPolicy='strict-origin-when-cross-origin';frame.src='https://www.youtube-nocookie.com/embed/'+encodeURIComponent(id);box.append(frame);
+const fallback=document.createElement('div');fallback.style.marginTop='10px';
+const a=document.createElement('a');a.href='https://www.youtube.com/watch?v='+encodeURIComponent(id);a.target='_blank';a.rel='noopener noreferrer';a.textContent='▶ Mở trực tiếp trên YouTube (khi video không phát trong trang)';a.style.cssText='display:inline-block;padding:10px 14px;border-radius:10px;background:#e9f2ff;color:#075f9b;font-weight:600;text-decoration:none';fallback.append(a);
+const note=document.createElement('p');note.className='muted';note.textContent='Nếu YouTube báo lỗi phát nhúng trên Safari, dùng nút trên để xem video gốc. Không phải video nào cũng cho phép phát trong trang.';fallback.append(note);box.append(fallback)}
 async function api(){if(client)return client;if(!window.supabase?.createClient)throw Error('Thư viện Supabase chưa tải xong. Tải lại trang và thử lại.');client=window.supabase.createClient(URL,PUB,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});return client}
 async function who(){const c=await api();const {data,error}=await c.auth.getUser();if(error)throw error;if(!data.user)throw Error('Anh cần đăng nhập trong mục Tài khoản trước.');return data.user}
 function saveLocal(item){const a=all(),i=a.findIndex(x=>x.id===item.id);if(i<0)a.unshift(item);else a[i]=item;setAll(a);selected=item.id;renderList()}
 async function cloudSave(){const item=getForm();if(!item.title||!item.lyrics)throw Error('Nhập tên bài và lời/đoạn luyện trước khi lưu.');const u=await who(),c=await api();const {error}=await c.from('music_practice').upsert({id:item.id,user_id:u.id,title:item.title,artist:item.artist,video_url:item.video_url,lyrics:item.lyrics,recording_path:recordingPath||null,updated_at:item.updated_at},{onConflict:'user_id,id'});if(error)throw error;saveLocal(item);say('Đã lưu bài luyện lên Supabase và giữ bản trên thiết bị.')}
 async function cloudLoad(){const u=await who(),c=await api();const {data,error}=await c.from('music_practice').select('id,title,artist,video_url,lyrics,recording_path,updated_at').eq('user_id',u.id).order('updated_at',{ascending:false});if(error)throw error;const map=new Map(all().map(x=>[x.id,x]));for(const x of data||[]){const prev=map.get(x.id);if(!prev||String(x.updated_at)>String(prev.updated_at||''))map.set(x.id,x)}setAll([...map.values()]);renderList();if(data?.length){$('musicSaved').value=data[0].id;$('musicSaved').dispatchEvent(new Event('change'))}say('Đã tải '+(data||[]).length+' bài luyện từ kho đám mây.')}
 function loadItem(x){if(!x)return;selected=x.id;$('musicTitle').value=x.title||'';$('musicArtist').value=x.artist||'';$('musicUrl').value=x.video_url||'';$('musicLyrics').value=x.lyrics||'';recordingPath=x.recording_path||'';renderLyrics();if(x.video_url)embed();say('Đã mở bài luyện: '+(x.title||''))}
-let localAudioObjectUrl='',localAudioSelectedFile=null;
-function handleLocalAudioSelection(){
- const input=$('localAudioFile'),player=$('localAudioPlayer'),name=$('localAudioName'),status=$('localAudioPlayStatus'),button=$('localAudioPlayButton');
- const file=input?.files?.[0];if(!file||!player)return;
- localAudioSelectedFile=file;
- if(localAudioObjectUrl){URL.revokeObjectURL(localAudioObjectUrl);localAudioObjectUrl=''}
- player.pause();player.removeAttribute('src');player.load();
- name.textContent='Đã chọn: '+file.name+' ('+(file.size/1048576).toFixed(2)+' MB)';
- status.textContent='Đã nhận tệp. Nhấn Phát nhạc đã chọn.';
- button.textContent='▶ Phát nhạc đã chọn';button.disabled=false;
- try{
-  localAudioObjectUrl=URL.createObjectURL(file);
-  player.src=localAudioObjectUrl;
-  player.onerror=()=>{const e=player.error;status.textContent='Không đọc được tệp '+file.name+' (mã '+(e?.code||'?')+'). Kiểm tra định dạng/codec.'};
-  player.onloadedmetadata=()=>{status.textContent='Đã nhận tệp '+file.name+'. Sẵn sàng phát.'};
-  player.load();
- }catch(e){status.textContent='Lỗi mở tệp: '+e.message}
-}
-$('localAudioFile').addEventListener('change',handleLocalAudioSelection);
-$('localAudioPlayButton').addEventListener('click',async()=>{
- const player=$('localAudioPlayer'),status=$('localAudioPlayStatus'),button=$('localAudioPlayButton');
- if(!localAudioSelectedFile){status.textContent='Chưa nhận tệp. Anh chọn MP3/M4A ở nút Chọn tệp trước.';return}
- try{
-  if(!player.src||(!player.src.startsWith('blob:')&&localAudioObjectUrl)){player.src=localAudioObjectUrl;player.load()}
-  if(player.paused){await player.play();button.textContent='⏸ Tạm dừng';status.textContent='Đang phát: '+localAudioSelectedFile.name}
-  else{player.pause();button.textContent='▶ Tiếp tục phát';status.textContent='Đã tạm dừng.'}
- }catch(e){status.textContent='Không phát được '+localAudioSelectedFile.name+': '+(e?.message||'Safari từ chối phát')+'. Thử MP3 khác hoặc kiểm tra codec.'}
-});
-$('localAudioPlayer').addEventListener('play',()=>{if(localAudioSelectedFile)$('localAudioPlayButton').textContent='⏸ Tạm dừng'});
-$('localAudioPlayer').addEventListener('pause',()=>{if(localAudioSelectedFile)$('localAudioPlayButton').textContent='▶ Tiếp tục phát'});
-function getDriveFileId(raw){try{const u=new URL(raw.trim());const host=u.hostname.toLowerCase();if(host!=='drive.google.com'&&!host.endsWith('.drive.google.com')&&host!=='docs.google.com')return '';let m=u.pathname.match(/\/file\/d\/([A-Za-z0-9_-]+)/);if(m)return m[1];return u.searchParams.get('id')||''}catch{return ''}}
-$('driveAudioLoad').onclick=()=>{const raw=$('driveAudioUrl').value.trim();const id=getDriveFileId(raw);const status=$('driveAudioStatus');const player=$('localAudioPlayer');if(!id){status.textContent='Không nhận diện được link file Drive. Hãy dùng “Chia sẻ” → “Sao chép đường liên kết” của file MP3/M4A.';return}if(localAudioObjectUrl){URL.revokeObjectURL(localAudioObjectUrl);localAudioObjectUrl=''}player.pause();player.src='https://drive.google.com/uc?export=download&id='+encodeURIComponent(id);player.style.display='block';player.load();$('localAudioName').textContent='Nguồn: Google Drive — nếu file không phát, hãy tải file về ứng dụng Tệp.';status.textContent='Đã gửi file Drive đến trình phát. Nhấn ▶ để thử nghe. File phải được chia sẻ với “Bất kỳ ai có đường liên kết”. Nếu thấy lỗi hoặc trang xác nhận của Google, hãy tải file về iPhone và chọn ở mục trên.'};
-$('driveAudioOpen').onclick=()=>{const raw=$('driveAudioUrl').value.trim();if(!raw){$('driveAudioStatus').textContent='Hãy dán link Google Drive trước.';return}try{const u=new URL(raw);if(!['drive.google.com','docs.google.com'].includes(u.hostname.toLowerCase()))throw new Error();GenUI.openUrl(u.href)}catch{$('driveAudioStatus').textContent='Link chưa hợp lệ. Hãy dán đường liên kết chia sẻ từ Google Drive.'}};
-const driveLibrary={tracks:[],index:-1,continuous:true};
-function driveIdFromUrl(raw,folderOnly=false){try{const u=new URL(raw.trim());const host=u.hostname.toLowerCase();if(!host.endsWith('google.com')&&!host.endsWith('googleusercontent.com'))return '';let m=u.pathname.match(/\/(?:drive\/)?folders\/([A-Za-z0-9_-]+)/);if(m)return m[1];if(!folderOnly){m=u.pathname.match(/\/file\/d\/([A-Za-z0-9_-]+)/);if(m)return m[1];return u.searchParams.get('id')||''}return ''}catch{return ''}}
-function driveShowTrackList(){const list=$('driveTrackList');list.replaceChildren();driveLibrary.tracks.forEach((track,i)=>{const li=document.createElement('li');const b=document.createElement('button');b.type='button';b.className='light';b.textContent=track.name;b.style.textAlign='left';b.style.maxWidth='100%';b.onclick=()=>drivePlayTrack(i);if(i===driveLibrary.index)b.setAttribute('aria-current','true');li.append(b);list.append(li)});$('drivePrev').disabled=!driveLibrary.tracks.length;$('driveNext').disabled=!driveLibrary.tracks.length}
-function drivePlayTrack(i){if(!driveLibrary.tracks.length)return;driveLibrary.index=(i+driveLibrary.tracks.length)%driveLibrary.tracks.length;const t=driveLibrary.tracks[driveLibrary.index];const player=$('localAudioPlayer');if(localAudioObjectUrl){URL.revokeObjectURL(localAudioObjectUrl);localAudioObjectUrl=''}player.pause();player.src='https://drive.google.com/uc?export=download&id='+encodeURIComponent(t.id);player.style.display='block';player.load();$('localAudioName').textContent='Nguồn: Thư viện Google Drive';$('driveNowPlaying').textContent='Đang chọn ('+(driveLibrary.index+1)+'/'+driveLibrary.tracks.length+'): '+t.name+' — nhấn ▶ trên trình phát để nghe.';driveShowTrackList();player.play().then(()=>{$('driveNowPlaying').textContent='Đang phát ('+(driveLibrary.index+1)+'/'+driveLibrary.tracks.length+'): '+t.name}).catch(()=>{$('driveNowPlaying').textContent='Đã chọn: '+t.name+'. Nếu chưa tự phát, nhấn ▶ trên trình phát.'})}
-$('drivePrev').onclick=()=>drivePlayTrack(driveLibrary.index-1);
-$('driveNext').onclick=()=>drivePlayTrack(driveLibrary.index+1);
-$('driveAuto').onclick=()=>{driveLibrary.continuous=!driveLibrary.continuous;$('driveAuto').textContent='🔁 Phát liên tục: '+(driveLibrary.continuous?'bật':'tắt');$('driveAuto').setAttribute('aria-pressed',String(driveLibrary.continuous))};
-$('localAudioPlayer').addEventListener('ended',()=>{if(driveLibrary.tracks.length&&driveLibrary.continuous&&driveLibrary.index>=0)drivePlayTrack(driveLibrary.index+1)});
-$('driveLibraryHelp').onclick=()=>window.open('https://console.cloud.google.com/apis/library/drive.googleapis.com','_blank','noopener');
-$('driveLibraryLoad').onclick=async()=>{const folderId=driveIdFromUrl($('driveFolderUrl').value,true);const key=$('driveApiKey').value.trim();const status=$('driveLibraryStatus');if(!folderId){status.textContent='Không nhận diện được link thư mục. Hãy dùng link dạng drive.google.com/drive/folders/…';return}if(!key){status.textContent='Cần Google Drive API key. Bấm “Hướng dẫn lấy API key” để thiết lập.';return}status.textContent='Đang lấy danh sách file âm thanh…';$('driveTrackList').replaceChildren();try{let files=[],token='';do{const params=new URLSearchParams({q:"'"+folderId+"' in parents and trashed = false",key,fields:'nextPageToken,files(id,name,mimeType,size)',pageSize:'100',orderBy:'name'});if(token)params.set('pageToken',token);const response=await fetch('https://www.googleapis.com/drive/v3/files?'+params.toString());const data=await response.json();if(!response.ok)throw new Error(data.error?.message||('Google API trả lỗi '+response.status));files=files.concat(data.files||[]);token=data.nextPageToken||''}while(token);driveLibrary.tracks=files.filter(f=>(f.mimeType||'').startsWith('audio/')||/\.(mp3|m4a|aac|wav|ogg|flac|opus)$/i.test(f.name||''));driveLibrary.index=-1;driveShowTrackList();if(!driveLibrary.tracks.length){status.textContent='Đã đọc thư mục nhưng không thấy file âm thanh ở ngay cấp thư mục này. Hãy kiểm tra quyền chia sẻ hoặc file có nằm trong thư mục con không.'}else{status.textContent='Tìm thấy '+driveLibrary.tracks.length+' file âm thanh. Chọn một bài trong danh sách để phát.'}}catch(e){status.textContent='Không tải được danh sách: '+(e.message||e)+'. Kiểm tra Drive API đã bật, API key, giới hạn tên miền và quyền xem thư mục công khai.'}};
 $('musicLoad').onclick=embed;
 $('musicSearch').onclick=()=>{const q=[$('musicTitle').value,$('musicArtist').value,'paroles karaoké'].filter(Boolean).join(' ');GenUI.openUrl('https://www.youtube.com/results?search_query='+encodeURIComponent(q))};
 $('musicLyrics').addEventListener('input',renderLyrics);
@@ -815,113 +744,85 @@ renderList();renderLyrics();
 </script>
 
 
-<script>
-/* index037: standalone recovery for the French music YouTube button */
-(function(){
-  function initMusicYoutubeRecovery(){
-    const input=document.getElementById('musicUrl');
-    const button=document.getElementById('musicLoad');
-    const box=document.getElementById('musicPlayer');
-    if(!input||!button||!box)return;
-    function show(message){
-      box.replaceChildren();
-      const p=document.createElement('p');
-      p.className='muted';
-      p.textContent=message;
-      box.appendChild(p);
-    }
-    function loadVideo(){
-      const raw=(input.value||'').trim();
-      if(!raw){show('Anh hãy dán link YouTube vào ô phía trên trước, rồi nhấn “Mở trình phát”.');input.focus();return;}
-      let id='',listId='',playlist=false;
-      try{
-        const url=new URL(raw.includes('://')?raw:'https://youtu.be/'+raw);
-        let host=url.hostname.toLowerCase().replace(/^www\./,'');
-        const parts=url.pathname.split('/').filter(Boolean);
-        if(host==='youtu.be') id=parts[0]||'';
-        if(host==='youtube.com'||host.endsWith('.youtube.com')){
-          id=url.searchParams.get('v')||'';
-          if(!id){const n=parts.findIndex(x=>['embed','shorts','live'].includes(x));if(n>=0)id=parts[n+1]||'';}
-          listId=url.searchParams.get('list')||'';
-          playlist=parts.includes('playlist')||(!id&&!!listId);
-        }
-      }catch(e){}
-      if(!id){const m=raw.match(/(?:youtu\.be\/|[?&]v=|youtube\.com\/(?:embed|shorts|live)\/)([A-Za-z0-9_-]{11})/);if(m)id=m[1];}
-      id=(id||'').split(/[?&#]/)[0];
-      if(!/^[A-Za-z0-9_-]{11}$/.test(id))id='';
-      if(!/^[A-Za-z0-9_-]{10,}$/.test(listId))listId='';
-      if(playlist&&!listId)playlist=false;
-      if(!id&&!playlist){show('Chưa nhận diện được link YouTube. Hãy kiểm tra link rồi thử lại.');return;}
-      box.replaceChildren();
-      const frame=document.createElement('iframe');
-      frame.title='Trình phát video YouTube';
-      frame.width='100%';frame.height='270';frame.style.border='0';frame.style.borderRadius='12px';
-      frame.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
-      frame.setAttribute('allowfullscreen','');
-      frame.setAttribute('referrerpolicy','strict-origin-when-cross-origin');
-      frame.src=playlist?'https://www.youtube-nocookie.com/embed/videoseries?list='+encodeURIComponent(listId)+'&playsinline=1&rel=0&controls=1':'https://www.youtube-nocookie.com/embed/'+encodeURIComponent(id)+'?playsinline=1&rel=0&controls=1';
-      box.appendChild(frame);
-      const p=document.createElement('p');p.style.marginTop='8px';
-      const a=document.createElement('a');
-      a.href=playlist?'https://www.youtube.com/playlist?list='+encodeURIComponent(listId):'https://www.youtube.com/watch?v='+encodeURIComponent(id);
-      a.target='_blank';a.rel='noopener noreferrer';a.textContent='▶ Nếu video không phát trong khung, mở trực tiếp trên YouTube ↗';
-      p.appendChild(a);box.appendChild(p);
-      const note=document.createElement('p');note.className='muted';note.textContent='Đã nhận link YouTube. Nếu khung vẫn đen hoặc báo không khả dụng, video có thể chặn nhúng; hãy dùng liên kết mở trực tiếp bên dưới.';box.appendChild(note);
-    }
-    button.onclick=loadVideo;
-    input.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();loadVideo();}});
-  }
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initMusicYoutubeRecovery);
-  else initMusicYoutubeRecovery();
-})();
-</script>
-
-<!-- LOCAL_AUDIO_IPHONE_RECOVERY_V1 -->
+<style>
+#localMusic038{margin:16px 0;padding:16px;border:1px solid #cbdce9;border-radius:14px;background:#f8fbff}
+#localMusic038 input[type=file]{display:block;max-width:100%;margin:10px 0}
+#localMusic038 audio{display:block;width:100%;margin:12px 0}
+#localMusic038 .lmstatus{font-size:14px;color:#36536b;overflow-wrap:anywhere}
+#localMusic038List{list-style:none;padding:0;margin:10px 0;max-height:260px;overflow:auto}
+#localMusic038List li{display:flex;align-items:center;gap:8px;border-bottom:1px solid #dde5ee;padding:5px 0}
+#localMusic038List button{flex:1;text-align:left;overflow-wrap:anywhere}
+#localMusic038List li.active button{font-weight:700}
+</style>
 <script>
 (function(){
-  function init(){
-    const fileInput=document.getElementById('localAudioFile');
-    const player=document.getElementById('localAudioPlayer');
-    const playButton=document.getElementById('localAudioPlayButton');
-    const label=document.getElementById('localAudioName');
-    const status=document.getElementById('localAudioPlayStatus');
-    if(!fileInput||!player||!playButton||!label||!status)return;
-    let currentFile=null,objectUrl='';
-    function onSelection(event){
-      event.stopImmediatePropagation();
-      const file=fileInput.files&&fileInput.files[0];
-      if(!file){status.textContent='Chưa chọn tệp. Hãy chọn MP3 hoặc M4A từ ứng dụng Tệp.';return;}
-      currentFile=file;
-      player.pause();
-      if(objectUrl){URL.revokeObjectURL(objectUrl);objectUrl='';}
-      try{
-        objectUrl=URL.createObjectURL(file);
-        player.src=objectUrl;
-        player.load();
-        label.textContent='Đã chọn: '+file.name+' ('+(file.size/1048576).toFixed(2)+' MB)';
-        status.textContent='Đã nhận tệp. Nhấn nút Phát nhạc.';
-        playButton.textContent='▶ Phát nhạc đã chọn';
-        playButton.disabled=false;
-      }catch(err){status.textContent='Không mở được tệp: '+(err.message||err);}
-    }
-    fileInput.addEventListener('change',onSelection,true);
-    playButton.addEventListener('click',async function(event){
-      event.stopImmediatePropagation();
-      if(!currentFile){
-        const file=fileInput.files&&fileInput.files[0];
-        if(file){onSelection({stopImmediatePropagation:function(){}});}
-      }
-      if(!currentFile){status.textContent='Chưa nhận tệp. Anh chọn lại tệp MP3/M4A trước nhé.';return;}
-      try{
-        if(player.paused){await player.play();status.textContent='Đang phát: '+currentFile.name;playButton.textContent='⏸ Tạm dừng';}
-        else{player.pause();status.textContent='Đã tạm dừng.';playButton.textContent='▶ Tiếp tục phát';}
-      }catch(err){status.textContent='Không phát được '+currentFile.name+': '+(err.message||'Định dạng hoặc codec không được hỗ trợ');}
-    },true);
-    player.addEventListener('error',function(){if(currentFile){const code=player.error&&player.error.code;status.textContent='Không giải mã được '+currentFile.name+' (mã '+(code||'?')+'). Hãy thử MP3 chuẩn.';}});
-    player.addEventListener('ended',function(){if(currentFile)playButton.textContent='▶ Phát lại';});
-  }
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);
-  else init();
+'use strict';
+const DB='mpdf_music_playlist_038', STORE='tracks';
+let tracks=[],current=-1,url=null,shuffle=false,repeat='all',restoring=false;
+const $=id=>document.getElementById(id);
+function init(){
+ const anchor=$('musicPlayer');if(!anchor)return;
+ const panel=document.createElement('section');panel.id='localMusic038';
+ panel.innerHTML='<h3>🎵 Playlist MP3/M4A từ iPhone hoặc Google Drive</h3><p>Chọn nhiều tệp từ ứng dụng Tệp. Các bài được phát nối tiếp. Danh sách chỉ tồn tại trong phiên mở trang; không tự lưu các tệp MP3 vào Safari.</p><label for="localMusic038File">Chọn một hoặc nhiều tệp âm thanh</label><input type="file" id="localMusic038File" multiple accept=".mp3,.m4a,.mp4,.aac,.wav,audio/*"><p id="localMusic038Status" class="lmstatus" role="status">Chưa chọn tệp.</p><audio id="localMusic038Audio" controls preload="metadata" playsinline style="display:none"></audio><div class="row"><button type="button" id="lmPrev">⏮ Trước</button><button type="button" id="lmPlay">▶ Phát / Tạm dừng</button><button type="button" id="lmNext">⏭ Tiếp</button></div><div class="row"><button type="button" id="lmShuffle">🔀 Ngẫu nhiên: Tắt</button><button type="button" id="lmRepeat">🔁 Lặp: Tất cả</button></div><div class="row"><button type="button" id="lmClear">✕ Xóa danh sách</button></div><p id="lmCount" class="muted">0 bài</p><ol id="localMusic038List"></ol><p class="muted">Lưu ý: Google Drive phải cho phép chọn nhiều tệp trong ứng dụng Tệp; nếu không, hãy tải các bài về iPhone trước. Phát nền tùy thuộc giới hạn Safari.</p>';
+ anchor.insertAdjacentElement('afterend',panel);
+ const audio=$('localMusic038Audio'),status=$('localMusic038Status');
+ const say=t=>status.textContent=t;
+ const valid=f=>f&&f.size>0&&(/\.(mp3|m4a|mp4|aac|wav)$/i.test(f.name)||/^audio\//i.test(f.type));
+ function clearAudio(){audio.pause();audio.removeAttribute('src');audio.load();if(url){URL.revokeObjectURL(url);url=null}}
+ function render(){
+  $('lmCount').textContent=tracks.length+' bài'+(current>=0?' — đang chọn '+(current+1)+'/'+tracks.length:'');
+  const list=$('localMusic038List');list.replaceChildren();
+  tracks.forEach((t,i)=>{const li=document.createElement('li');if(i===current)li.className='active';const b=document.createElement('button');b.type='button';b.textContent=(i+1)+'. '+t.name;b.onclick=()=>select(i,true);li.append(b);list.append(li)});
+ }
+ async function select(i,autoplay){
+  if(i<0||i>=tracks.length)return;
+  clearAudio();current=i;const file=tracks[i].file;
+  try{url=URL.createObjectURL(file);audio.src=url;audio.style.display='block';audio.load();render();say('Đã chọn: '+tracks[i].name);
+   if(autoplay)await audio.play();
+  }catch(e){say('Không phát được '+tracks[i].name+': '+(e.message||e))}
+ }
+ function next(step=1){if(!tracks.length)return;if(step>0&&shuffle&&tracks.length>1){let i;do{i=Math.floor(Math.random()*tracks.length)}while(i===current);select(i,true);return}
+  let n=current+step;if(n>=tracks.length){if(repeat==='all')n=0;else{say('Đã phát hết danh sách.');return}}if(n<0)n=repeat==='all'?tracks.length-1:0;select(n,true)}
+ $('localMusic038File').onchange=e=>{
+  const incoming=Array.from(e.target.files||[]);const good=incoming.filter(valid);
+  if(!good.length){say('Không có tệp âm thanh hợp lệ.');return}
+  const first=tracks.length;tracks.push(...good.map(file=>({file,name:file.name})));
+  render();say('Đã thêm '+good.length+' bài. Tổng cộng '+tracks.length+' bài. Nhấn Phát để nghe.');
+  if(current<0)select(first,false);
+  e.target.value='';
+ };
+ $('lmPlay').onclick=async()=>{if(!tracks.length){say('Hãy chọn tệp MP3/M4A trước.');return}if(current<0){await select(0,true);return}try{if(audio.paused)await audio.play();else audio.pause()}catch(e){say('Safari không phát được: '+(e.message||e))}};
+ $('lmPrev').onclick=()=>next(-1);$('lmNext').onclick=()=>next(1);
+ $('lmShuffle').onclick=()=>{shuffle=!shuffle;$('lmShuffle').textContent='🔀 Ngẫu nhiên: '+(shuffle?'Bật':'Tắt')};
+ $('lmRepeat').onclick=()=>{repeat=repeat==='all'?'one':repeat==='one'?'off':'all';$('lmRepeat').textContent='🔁 Lặp: '+(repeat==='all'?'Tất cả':repeat==='one'?'Một bài':'Tắt')};
+ audio.onended=()=>{if(repeat==='one')select(current,true);else next(1)};
+ audio.onplaying=()=>say('Đang phát: '+tracks[current]?.name);
+ audio.onerror=()=>{if(url)say('Không đọc được định dạng tệp: '+tracks[current]?.name+'. Hãy thử MP3 hoặc M4A AAC.')};
+ $('lmClear').onclick=()=>{clearAudio();tracks=[];current=-1;audio.style.display='none';render();say('Đã xóa danh sách đang mở. Playlist hiện tại đã được xóa.')};
+ function dbOpen(){return new Promise((resolve,reject)=>{const req=indexedDB.open(DB,1);req.onupgradeneeded=()=>{req.result.createObjectStore(STORE,{keyPath:'id'})};req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error)})}
+ async function writePlaylist(){
+  const db=await dbOpen();try{await new Promise((resolve,reject)=>{const tx=db.transaction(STORE,'readwrite');const st=tx.objectStore(STORE);st.clear();tracks.forEach((t,i)=>st.put({id:i,name:t.name,file:t.file}));tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error)})}finally{db.close()}
+ }
+ async function readPlaylist(){
+  const db=await dbOpen();try{return await new Promise((resolve,reject)=>{const tx=db.transaction(STORE,'readonly');const req=tx.objectStore(STORE).getAll();req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error)})}finally{db.close()}
+ }
+ 
+ async function restore(){if(restoring)return;restoring=true;try{const items=await readPlaylist();if(!items.length){say('Chưa có playlist đã lưu.');return}clearAudio();tracks=items.filter(t=>valid(t.file)).sort((a,b)=>a.id-b.id).map(t=>({name:t.name,file:t.file}));current=-1;render();if(tracks.length)await select(0,false);say('Đã khôi phục '+tracks.length+' bài. Nhấn Phát để nghe.')}catch(e){say('Không khôi phục được playlist: '+(e.message||e))}finally{restoring=false}}
+ 
+ render();say('Chế độ tiết kiệm dung lượng: playlist chỉ dùng trong phiên hiện tại, không lưu tệp vào Safari.');
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
 </script>
-</body></html>
+<script>
+(function(){
+ function init(){
+ const p=document.getElementById('localMusic038');if(!p)return;
+ const note=document.createElement('p');note.className='muted';note.textContent='Bản 039 không lưu MP3 mới vào Safari. Nếu anh đã lưu playlist bằng bản 038, anh có thể xóa riêng dữ liệu playlist cũ bằng nút bên dưới. Việc này không xóa dữ liệu bài học hoặc bài báo.';
+ const b=document.createElement('button');b.type='button';b.textContent='🧹 Xóa playlist MP3 đã lưu ở bản 038';
+ b.onclick=()=>{if(!confirm('Chỉ xóa các tệp âm thanh đã lưu trong playlist bản 038?'))return;try{const req=indexedDB.deleteDatabase('mpdf_music_playlist_038');req.onsuccess=()=>alert('Đã xóa dữ liệu playlist 038 khỏi Safari.');req.onerror=()=>alert('Chưa xóa được. Hãy đóng các tab bản 038 rồi thử lại.');req.onblocked=()=>alert('Hãy đóng các tab đang mở bản 038, rồi thử lại.')}catch(e){alert('Không thể xóa: '+e.message)}};
+ p.append(note,b);
+ }
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+})();
+</script></body></html>
