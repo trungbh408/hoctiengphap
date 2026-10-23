@@ -1,0 +1,226 @@
+{
+  "words": [
+    {
+      "level": "A1",
+      "topic": "La famille",
+      "word": "la mère",
+      "pos": "danh từ giống cái",
+      "ipa": "/la mɛʁ/",
+      "vi": "mẹ",
+      "example": "Ma mère habite à Lyon."
+    },
+    {
+      "level": "A1",
+      "topic": "La famille",
+      "word": "le père",
+      "pos": "danh từ giống đực",
+      "ipa": "/lə pɛʁ/",
+      "vi": "bố",
+      "example": "Mon père travaille à Paris."
+    },
+    {
+      "level": "A1",
+      "topic": "La famille",
+      "word": "un enfant",
+      "pos": "danh từ giống đực",
+      "ipa": "/œ̃.nɑ̃.fɑ̃/",
+      "vi": "đứa trẻ",
+      "example": "Il a un enfant."
+    },
+    {
+      "level": "A1",
+      "topic": "La maison",
+      "word": "la chambre",
+      "pos": "danh từ giống cái",
+      "ipa": "/la ʃɑ̃bʁ/",
+      "vi": "phòng ngủ",
+      "example": "Ma chambre est petite."
+    },
+    {
+      "level": "A1",
+      "topic": "La maison",
+      "word": "la cuisine",
+      "pos": "danh từ giống cái",
+      "ipa": "/la kɥi.zin/",
+      "vi": "nhà bếp",
+      "example": "La cuisine est propre."
+    },
+    {
+      "level": "A1",
+      "topic": "La maison",
+      "word": "la fenêtre",
+      "pos": "danh từ giống cái",
+      "ipa": "/la fə.nɛtʁ/",
+      "vi": "cửa sổ",
+      "example": "J'ouvre la fenêtre."
+    },
+    {
+      "level": "A1",
+      "topic": "Les courses",
+      "word": "le pain",
+      "pos": "danh từ giống đực",
+      "ipa": "/lə pɛ̃/",
+      "vi": "bánh mì",
+      "example": "Je voudrais du pain."
+    },
+    {
+      "level": "A1",
+      "topic": "Les courses",
+      "word": "le lait",
+      "pos": "danh từ giống đực",
+      "ipa": "/lə lɛ/",
+      "vi": "sữa",
+      "example": "J'achète du lait."
+    },
+    {
+      "level": "A1",
+      "topic": "Les courses",
+      "word": "le marché",
+      "pos": "danh từ giống đực",
+      "ipa": "/lə maʁ.ʃe/",
+      "vi": "chợ",
+      "example": "Je vais au marché."
+    },
+    {
+      "level": "A1",
+      "topic": "Les transports",
+      "word": "le bus",
+      "pos": "danh từ giống đực",
+      "ipa": "/lə bys/",
+      "vi": "xe buýt",
+      "example": "Je prends le bus."
+    },
+    {
+      "level": "A1",
+      "topic": "Les transports",
+      "word": "la gare",
+      "pos": "danh từ giống cái",
+      "ipa": "/la ɡaʁ/",
+      "vi": "nhà ga",
+      "example": "La gare est près d'ici."
+    },
+    {
+      "level": "A1",
+      "topic": "Les transports",
+      "word": "un billet",
+      "pos": "danh từ giống đực",
+      "ipa": "/œ̃ bi.jɛ/",
+      "vi": "vé",
+      "example": "Je cherche un billet."
+    },
+    {
+      "level": "A2",
+      "topic": "La santé",
+      "word": "un rendez-vous",
+      "pos": "danh từ giống đực",
+      "ipa": "/œ̃ ʁɑ̃.de.vu/",
+      "vi": "cuộc hẹn",
+      "example": "J'ai un rendez-vous demain."
+    },
+    {
+      "level": "A2",
+      "topic": "La santé",
+      "word": "la pharmacie",
+      "pos": "danh từ giống cái",
+      "ipa": "/la faʁ.ma.si/",
+      "vi": "hiệu thuốc",
+      "example": "La pharmacie est ouverte."
+    },
+    {
+      "level": "A2",
+      "topic": "Le travail",
+      "word": "un collègue",
+      "pos": "danh từ",
+      "ipa": "/œ̃ kɔ.lɛɡ/",
+      "vi": "đồng nghiệp",
+      "example": "Mon collègue est gentil."
+    },
+    {
+      "level": "A2",
+      "topic": "Le travail",
+      "word": "un entretien",
+      "pos": "danh từ giống đực",
+      "ipa": "/œ̃.nɑ̃.tʁə.tjɛ̃/",
+      "vi": "buổi phỏng vấn",
+      "example": "J'ai un entretien lundi."
+    },
+    {
+      "level": "A2",
+      "topic": "La vie quotidienne",
+      "word": "d'habitude",
+      "pos": "trạng từ",
+      "ipa": "/da.bi.tyd/",
+      "vi": "thường lệ",
+      "example": "D'habitude, je marche."
+    },
+    {
+      "level": "A2",
+      "topic": "La vie quotidienne",
+      "word": "tout à coup",
+      "pos": "cụm trạng từ",
+      "ipa": "/tu.ta.ku/",
+      "vi": "đột nhiên",
+      "example": "Tout à coup, il a plu."
+    },
+    {
+      "level": "A2",
+      "topic": "La vie quotidienne",
+      "word": "hier",
+      "pos": "trạng từ",
+      "ipa": "/jɛʁ/",
+      "vi": "hôm qua",
+      "example": "Hier, je suis allé au marché."
+    },
+    {
+      "level": "A2",
+      "topic": "La vie quotidienne",
+      "word": "pendant",
+      "pos": "giới từ",
+      "ipa": "/pɑ̃.dɑ̃/",
+      "vi": "trong suốt",
+      "example": "J'ai attendu pendant une heure."
+    }
+  ],
+  "stories": [
+    {
+      "level": "A1",
+      "title": "Un matin à Strasbourg",
+      "paragraphs": [
+        "Il est huit heures. Camille habite à Strasbourg. Elle prend son petit-déjeuner dans sa cuisine.",
+        "Elle boit un café et mange du pain. Ensuite, elle marche jusqu'à l'arrêt de bus.",
+        "À neuf heures, Camille arrive au travail. Elle dit bonjour à ses collègues."
+      ],
+      "vi": "Một buổi sáng ở Strasbourg: Camille ăn sáng, đi xe buýt và chào đồng nghiệp."
+    },
+    {
+      "level": "A1",
+      "title": "Au marché",
+      "paragraphs": [
+        "Samedi matin, Paul va au marché. Il veut acheter des pommes, du pain et du lait.",
+        "La vendeuse dit : « Bonjour monsieur ! » Paul répond : « Bonjour, je voudrais un kilo de pommes, s'il vous plaît. »",
+        "Paul paie et rentre chez lui. Il est content."
+      ],
+      "vi": "Đi chợ: Paul mua thực phẩm và trò chuyện với người bán."
+    },
+    {
+      "level": "A2",
+      "title": "Une journée de pluie",
+      "paragraphs": [
+        "Hier, il pleuvait quand Léa est sortie de chez elle. Elle portait un manteau et avait un parapluie.",
+        "Pendant qu'elle attendait le bus, elle a rencontré son voisin. Ils ont parlé de leur quartier.",
+        "Quand le bus est arrivé, Léa a dit au revoir et elle est montée."
+      ],
+      "vi": "Một ngày mưa: luyện phân biệt imparfait và passé composé."
+    },
+    {
+      "level": "A2",
+      "title": "Le rendez-vous oublié",
+      "paragraphs": [
+        "Hier, Marc travaillait à la maison. Il était très occupé et il ne regardait pas son téléphone.",
+        "À quinze heures, sa sœur a appelé. Marc a compris qu'il avait oublié leur rendez-vous.",
+        "Il a pris son vélo et il est arrivé vingt minutes plus tard. Sa sœur l'attendait devant le café."
+      ],
+      "vi": "Cuộc hẹn bị quên: luyện thì quá khứ trong giao tiếp."
+    }
+  ]
+}
