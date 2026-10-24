@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-10-23",
-  "released_count": 2,
+  "last_checked": "2026-10-24",
+  "released_count": 3,
   "total_prepared": 14,
   "lessons": [
     {
@@ -75,6 +75,44 @@
           "vi": "khởi hành",
           "present": "je pars",
           "passe_compose": "je suis parti(e)"
+        }
+      ],
+      "kind": "new"
+    },
+    {
+      "day": 3,
+      "level": "A2",
+      "title": "La bibliothèque",
+      "story": "Karim cherche un livre facile en français. La bibliothécaire lui montre un rayon pour les débutants. Il emprunte un roman et promet de le rendre vendredi.",
+      "vocabulary": [
+        {
+          "word": "emprunter",
+          "vi": "mượn",
+          "example": "Je peux emprunter ce livre."
+        },
+        {
+          "word": "le rayon",
+          "vi": "kệ sách; khu trưng bày",
+          "example": "Le rayon est au fond."
+        },
+        {
+          "word": "rendre",
+          "vi": "trả lại",
+          "example": "Je dois rendre le livre."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "chercher",
+          "vi": "tìm",
+          "present": "je cherche",
+          "passe_compose": "j'ai cherché"
+        },
+        {
+          "infinitive": "lire",
+          "vi": "đọc",
+          "present": "je lis",
+          "passe_compose": "j'ai lu"
         }
       ],
       "kind": "new"
