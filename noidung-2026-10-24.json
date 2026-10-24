@@ -1,0 +1,700 @@
+{
+  "date": "2026-10-24",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "words": [
+    {
+      "level": "A1",
+      "word": "un marché",
+      "pos": "danh từ giống đực",
+      "vi": "chợ ngoài trời, chợ phiên",
+      "example": "Le marché est ouvert le samedi.",
+      "example_vi": "Chợ mở cửa vào thứ Bảy."
+    },
+    {
+      "level": "A1",
+      "word": "un stand",
+      "pos": "danh từ giống đực",
+      "vi": "sạp hàng ở chợ",
+      "example": "Ce stand vend des légumes.",
+      "example_vi": "Sạp này bán rau củ."
+    },
+    {
+      "level": "A1",
+      "word": "un panier",
+      "pos": "danh từ giống đực",
+      "vi": "giỏ đi chợ",
+      "example": "Je mets les pommes dans mon panier.",
+      "example_vi": "Tôi bỏ những quả táo vào giỏ."
+    },
+    {
+      "level": "A1",
+      "word": "une poire",
+      "pos": "danh từ giống cái",
+      "vi": "quả lê",
+      "example": "Ces poires sont sucrées.",
+      "example_vi": "Những quả lê này ngọt."
+    },
+    {
+      "level": "A1",
+      "word": "mûr / mûre",
+      "pos": "tính từ",
+      "vi": "chín (trái cây, rau quả)",
+      "example": "Ces tomates sont mûres.",
+      "example_vi": "Những quả cà chua này đã chín."
+    },
+    {
+      "level": "A1",
+      "word": "un kilo",
+      "pos": "danh từ giống đực",
+      "vi": "một ki-lô-gam",
+      "example": "Je prends un kilo de pommes.",
+      "example_vi": "Tôi lấy một ký táo."
+    },
+    {
+      "level": "A2",
+      "word": "un cabinet médical",
+      "pos": "danh từ giống đực",
+      "vi": "phòng khám bác sĩ",
+      "example": "Le cabinet médical ouvre à huit heures.",
+      "example_vi": "Phòng khám mở cửa lúc tám giờ."
+    },
+    {
+      "level": "A2",
+      "word": "une consultation",
+      "pos": "danh từ giống cái",
+      "vi": "buổi khám bệnh",
+      "example": "La consultation dure quinze minutes.",
+      "example_vi": "Buổi khám kéo dài mười lăm phút."
+    },
+    {
+      "level": "A2",
+      "word": "une ordonnance",
+      "pos": "danh từ giống cái",
+      "vi": "đơn thuốc do bác sĩ kê",
+      "example": "Le médecin me donne une ordonnance.",
+      "example_vi": "Bác sĩ đưa tôi một đơn thuốc."
+    },
+    {
+      "level": "A2",
+      "word": "une carte Vitale",
+      "pos": "danh từ giống cái",
+      "vi": "thẻ bảo hiểm y tế của Pháp",
+      "example": "N'oubliez pas votre carte Vitale.",
+      "example_vi": "Đừng quên thẻ Vitale của bạn."
+    },
+    {
+      "level": "A2",
+      "word": "une salle d'attente",
+      "pos": "danh từ giống cái",
+      "vi": "phòng chờ",
+      "example": "La salle d'attente est presque vide.",
+      "example_vi": "Phòng chờ gần như không có người."
+    },
+    {
+      "level": "A2",
+      "word": "un rendez-vous",
+      "pos": "danh từ giống đực",
+      "vi": "cuộc hẹn, lịch hẹn",
+      "example": "J'ai un rendez-vous à dix heures.",
+      "example_vi": "Tôi có lịch hẹn lúc mười giờ."
+    },
+    {
+      "level": "B1",
+      "word": "des congés payés",
+      "pos": "cụm danh từ số nhiều",
+      "vi": "những ngày nghỉ phép có lương",
+      "example": "Je prends deux jours de congés payés.",
+      "example_vi": "Tôi nghỉ phép có lương hai ngày."
+    },
+    {
+      "level": "B1",
+      "word": "une équipe",
+      "pos": "danh từ giống cái",
+      "vi": "nhóm làm việc, đội ngũ",
+      "example": "Notre équipe compte cinq personnes.",
+      "example_vi": "Nhóm chúng tôi có năm người."
+    },
+    {
+      "level": "B1",
+      "word": "un remplacement",
+      "pos": "danh từ giống đực",
+      "vi": "việc thay ca hoặc làm thay",
+      "example": "Nous organisons un remplacement pour vendredi.",
+      "example_vi": "Chúng tôi sắp xếp người làm thay vào thứ Sáu."
+    },
+    {
+      "level": "B1",
+      "word": "un planning",
+      "pos": "danh từ giống đực",
+      "vi": "lịch phân công công việc",
+      "example": "Le planning change la semaine prochaine.",
+      "example_vi": "Lịch làm việc thay đổi vào tuần tới."
+    },
+    {
+      "level": "B1",
+      "word": "une disponibilité",
+      "pos": "danh từ giống cái",
+      "vi": "khả năng có mặt, thời gian rảnh",
+      "example": "Merci de confirmer votre disponibilité.",
+      "example_vi": "Vui lòng xác nhận thời gian bạn có thể tham gia."
+    },
+    {
+      "level": "B1",
+      "word": "un collègue",
+      "pos": "danh từ giống đực",
+      "vi": "đồng nghiệp",
+      "example": "Mon collègue peut ouvrir le magasin.",
+      "example_vi": "Đồng nghiệp của tôi có thể mở cửa hàng."
+    },
+    {
+      "level": "B2",
+      "word": "un bail",
+      "pos": "danh từ giống đực",
+      "vi": "hợp đồng thuê nhà",
+      "example": "Le bail précise la durée de la location.",
+      "example_vi": "Hợp đồng nêu rõ thời hạn thuê."
+    },
+    {
+      "level": "B2",
+      "word": "un garant",
+      "pos": "danh từ giống đực",
+      "vi": "người bảo lãnh nghĩa vụ thuê nhà",
+      "example": "Le propriétaire demande un garant.",
+      "example_vi": "Chủ nhà yêu cầu người bảo lãnh."
+    },
+    {
+      "level": "B2",
+      "word": "un dépôt de garantie",
+      "pos": "danh từ giống đực",
+      "vi": "khoản tiền bảo đảm khi thuê nhà",
+      "example": "Le dépôt de garantie est indiqué dans le bail.",
+      "example_vi": "Khoản tiền bảo đảm được ghi trong hợp đồng."
+    },
+    {
+      "level": "B2",
+      "word": "les charges locatives",
+      "pos": "cụm danh từ giống cái số nhiều",
+      "vi": "các khoản phí liên quan đến nhà thuê",
+      "example": "Les charges locatives sont détaillées dans l'annonce.",
+      "example_vi": "Các khoản phí nhà thuê được nêu chi tiết trong tin đăng."
+    },
+    {
+      "level": "B2",
+      "word": "un justificatif de revenus",
+      "pos": "danh từ giống đực",
+      "vi": "giấy tờ chứng minh thu nhập",
+      "example": "Le dossier comprend un justificatif de revenus.",
+      "example_vi": "Hồ sơ có giấy tờ chứng minh thu nhập."
+    },
+    {
+      "level": "B2",
+      "word": "un état des lieux",
+      "pos": "danh từ giống đực",
+      "vi": "biên bản kiểm tra tình trạng căn nhà",
+      "example": "Nous faisons l'état des lieux avant l'emménagement.",
+      "example_vi": "Chúng tôi lập biên bản hiện trạng trước khi dọn vào."
+    }
+  ],
+  "stories": [
+    {
+      "level": "A1",
+      "title": "Au marché du samedi",
+      "vi": "Đi chợ ngoài trời vào sáng thứ Bảy",
+      "paragraphs": [
+        "Samedi matin, Emma va au marché avec son père. Ils prennent un grand panier. Il fait beau et les stands sont ouverts.",
+        "Emma regarde les fruits. Elle choisit un kilo de pommes et trois poires. Son père achète des tomates mûres.",
+        "La vendeuse dit : « Cela fait huit euros. » Emma donne un billet de dix euros. Elle reçoit deux euros de monnaie.",
+        "À la maison, Emma lave les fruits. Toute la famille prépare le déjeuner ensemble."
+      ],
+      "translations": [
+        "Sáng thứ Bảy, Emma đi chợ với bố. Họ mang theo một chiếc giỏ lớn. Trời đẹp và các sạp hàng đều mở cửa.",
+        "Emma xem trái cây. Cô chọn một ký táo và ba quả lê. Bố cô mua cà chua chín.",
+        "Người bán nói: “Tổng cộng tám euro.” Emma đưa tờ mười euro. Cô nhận lại hai euro tiền thối.",
+        "Về nhà, Emma rửa trái cây. Cả gia đình cùng chuẩn bị bữa trưa."
+      ],
+      "questions": [
+        {
+          "q": "Quel jour Emma va-t-elle au marché ?",
+          "choices": [
+            "Lundi",
+            "Samedi",
+            "Dimanche"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Combien d'euros Emma reçoit-elle ?",
+          "choices": [
+            "Deux euros",
+            "Huit euros",
+            "Dix euros"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Un rendez-vous chez le médecin",
+      "vi": "Đặt lịch và đến phòng khám bác sĩ",
+      "paragraphs": [
+        "Depuis deux jours, Malik tousse et se sent fatigué. Il téléphone au cabinet médical de son quartier pour prendre rendez-vous. La secrétaire lui propose dix heures le lendemain.",
+        "Le matin, Malik arrive un peu en avance. Il présente sa carte Vitale à l'accueil, puis il attend dans la salle d'attente.",
+        "Pendant la consultation, le médecin lui pose quelques questions et l'examine. Il lui remet une ordonnance et lui explique comment suivre les indications écrites.",
+        "En sortant, Malik passe à la pharmacie. Ensuite, il rentre chez lui et prévient son employeur qu'il sera absent l'après-midi."
+      ],
+      "translations": [
+        "Malik ho và thấy mệt từ hai ngày nay. Anh gọi phòng khám trong khu phố để đặt lịch. Nhân viên lễ tân đề nghị lịch mười giờ sáng hôm sau.",
+        "Buổi sáng, Malik đến sớm một chút. Anh xuất trình thẻ Vitale ở quầy tiếp nhận rồi chờ trong phòng chờ.",
+        "Trong buổi khám, bác sĩ hỏi anh vài câu và thăm khám. Bác sĩ đưa đơn thuốc và giải thích cách làm theo hướng dẫn ghi trên đó.",
+        "Khi ra về, Malik ghé hiệu thuốc. Sau đó anh về nhà và báo cho người quản lý biết mình sẽ vắng mặt buổi chiều."
+      ],
+      "questions": [
+        {
+          "q": "Comment Malik prend-il rendez-vous ?",
+          "choices": [
+            "Par téléphone",
+            "Par courrier",
+            "Sans rendez-vous"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Où va-t-il après la consultation ?",
+          "choices": [
+            "À la banque",
+            "À la pharmacie",
+            "À la gare"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "title": "Deux jours de congé à Strasbourg",
+      "vi": "Thương lượng lịch nghỉ phép và sắp xếp người làm thay",
+      "paragraphs": [
+        "Camille travaille dans une librairie à Strasbourg. Sa sœur vient lui rendre visite le mois prochain, et elle aimerait prendre deux jours de congés payés pour lui faire découvrir la ville.",
+        "Avant d'en parler à sa responsable, Camille consulte le planning de l'équipe. Elle remarque que le vendredi est particulièrement chargé, car une livraison importante est prévue.",
+        "Elle propose donc de prendre son congé le lundi et le mardi. Son collègue Thomas accepte d'ouvrir le magasin ces jours-là, à condition que Camille le remplace un autre samedi.",
+        "La responsable donne son accord après avoir vérifié les disponibilités de chacun. Camille confirme sa demande par écrit. Grâce à cette organisation, elle pourra profiter de sa famille sans désorganiser le travail de l'équipe."
+      ],
+      "translations": [
+        "Camille làm việc trong một hiệu sách ở Strasbourg. Tháng tới chị gái đến thăm, nên cô muốn xin hai ngày nghỉ phép có lương để dẫn chị đi khám phá thành phố.",
+        "Trước khi trao đổi với quản lý, Camille xem lịch làm việc của cả nhóm. Cô nhận thấy thứ Sáu rất bận vì có một chuyến giao hàng lớn.",
+        "Vì thế cô đề nghị nghỉ thứ Hai và thứ Ba. Đồng nghiệp Thomas đồng ý mở cửa hàng những ngày đó, với điều kiện Camille làm thay anh vào một thứ Bảy khác.",
+        "Người quản lý đồng ý sau khi kiểm tra lịch của mọi người. Camille xác nhận đơn xin nghỉ bằng văn bản. Nhờ sắp xếp này, cô có thể dành thời gian cho gia đình mà không làm xáo trộn công việc."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Camille évite-t-elle le vendredi ?",
+          "choices": [
+            "Le magasin est fermé",
+            "Une livraison importante est prévue",
+            "Elle travaille ailleurs"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Quelle condition Thomas pose-t-il ?",
+          "choices": [
+            "Camille le remplacera un autre samedi",
+            "Camille paiera ses congés",
+            "La librairie fermera"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Un dossier de location à Lyon",
+      "vi": "Chuẩn bị hồ sơ thuê căn hộ và làm rõ điều khoản hợp đồng",
+      "paragraphs": [
+        "Après avoir obtenu un nouvel emploi à Lyon, Inès cherche un appartement proche des transports en commun. Une annonce attire son attention, mais elle souhaite comprendre précisément les conditions de location avant de déposer sa candidature.",
+        "Lors de la visite, l'agent immobilier distingue le loyer des charges locatives et lui indique les documents demandés pour étudier son dossier. Inès prépare notamment un justificatif de revenus, tout en demandant pourquoi un garant pourrait être nécessaire.",
+        "Elle vérifie également le montant du dépôt de garantie et la date à laquelle le bail pourrait commencer. Plutôt que de se fier à des explications orales, elle demande un récapitulatif écrit des éléments importants.",
+        "Si sa candidature est retenue, Inès souhaite lire le bail attentivement et réaliser un état des lieux détaillé lors de la remise des clés. Cette démarche méthodique ne garantit pas qu'elle obtiendra le logement, mais elle l'aide à comparer les offres et à limiter les malentendus."
+      ],
+      "translations": [
+        "Sau khi nhận công việc mới ở Lyon, Inès tìm căn hộ gần phương tiện công cộng. Một tin đăng khiến cô chú ý, nhưng cô muốn hiểu rõ điều kiện thuê trước khi nộp hồ sơ.",
+        "Khi xem nhà, nhân viên môi giới phân biệt tiền thuê với các khoản phí và cho biết giấy tờ cần thiết để xét hồ sơ. Inès chuẩn bị giấy tờ chứng minh thu nhập và hỏi vì sao có thể cần người bảo lãnh.",
+        "Cô cũng kiểm tra số tiền bảo đảm và ngày hợp đồng thuê có thể bắt đầu. Thay vì chỉ tin vào lời giải thích miệng, cô đề nghị bản tóm tắt các điểm quan trọng bằng văn bản.",
+        "Nếu hồ sơ được chọn, Inès muốn đọc kỹ hợp đồng và lập biên bản hiện trạng chi tiết khi nhận chìa khóa. Cách làm cẩn thận này không bảo đảm cô thuê được nhà, nhưng giúp so sánh lựa chọn và hạn chế hiểu lầm."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Inès demande-t-elle un récapitulatif écrit ?",
+          "choices": [
+            "Pour clarifier les conditions importantes",
+            "Pour négocier son salaire",
+            "Pour éviter la visite"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Que prévoit-elle lors de la remise des clés ?",
+          "choices": [
+            "Un entretien d'embauche",
+            "Un état des lieux détaillé",
+            "Une vente du logement"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "verbs": [
+    {
+      "level": "A1",
+      "inf": "acheter",
+      "vi": "mua",
+      "example": "J'achète des pommes au marché.",
+      "example_vi": "Tôi mua táo ở chợ.",
+      "forms": {
+        "present": [
+          "achète",
+          "achètes",
+          "achète",
+          "achetons",
+          "achetez",
+          "achètent"
+        ],
+        "imparfait": [
+          "achetais",
+          "achetais",
+          "achetait",
+          "achetions",
+          "achetiez",
+          "achetaient"
+        ],
+        "future": [
+          "achèterai",
+          "achèteras",
+          "achètera",
+          "achèterons",
+          "achèterez",
+          "achèteront"
+        ],
+        "participle": "acheté",
+        "passe_compose": [
+          "ai acheté",
+          "as acheté",
+          "a acheté",
+          "avons acheté",
+          "avez acheté",
+          "ont acheté"
+        ]
+      }
+    },
+    {
+      "level": "A1",
+      "inf": "choisir",
+      "vi": "chọn",
+      "example": "Emma choisit trois poires.",
+      "example_vi": "Emma chọn ba quả lê.",
+      "forms": {
+        "present": [
+          "choisis",
+          "choisis",
+          "choisit",
+          "choisissons",
+          "choisissez",
+          "choisissent"
+        ],
+        "imparfait": [
+          "choisissais",
+          "choisissais",
+          "choisissait",
+          "choisissions",
+          "choisissiez",
+          "choisissaient"
+        ],
+        "future": [
+          "choisirai",
+          "choisiras",
+          "choisira",
+          "choisirons",
+          "choisirez",
+          "choisiront"
+        ],
+        "participle": "choisi",
+        "passe_compose": [
+          "ai choisi",
+          "as choisi",
+          "a choisi",
+          "avons choisi",
+          "avez choisi",
+          "ont choisi"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "prendre",
+      "vi": "lấy; đặt (lịch hẹn)",
+      "example": "Malik prend rendez-vous chez le médecin.",
+      "example_vi": "Malik đặt lịch khám bác sĩ.",
+      "forms": {
+        "present": [
+          "prends",
+          "prends",
+          "prend",
+          "prenons",
+          "prenez",
+          "prennent"
+        ],
+        "imparfait": [
+          "prenais",
+          "prenais",
+          "prenait",
+          "prenions",
+          "preniez",
+          "prenaient"
+        ],
+        "future": [
+          "prendrai",
+          "prendras",
+          "prendra",
+          "prendrons",
+          "prendrez",
+          "prendront"
+        ],
+        "participle": "pris",
+        "passe_compose": [
+          "ai pris",
+          "as pris",
+          "a pris",
+          "avons pris",
+          "avez pris",
+          "ont pris"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "attendre",
+      "vi": "chờ đợi",
+      "example": "Il attend dans la salle d'attente.",
+      "example_vi": "Anh ấy chờ trong phòng chờ.",
+      "forms": {
+        "present": [
+          "attends",
+          "attends",
+          "attend",
+          "attendons",
+          "attendez",
+          "attendent"
+        ],
+        "imparfait": [
+          "attendais",
+          "attendais",
+          "attendait",
+          "attendions",
+          "attendiez",
+          "attendaient"
+        ],
+        "future": [
+          "attendrai",
+          "attendras",
+          "attendra",
+          "attendrons",
+          "attendrez",
+          "attendront"
+        ],
+        "participle": "attendu",
+        "passe_compose": [
+          "ai attendu",
+          "as attendu",
+          "a attendu",
+          "avons attendu",
+          "avez attendu",
+          "ont attendu"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "demander",
+      "vi": "đề nghị; yêu cầu",
+      "example": "Camille demande deux jours de congé.",
+      "example_vi": "Camille xin nghỉ phép hai ngày.",
+      "forms": {
+        "present": [
+          "demande",
+          "demandes",
+          "demande",
+          "demandons",
+          "demandez",
+          "demandent"
+        ],
+        "imparfait": [
+          "demandais",
+          "demandais",
+          "demandait",
+          "demandions",
+          "demandiez",
+          "demandaient"
+        ],
+        "future": [
+          "demanderai",
+          "demanderas",
+          "demandera",
+          "demanderons",
+          "demanderez",
+          "demanderont"
+        ],
+        "participle": "demandé",
+        "passe_compose": [
+          "ai demandé",
+          "as demandé",
+          "a demandé",
+          "avons demandé",
+          "avez demandé",
+          "ont demandé"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "organiser",
+      "vi": "sắp xếp; tổ chức",
+      "example": "L'équipe organise un remplacement.",
+      "example_vi": "Nhóm sắp xếp người làm thay.",
+      "forms": {
+        "present": [
+          "organise",
+          "organises",
+          "organise",
+          "organisons",
+          "organisez",
+          "organisent"
+        ],
+        "imparfait": [
+          "organisais",
+          "organisais",
+          "organisait",
+          "organisions",
+          "organisiez",
+          "organisaient"
+        ],
+        "future": [
+          "organiserai",
+          "organiseras",
+          "organisera",
+          "organiserons",
+          "organiserez",
+          "organiseront"
+        ],
+        "participle": "organisé",
+        "passe_compose": [
+          "ai organisé",
+          "as organisé",
+          "a organisé",
+          "avons organisé",
+          "avez organisé",
+          "ont organisé"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "louer",
+      "vi": "thuê hoặc cho thuê (tùy ngữ cảnh)",
+      "example": "Inès souhaite louer un appartement.",
+      "example_vi": "Inès muốn thuê một căn hộ.",
+      "forms": {
+        "present": [
+          "loue",
+          "loues",
+          "loue",
+          "louons",
+          "louez",
+          "louent"
+        ],
+        "imparfait": [
+          "louais",
+          "louais",
+          "louait",
+          "louions",
+          "louiez",
+          "louaient"
+        ],
+        "future": [
+          "louerai",
+          "loueras",
+          "louera",
+          "louerons",
+          "louerez",
+          "loueront"
+        ],
+        "participle": "loué",
+        "passe_compose": [
+          "ai loué",
+          "as loué",
+          "a loué",
+          "avons loué",
+          "avez loué",
+          "ont loué"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "fournir",
+      "vi": "cung cấp (giấy tờ, thông tin)",
+      "example": "Elle fournit un justificatif de revenus.",
+      "example_vi": "Cô ấy cung cấp giấy tờ chứng minh thu nhập.",
+      "forms": {
+        "present": [
+          "fournis",
+          "fournis",
+          "fournit",
+          "fournissons",
+          "fournissez",
+          "fournissent"
+        ],
+        "imparfait": [
+          "fournissais",
+          "fournissais",
+          "fournissait",
+          "fournissions",
+          "fournissiez",
+          "fournissaient"
+        ],
+        "future": [
+          "fournirai",
+          "fourniras",
+          "fournira",
+          "fournirons",
+          "fournirez",
+          "fourniront"
+        ],
+        "participle": "fourni",
+        "passe_compose": [
+          "ai fourni",
+          "as fourni",
+          "a fourni",
+          "avons fourni",
+          "avez fourni",
+          "ont fourni"
+        ]
+      }
+    }
+  ],
+  "subjects": [
+    "je",
+    "tu",
+    "il/elle",
+    "nous",
+    "vous",
+    "ils/elles"
+  ],
+  "source": "Original educational content for Mon Prof de Français"
+}
