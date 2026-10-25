@@ -1,0 +1,708 @@
+{
+  "date": "2026-10-25",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "words": [
+    {
+      "level": "A1",
+      "word": "une médiathèque",
+      "pos": "danh từ giống cái",
+      "vi": "thư viện công cộng có cả sách và tài liệu đa phương tiện",
+      "example": "La médiathèque ouvre à neuf heures.",
+      "example_vi": "Thư viện mở cửa lúc chín giờ."
+    },
+    {
+      "level": "A1",
+      "word": "un rayon",
+      "pos": "danh từ giống đực",
+      "vi": "khu kệ sách theo chủ đề",
+      "example": "Les romans sont dans ce rayon.",
+      "example_vi": "Các tiểu thuyết nằm ở khu kệ này."
+    },
+    {
+      "level": "A1",
+      "word": "une carte de lecteur",
+      "pos": "danh từ giống cái",
+      "vi": "thẻ bạn đọc",
+      "example": "Je montre ma carte de lecteur.",
+      "example_vi": "Tôi đưa thẻ bạn đọc của mình."
+    },
+    {
+      "level": "A1",
+      "word": "un roman",
+      "pos": "danh từ giống đực",
+      "vi": "tiểu thuyết",
+      "example": "Je cherche un roman facile.",
+      "example_vi": "Tôi tìm một cuốn tiểu thuyết dễ đọc."
+    },
+    {
+      "level": "A1",
+      "word": "emprunter",
+      "pos": "động từ nguyên mẫu",
+      "vi": "mượn (sách hoặc đồ vật)",
+      "example": "Je peux emprunter ce livre ?",
+      "example_vi": "Tôi có thể mượn cuốn sách này không?"
+    },
+    {
+      "level": "A1",
+      "word": "rendre",
+      "pos": "động từ nguyên mẫu",
+      "vi": "trả lại thứ đã mượn",
+      "example": "Je rends le livre vendredi.",
+      "example_vi": "Tôi trả sách vào thứ Sáu."
+    },
+    {
+      "level": "A2",
+      "word": "une piscine municipale",
+      "pos": "danh từ giống cái",
+      "vi": "hồ bơi công cộng do chính quyền địa phương quản lý",
+      "example": "La piscine municipale ferme le lundi.",
+      "example_vi": "Hồ bơi công cộng đóng cửa vào thứ Hai."
+    },
+    {
+      "level": "A2",
+      "word": "un abonnement",
+      "pos": "danh từ giống đực",
+      "vi": "gói đăng ký sử dụng dịch vụ theo kỳ",
+      "example": "Cet abonnement dure trois mois.",
+      "example_vi": "Gói đăng ký này có thời hạn ba tháng."
+    },
+    {
+      "level": "A2",
+      "word": "un tarif réduit",
+      "pos": "danh từ giống đực",
+      "vi": "mức giá ưu đãi cho người đủ điều kiện",
+      "example": "Je demande si je peux bénéficier du tarif réduit.",
+      "example_vi": "Tôi hỏi liệu mình có được hưởng giá ưu đãi không."
+    },
+    {
+      "level": "A2",
+      "word": "un justificatif de domicile",
+      "pos": "danh từ giống đực",
+      "vi": "giấy tờ chứng minh địa chỉ cư trú",
+      "example": "Elle apporte un justificatif de domicile.",
+      "example_vi": "Cô ấy mang theo giấy tờ chứng minh nơi cư trú."
+    },
+    {
+      "level": "A2",
+      "word": "un créneau",
+      "pos": "danh từ giống đực",
+      "vi": "khung giờ được bố trí hoặc có thể đặt trước",
+      "example": "Il reste un créneau mardi soir.",
+      "example_vi": "Vẫn còn một khung giờ tối thứ Ba."
+    },
+    {
+      "level": "A2",
+      "word": "réserver",
+      "pos": "động từ nguyên mẫu",
+      "vi": "đặt trước một chỗ hoặc khung giờ",
+      "example": "Je réserve une place pour mardi.",
+      "example_vi": "Tôi đặt trước một chỗ cho thứ Ba."
+    },
+    {
+      "level": "B1",
+      "word": "une association",
+      "pos": "danh từ giống cái",
+      "vi": "hội hoặc tổ chức hoạt động vì một mục đích chung",
+      "example": "L'association aide des familles du quartier.",
+      "example_vi": "Hội hỗ trợ các gia đình trong khu phố."
+    },
+    {
+      "level": "B1",
+      "word": "un bénévole / une bénévole",
+      "pos": "danh từ giống đực / giống cái",
+      "vi": "tình nguyện viên",
+      "example": "Les bénévoles préparent les cartons.",
+      "example_vi": "Các tình nguyện viên chuẩn bị những thùng hàng."
+    },
+    {
+      "level": "B1",
+      "word": "une collecte",
+      "pos": "danh từ giống cái",
+      "vi": "đợt quyên góp, thu gom để hỗ trợ",
+      "example": "La collecte commence à huit heures.",
+      "example_vi": "Đợt quyên góp bắt đầu lúc tám giờ."
+    },
+    {
+      "level": "B1",
+      "word": "des denrées alimentaires",
+      "pos": "cụm danh từ giống cái số nhiều",
+      "vi": "các loại thực phẩm",
+      "example": "Ils trient les denrées alimentaires.",
+      "example_vi": "Họ phân loại thực phẩm."
+    },
+    {
+      "level": "B1",
+      "word": "une répartition",
+      "pos": "danh từ giống cái",
+      "vi": "sự phân chia công việc hoặc nguồn lực",
+      "example": "La répartition des tâches est claire.",
+      "example_vi": "Việc phân chia nhiệm vụ rất rõ ràng."
+    },
+    {
+      "level": "B1",
+      "word": "participer",
+      "pos": "động từ nguyên mẫu",
+      "vi": "tham gia một hoạt động",
+      "example": "Je participe à une collecte samedi.",
+      "example_vi": "Tôi tham gia một đợt quyên góp vào thứ Bảy."
+    },
+    {
+      "level": "B2",
+      "word": "une concertation",
+      "pos": "danh từ giống cái",
+      "vi": "quá trình tham vấn và trao đổi trước khi ra quyết định",
+      "example": "La mairie organise une concertation.",
+      "example_vi": "Tòa thị chính tổ chức một cuộc tham vấn."
+    },
+    {
+      "level": "B2",
+      "word": "une piste cyclable",
+      "pos": "danh từ giống cái",
+      "vi": "làn đường dành riêng cho xe đạp",
+      "example": "La nouvelle piste cyclable traverse le quartier.",
+      "example_vi": "Làn đường xe đạp mới đi qua khu phố."
+    },
+    {
+      "level": "B2",
+      "word": "un aménagement",
+      "pos": "danh từ giống đực",
+      "vi": "việc bố trí hoặc cải tạo không gian, hạ tầng",
+      "example": "Cet aménagement améliore la sécurité.",
+      "example_vi": "Việc cải tạo này giúp tăng mức độ an toàn."
+    },
+    {
+      "level": "B2",
+      "word": "un riverain / une riveraine",
+      "pos": "danh từ giống đực / giống cái",
+      "vi": "cư dân sống gần khu vực đang được bàn tới",
+      "example": "Les riverains craignent davantage de circulation.",
+      "example_vi": "Cư dân gần đó lo ngại giao thông sẽ đông hơn."
+    },
+    {
+      "level": "B2",
+      "word": "un compromis",
+      "pos": "danh từ giống đực",
+      "vi": "giải pháp dung hòa giữa các bên",
+      "example": "Les participants cherchent un compromis.",
+      "example_vi": "Những người tham gia tìm một giải pháp dung hòa."
+    },
+    {
+      "level": "B2",
+      "word": "convaincre",
+      "pos": "động từ nguyên mẫu",
+      "vi": "thuyết phục bằng lập luận",
+      "example": "Elle essaie de convaincre les habitants.",
+      "example_vi": "Cô ấy cố gắng thuyết phục cư dân."
+    }
+  ],
+  "stories": [
+    {
+      "level": "A1",
+      "title": "Un roman à la médiathèque",
+      "vi": "Mượn tiểu thuyết tại thư viện trong khu phố",
+      "paragraphs": [
+        "Le mercredi, Léo va à la médiathèque de son quartier. Il cherche un roman facile en français.",
+        "À l'accueil, il montre sa carte de lecteur. La bibliothécaire lui indique le rayon des romans.",
+        "Léo choisit un petit livre. Il demande : « Je peux emprunter ce roman ? » La bibliothécaire répond : « Oui, pour trois semaines. »",
+        "Avant de partir, Léo note la date de retour dans son téléphone. Il veut rendre le livre à temps."
+      ],
+      "translations": [
+        "Thứ Tư, Léo đến thư viện đa phương tiện trong khu phố. Anh tìm một cuốn tiểu thuyết tiếng Pháp dễ đọc.",
+        "Ở quầy tiếp đón, anh đưa thẻ bạn đọc. Nhân viên thư viện chỉ cho anh khu kệ tiểu thuyết.",
+        "Léo chọn một cuốn sách nhỏ. Anh hỏi: “Tôi có thể mượn cuốn tiểu thuyết này không?” Nhân viên đáp: “Được, trong ba tuần.”",
+        "Trước khi đi, Léo ghi ngày trả sách vào điện thoại. Anh muốn trả sách đúng hạn."
+      ],
+      "questions": [
+        {
+          "q": "Que cherche Léo ?",
+          "choices": [
+            "Un roman facile",
+            "Une carte de transport",
+            "Un billet de cinéma"
+          ],
+          "answer": 0,
+          "explain_vi": "Léo tìm một cuốn tiểu thuyết dễ đọc."
+        },
+        {
+          "q": "Pour combien de temps peut-il emprunter le roman ?",
+          "choices": [
+            "Trois jours",
+            "Trois semaines",
+            "Trois mois"
+          ],
+          "answer": 1,
+          "explain_vi": "Nhân viên nói anh có thể mượn trong ba tuần."
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Un abonnement à la piscine",
+      "vi": "Đăng ký sử dụng hồ bơi công cộng",
+      "paragraphs": [
+        "Samedi dernier, Nadia a voulu s'inscrire à la piscine municipale. Avant de sortir, elle a consulté les horaires sur le site de la mairie.",
+        "À l'accueil, une employée lui a présenté plusieurs abonnements. Elle a expliqué qu'un tarif réduit était possible pour certaines catégories de personnes, avec les justificatifs nécessaires.",
+        "Nadia avait apporté un justificatif de domicile, mais ce document ne suffisait pas pour obtenir la réduction qu'elle demandait.",
+        "Elle a donc choisi le tarif normal et réservé un créneau pour mardi soir. Quelques minutes plus tard, elle a reçu une confirmation par courriel."
+      ],
+      "translations": [
+        "Thứ Bảy tuần trước, Nadia muốn đăng ký hồ bơi công cộng. Trước khi ra ngoài, cô xem giờ hoạt động trên trang web của tòa thị chính.",
+        "Ở quầy tiếp đón, một nhân viên giới thiệu cho cô nhiều gói đăng ký. Nhân viên giải thích rằng một số nhóm người có thể được hưởng giá ưu đãi nếu có giấy tờ cần thiết.",
+        "Nadia đã mang theo giấy tờ chứng minh nơi cư trú, nhưng giấy tờ đó chưa đủ để nhận mức giảm giá mà cô hỏi.",
+        "Vì vậy, cô chọn mức giá thông thường và đặt một khung giờ vào tối thứ Ba. Vài phút sau, cô nhận được email xác nhận."
+      ],
+      "questions": [
+        {
+          "q": "Où Nadia a-t-elle consulté les horaires ?",
+          "choices": [
+            "Sur le site de la mairie",
+            "Dans un journal",
+            "À la gare"
+          ],
+          "answer": 0,
+          "explain_vi": "Cô xem lịch hoạt động trên website tòa thị chính."
+        },
+        {
+          "q": "Quel tarif Nadia a-t-elle finalement choisi ?",
+          "choices": [
+            "Le tarif réduit",
+            "Le tarif normal",
+            "Un tarif gratuit"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô không đủ giấy tờ cho mức ưu đãi nên chọn giá thông thường."
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "title": "Une matinée de bénévolat",
+      "vi": "Một buổi sáng tình nguyện hỗ trợ thực phẩm",
+      "paragraphs": [
+        "Samedi, Anis a participé pour la première fois à une collecte organisée par une association locale. Lorsqu'il est arrivé, les bénévoles triaient déjà des denrées alimentaires.",
+        "La responsable lui a expliqué les règles d'hygiène et la manière de vérifier les dates indiquées sur les emballages. Elle lui a aussi montré où ranger les produits.",
+        "Comme plusieurs personnes étaient nouvelles, elle a réparti les tâches : certains préparaient les cartons, tandis que d'autres accueillaient les donateurs.",
+        "À midi, Anis était fatigué, mais content. Il avait compris qu'une bonne organisation permettait d'aider davantage de familles et il a décidé de revenir le mois suivant."
+      ],
+      "translations": [
+        "Thứ Bảy, Anis lần đầu tham gia một đợt quyên góp do hội địa phương tổ chức. Khi anh đến, các tình nguyện viên đã đang phân loại thực phẩm.",
+        "Người phụ trách giải thích cho anh các quy tắc vệ sinh và cách kiểm tra ngày ghi trên bao bì. Cô cũng chỉ chỗ cất các sản phẩm.",
+        "Vì có nhiều người mới, cô phân chia nhiệm vụ: một số người chuẩn bị thùng hàng, còn những người khác đón tiếp người quyên góp.",
+        "Đến trưa, Anis mệt nhưng vui. Anh đã hiểu rằng tổ chức tốt giúp hỗ trợ được nhiều gia đình hơn và quyết định quay lại vào tháng sau."
+      ],
+      "questions": [
+        {
+          "q": "Que faisaient les bénévoles quand Anis est arrivé ?",
+          "choices": [
+            "Ils fermaient l'association",
+            "Ils triaient des aliments",
+            "Ils vendaient des billets"
+          ],
+          "answer": 1,
+          "explain_vi": "Khi Anis đến, các tình nguyện viên đang phân loại thực phẩm."
+        },
+        {
+          "q": "Pourquoi la responsable a-t-elle réparti les tâches ?",
+          "choices": [
+            "Pour organiser le travail des nouveaux bénévoles",
+            "Pour annuler la collecte",
+            "Pour réduire les horaires"
+          ],
+          "answer": 0,
+          "explain_vi": "Cô chia việc để những người mới có nhiệm vụ rõ ràng."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Une piste cyclable en débat",
+      "vi": "Tham vấn cộng đồng về làn đường xe đạp",
+      "paragraphs": [
+        "La mairie envisage d'aménager une piste cyclable sur une avenue très fréquentée. Avant de prendre une décision, elle organise une concertation avec les habitants et les commerçants.",
+        "Les cyclistes insistent sur la sécurité, tandis que plusieurs riverains redoutent la suppression de places de stationnement. Chacun reconnaît l'intérêt de réduire les accidents, mais les priorités divergent.",
+        "Une urbaniste présente deux scénarios et précise leurs conséquences possibles sur la circulation. Elle cherche à convaincre les participants en s'appuyant sur des mesures plutôt que sur de simples impressions.",
+        "À l'issue de la réunion, aucun accord définitif n'est trouvé. Toutefois, un compromis se dessine : tester l'aménagement pendant quelques mois, recueillir des observations et ajuster le projet avant de le rendre permanent."
+      ],
+      "translations": [
+        "Tòa thị chính dự tính xây dựng một làn xe đạp trên đại lộ đông đúc. Trước khi quyết định, chính quyền tổ chức tham vấn cư dân và các hộ kinh doanh.",
+        "Người đi xe đạp nhấn mạnh yếu tố an toàn, trong khi một số cư dân gần đó lo mất chỗ đỗ xe. Ai cũng thừa nhận lợi ích của việc giảm tai nạn, nhưng thứ tự ưu tiên khác nhau.",
+        "Một chuyên gia quy hoạch đô thị trình bày hai phương án và giải thích những tác động có thể có đối với giao thông. Cô cố gắng thuyết phục mọi người bằng số liệu đo đạc thay vì chỉ dựa trên cảm nhận.",
+        "Cuối cuộc họp, chưa có thỏa thuận cuối cùng. Tuy vậy, một giải pháp dung hòa dần hình thành: thử nghiệm phương án trong vài tháng, thu thập ý kiến và điều chỉnh trước khi áp dụng lâu dài."
+      ],
+      "questions": [
+        {
+          "q": "Quelle inquiétude expriment plusieurs riverains ?",
+          "choices": [
+            "La disparition de places de stationnement",
+            "Le prix des livres",
+            "La fermeture de la piscine"
+          ],
+          "answer": 0,
+          "explain_vi": "Một số cư dân lo rằng chỗ đỗ xe sẽ bị cắt giảm."
+        },
+        {
+          "q": "Quel compromis est envisagé ?",
+          "choices": [
+            "Abandonner tout projet",
+            "Construire sans consultation",
+            "Tester l'aménagement avant de décider définitivement"
+          ],
+          "answer": 2,
+          "explain_vi": "Các bên cân nhắc thử nghiệm vài tháng rồi điều chỉnh trước khi áp dụng lâu dài."
+        }
+      ]
+    }
+  ],
+  "verbs": [
+    {
+      "level": "A1",
+      "inf": "emprunter",
+      "vi": "mượn (sách)",
+      "example": "J'emprunte un roman à la médiathèque.",
+      "example_vi": "Tôi mượn một cuốn tiểu thuyết ở thư viện.",
+      "forms": {
+        "present": [
+          "emprunte",
+          "empruntes",
+          "emprunte",
+          "empruntons",
+          "empruntez",
+          "empruntent"
+        ],
+        "imparfait": [
+          "empruntais",
+          "empruntais",
+          "empruntait",
+          "empruntions",
+          "empruntiez",
+          "empruntaient"
+        ],
+        "future": [
+          "emprunterai",
+          "emprunteras",
+          "empruntera",
+          "emprunterons",
+          "emprunterez",
+          "emprunteront"
+        ],
+        "participle": "emprunté",
+        "passe_compose": [
+          "ai emprunté",
+          "as emprunté",
+          "a emprunté",
+          "avons emprunté",
+          "avez emprunté",
+          "ont emprunté"
+        ]
+      }
+    },
+    {
+      "level": "A1",
+      "inf": "rendre",
+      "vi": "trả lại thứ đã mượn",
+      "example": "Léo rend le livre à temps.",
+      "example_vi": "Léo trả sách đúng hạn.",
+      "forms": {
+        "present": [
+          "rends",
+          "rends",
+          "rend",
+          "rendons",
+          "rendez",
+          "rendent"
+        ],
+        "imparfait": [
+          "rendais",
+          "rendais",
+          "rendait",
+          "rendions",
+          "rendiez",
+          "rendaient"
+        ],
+        "future": [
+          "rendrai",
+          "rendras",
+          "rendra",
+          "rendrons",
+          "rendrez",
+          "rendront"
+        ],
+        "participle": "rendu",
+        "passe_compose": [
+          "ai rendu",
+          "as rendu",
+          "a rendu",
+          "avons rendu",
+          "avez rendu",
+          "ont rendu"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "réserver",
+      "vi": "đặt trước",
+      "example": "Nadia réserve un créneau pour mardi.",
+      "example_vi": "Nadia đặt trước một khung giờ cho thứ Ba.",
+      "forms": {
+        "present": [
+          "réserve",
+          "réserves",
+          "réserve",
+          "réservons",
+          "réservez",
+          "réservent"
+        ],
+        "imparfait": [
+          "réservais",
+          "réservais",
+          "réservait",
+          "réservions",
+          "réserviez",
+          "réservaient"
+        ],
+        "future": [
+          "réserverai",
+          "réserveras",
+          "réservera",
+          "réserverons",
+          "réserverez",
+          "réserveront"
+        ],
+        "participle": "réservé",
+        "passe_compose": [
+          "ai réservé",
+          "as réservé",
+          "a réservé",
+          "avons réservé",
+          "avez réservé",
+          "ont réservé"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "ouvrir",
+      "vi": "mở cửa",
+      "example": "La piscine ouvre à huit heures.",
+      "example_vi": "Hồ bơi mở cửa lúc tám giờ.",
+      "forms": {
+        "present": [
+          "ouvre",
+          "ouvres",
+          "ouvre",
+          "ouvrons",
+          "ouvrez",
+          "ouvrent"
+        ],
+        "imparfait": [
+          "ouvrais",
+          "ouvrais",
+          "ouvrait",
+          "ouvrions",
+          "ouvriez",
+          "ouvraient"
+        ],
+        "future": [
+          "ouvrirai",
+          "ouvriras",
+          "ouvrira",
+          "ouvrirons",
+          "ouvrirez",
+          "ouvriront"
+        ],
+        "participle": "ouvert",
+        "passe_compose": [
+          "ai ouvert",
+          "as ouvert",
+          "a ouvert",
+          "avons ouvert",
+          "avez ouvert",
+          "ont ouvert"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "participer",
+      "vi": "tham gia (một hoạt động)",
+      "example": "Anis participe à une collecte alimentaire.",
+      "example_vi": "Anis tham gia một đợt quyên góp thực phẩm.",
+      "forms": {
+        "present": [
+          "participe",
+          "participes",
+          "participe",
+          "participons",
+          "participez",
+          "participent"
+        ],
+        "imparfait": [
+          "participais",
+          "participais",
+          "participait",
+          "participions",
+          "participiez",
+          "participaient"
+        ],
+        "future": [
+          "participerai",
+          "participeras",
+          "participera",
+          "participerons",
+          "participerez",
+          "participeront"
+        ],
+        "participle": "participé",
+        "passe_compose": [
+          "ai participé",
+          "as participé",
+          "a participé",
+          "avons participé",
+          "avez participé",
+          "ont participé"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "répartir",
+      "vi": "phân chia (công việc)",
+      "example": "La responsable répartit les tâches.",
+      "example_vi": "Người phụ trách phân chia nhiệm vụ.",
+      "forms": {
+        "present": [
+          "répartis",
+          "répartis",
+          "répartit",
+          "répartissons",
+          "répartissez",
+          "répartissent"
+        ],
+        "imparfait": [
+          "répartissais",
+          "répartissais",
+          "répartissait",
+          "répartissions",
+          "répartissiez",
+          "répartissaient"
+        ],
+        "future": [
+          "répartirai",
+          "répartiras",
+          "répartira",
+          "répartirons",
+          "répartirez",
+          "répartiront"
+        ],
+        "participle": "réparti",
+        "passe_compose": [
+          "ai réparti",
+          "as réparti",
+          "a réparti",
+          "avons réparti",
+          "avez réparti",
+          "ont réparti"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "envisager",
+      "vi": "cân nhắc, dự tính",
+      "example": "La mairie envisage un nouvel aménagement.",
+      "example_vi": "Tòa thị chính đang cân nhắc một phương án cải tạo mới.",
+      "forms": {
+        "present": [
+          "envisage",
+          "envisages",
+          "envisage",
+          "envisageons",
+          "envisagez",
+          "envisagent"
+        ],
+        "imparfait": [
+          "envisageais",
+          "envisageais",
+          "envisageait",
+          "envisagions",
+          "envisagiez",
+          "envisageaient"
+        ],
+        "future": [
+          "envisagerai",
+          "envisageras",
+          "envisagera",
+          "envisagerons",
+          "envisagerez",
+          "envisageront"
+        ],
+        "participle": "envisagé",
+        "passe_compose": [
+          "ai envisagé",
+          "as envisagé",
+          "a envisagé",
+          "avons envisagé",
+          "avez envisagé",
+          "ont envisagé"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "convaincre",
+      "vi": "thuyết phục",
+      "example": "L'urbaniste convainc plusieurs participants.",
+      "example_vi": "Chuyên gia quy hoạch thuyết phục được một số người tham gia.",
+      "forms": {
+        "present": [
+          "convaincs",
+          "convaincs",
+          "convainc",
+          "convainquons",
+          "convainquez",
+          "convainquent"
+        ],
+        "imparfait": [
+          "convainquais",
+          "convainquais",
+          "convainquait",
+          "convainquions",
+          "convainquiez",
+          "convainquaient"
+        ],
+        "future": [
+          "convaincrai",
+          "convaincras",
+          "convaincra",
+          "convaincrons",
+          "convaincrez",
+          "convaincront"
+        ],
+        "participle": "convaincu",
+        "passe_compose": [
+          "ai convaincu",
+          "as convaincu",
+          "a convaincu",
+          "avons convaincu",
+          "avez convaincu",
+          "ont convaincu"
+        ]
+      }
+    }
+  ],
+  "subjects": [
+    "je",
+    "tu",
+    "il/elle",
+    "nous",
+    "vous",
+    "ils/elles"
+  ],
+  "source": "Nội dung học tiếng Pháp tự biên soạn cho Mon Prof de Français"
+}
