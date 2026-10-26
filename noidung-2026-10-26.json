@@ -1,0 +1,708 @@
+{
+  "date": "2026-10-26",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "words": [
+    {
+      "level": "A1",
+      "word": "une séance",
+      "pos": "danh từ giống cái",
+      "vi": "suất chiếu phim",
+      "example": "La séance commence à dix-neuf heures.",
+      "example_vi": "Suất chiếu bắt đầu lúc 19 giờ."
+    },
+    {
+      "level": "A1",
+      "word": "une place",
+      "pos": "danh từ giống cái",
+      "vi": "chỗ ngồi trong rạp",
+      "example": "Ma place est au troisième rang.",
+      "example_vi": "Chỗ của tôi ở hàng ghế thứ ba."
+    },
+    {
+      "level": "A1",
+      "word": "un écran",
+      "pos": "danh từ giống đực",
+      "vi": "màn hình chiếu phim",
+      "example": "L'écran est très grand.",
+      "example_vi": "Màn hình rất lớn."
+    },
+    {
+      "level": "A1",
+      "word": "une entrée",
+      "pos": "danh từ giống cái",
+      "vi": "lối vào rạp",
+      "example": "L'entrée est à droite.",
+      "example_vi": "Lối vào ở bên phải."
+    },
+    {
+      "level": "A1",
+      "word": "un tarif réduit",
+      "pos": "cụm danh từ giống đực",
+      "vi": "giá vé ưu đãi",
+      "example": "Il existe un tarif réduit pour les étudiants.",
+      "example_vi": "Có giá vé ưu đãi cho sinh viên."
+    },
+    {
+      "level": "A1",
+      "word": "une bande-annonce",
+      "pos": "danh từ giống cái",
+      "vi": "đoạn phim giới thiệu",
+      "example": "Nous regardons la bande-annonce.",
+      "example_vi": "Chúng tôi xem đoạn giới thiệu phim."
+    },
+    {
+      "level": "A2",
+      "word": "une cantine",
+      "pos": "danh từ giống cái",
+      "vi": "nhà ăn của trường",
+      "example": "Ma fille déjeune à la cantine.",
+      "example_vi": "Con gái tôi ăn trưa ở nhà ăn trường."
+    },
+    {
+      "level": "A2",
+      "word": "une inscription",
+      "pos": "danh từ giống cái",
+      "vi": "việc đăng ký",
+      "example": "L'inscription se fait en ligne.",
+      "example_vi": "Việc đăng ký được thực hiện trực tuyến."
+    },
+    {
+      "level": "A2",
+      "word": "un justificatif de domicile",
+      "pos": "cụm danh từ giống đực",
+      "vi": "giấy tờ chứng minh địa chỉ cư trú",
+      "example": "On me demande un justificatif de domicile.",
+      "example_vi": "Họ yêu cầu tôi cung cấp giấy chứng minh địa chỉ."
+    },
+    {
+      "level": "A2",
+      "word": "un régime alimentaire",
+      "pos": "cụm danh từ giống đực",
+      "vi": "chế độ ăn uống",
+      "example": "Le formulaire précise le régime alimentaire de l'enfant.",
+      "example_vi": "Mẫu đơn ghi rõ chế độ ăn của trẻ."
+    },
+    {
+      "level": "A2",
+      "word": "un quotient familial",
+      "pos": "cụm danh từ giống đực",
+      "vi": "chỉ số gia đình dùng để tính một số mức phí",
+      "example": "La commune utilise parfois le quotient familial pour calculer le tarif.",
+      "example_vi": "Một số địa phương dùng chỉ số gia đình để tính mức phí."
+    },
+    {
+      "level": "A2",
+      "word": "une confirmation",
+      "pos": "danh từ giống cái",
+      "vi": "thông báo xác nhận",
+      "example": "Je reçois une confirmation par courriel.",
+      "example_vi": "Tôi nhận được xác nhận qua email."
+    },
+    {
+      "level": "B1",
+      "word": "un dégât des eaux",
+      "pos": "cụm danh từ giống đực",
+      "vi": "sự cố nước rò rỉ gây hư hại nhà cửa",
+      "example": "Le dégât des eaux a abîmé le plafond.",
+      "example_vi": "Sự cố nước rò rỉ làm hỏng trần nhà."
+    },
+    {
+      "level": "B1",
+      "word": "une fuite",
+      "pos": "danh từ giống cái",
+      "vi": "chỗ rò rỉ nước",
+      "example": "Le plombier cherche l'origine de la fuite.",
+      "example_vi": "Thợ sửa ống nước tìm nguồn rò rỉ."
+    },
+    {
+      "level": "B1",
+      "word": "un plombier",
+      "pos": "danh từ giống đực",
+      "vi": "thợ sửa đường ống nước",
+      "example": "Le plombier arrive cet après-midi.",
+      "example_vi": "Thợ sửa ống nước đến chiều nay."
+    },
+    {
+      "level": "B1",
+      "word": "une assurance habitation",
+      "pos": "cụm danh từ giống cái",
+      "vi": "bảo hiểm nhà ở",
+      "example": "Elle contacte son assurance habitation.",
+      "example_vi": "Cô ấy liên hệ bên bảo hiểm nhà ở."
+    },
+    {
+      "level": "B1",
+      "word": "un constat amiable",
+      "pos": "cụm danh từ giống đực",
+      "vi": "biên bản khai báo sự cố do các bên cùng lập",
+      "example": "Les voisins remplissent un constat amiable.",
+      "example_vi": "Hai người hàng xóm cùng điền biên bản sự cố."
+    },
+    {
+      "level": "B1",
+      "word": "une intervention",
+      "pos": "danh từ giống cái",
+      "vi": "lần đến xử lý, sửa chữa",
+      "example": "L'intervention est prévue pour demain.",
+      "example_vi": "Việc sửa chữa được dự kiến vào ngày mai."
+    },
+    {
+      "level": "B2",
+      "word": "un entretien d'embauche",
+      "pos": "cụm danh từ giống đực",
+      "vi": "buổi phỏng vấn tuyển dụng",
+      "example": "L'entretien d'embauche se déroule en visioconférence.",
+      "example_vi": "Buổi phỏng vấn diễn ra qua video."
+    },
+    {
+      "level": "B2",
+      "word": "une visioconférence",
+      "pos": "danh từ giống cái",
+      "vi": "cuộc họp trực tuyến có hình ảnh",
+      "example": "La visioconférence commence à neuf heures.",
+      "example_vi": "Cuộc họp video bắt đầu lúc chín giờ."
+    },
+    {
+      "level": "B2",
+      "word": "une fourchette salariale",
+      "pos": "cụm danh từ giống cái",
+      "vi": "khoảng mức lương dự kiến",
+      "example": "La candidate demande la fourchette salariale.",
+      "example_vi": "Ứng viên hỏi về khoảng lương dự kiến."
+    },
+    {
+      "level": "B2",
+      "word": "une compétence transférable",
+      "pos": "cụm danh từ giống cái",
+      "vi": "kỹ năng có thể áp dụng sang công việc khác",
+      "example": "Elle met en avant ses compétences transférables.",
+      "example_vi": "Cô ấy nhấn mạnh những kỹ năng có thể chuyển sang công việc khác."
+    },
+    {
+      "level": "B2",
+      "word": "une période d'essai",
+      "pos": "cụm danh từ giống cái",
+      "vi": "thời gian thử việc",
+      "example": "Le contrat prévoit une période d'essai.",
+      "example_vi": "Hợp đồng quy định thời gian thử việc."
+    },
+    {
+      "level": "B2",
+      "word": "une prise de poste",
+      "pos": "cụm danh từ giống cái",
+      "vi": "thời điểm bắt đầu đảm nhiệm công việc",
+      "example": "La prise de poste est envisagée en décembre.",
+      "example_vi": "Dự kiến bắt đầu công việc vào tháng Mười Hai."
+    }
+  ],
+  "stories": [
+    {
+      "level": "A1",
+      "title": "Une soirée au cinéma",
+      "vi": "Mua vé và tìm chỗ ngồi tại rạp chiếu phim",
+      "paragraphs": [
+        "Ce vendredi, Émilie va au cinéma avec son frère Max. Ils veulent voir un film français.",
+        "À la caisse, Émilie demande deux places pour la séance de dix-neuf heures. La vendeuse leur donne les billets.",
+        "Ils entrent dans la salle et cherchent leurs sièges. Max dit : « Nous sommes au troisième rang, à gauche. »",
+        "Le film commence. Émilie éteint son téléphone et regarde le grand écran."
+      ],
+      "translations": [
+        "Thứ Sáu này, Émilie đi xem phim cùng em trai Max. Họ muốn xem một bộ phim Pháp.",
+        "Tại quầy vé, Émilie xin hai vé cho suất chiếu lúc 19 giờ. Nhân viên đưa vé cho họ.",
+        "Họ vào phòng chiếu và tìm ghế. Max nói: “Chúng ta ở hàng thứ ba, bên trái.”",
+        "Phim bắt đầu. Émilie tắt điện thoại và nhìn lên màn hình lớn."
+      ],
+      "questions": [
+        {
+          "q": "À quelle heure commence la séance ?",
+          "choices": [
+            "À dix-huit heures",
+            "À dix-neuf heures",
+            "À vingt heures"
+          ],
+          "answer": 1,
+          "explain_vi": "Suất chiếu bắt đầu lúc 19 giờ."
+        },
+        {
+          "q": "Où se trouvent leurs sièges ?",
+          "choices": [
+            "Au troisième rang, à gauche",
+            "Au premier rang, à droite",
+            "Au fond de la salle"
+          ],
+          "answer": 0,
+          "explain_vi": "Ghế ở hàng thứ ba, phía bên trái."
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Inscrire Lina à la cantine",
+      "vi": "Đăng ký suất ăn trưa tại trường cho con",
+      "paragraphs": [
+        "Au début de l'année scolaire, Samira souhaite inscrire sa fille Lina à la cantine. Elle consulte le site de sa commune pour connaître les démarches.",
+        "Le formulaire demande les coordonnées des parents, un justificatif de domicile et des informations sur le régime alimentaire de l'enfant.",
+        "Samira rassemble les documents, puis elle remplit la demande en ligne. Comme une rubrique n'est pas claire, elle téléphone au service scolaire.",
+        "Le lendemain, elle reçoit un courriel de confirmation. Elle vérifie les jours réservés et conserve le message dans son dossier."
+      ],
+      "translations": [
+        "Đầu năm học, Samira muốn đăng ký ăn trưa tại trường cho con gái Lina. Cô xem trang web của địa phương để tìm hiểu thủ tục.",
+        "Mẫu đơn yêu cầu thông tin liên hệ của cha mẹ, giấy tờ chứng minh địa chỉ và thông tin về chế độ ăn của trẻ.",
+        "Samira chuẩn bị giấy tờ rồi điền đơn trực tuyến. Vì có một mục chưa rõ, cô gọi cho bộ phận phụ trách trường học.",
+        "Hôm sau, cô nhận email xác nhận. Cô kiểm tra những ngày đã đăng ký và lưu thư vào hồ sơ."
+      ],
+      "questions": [
+        {
+          "q": "Quel document est demandé ?",
+          "choices": [
+            "Un permis de conduire",
+            "Un justificatif de domicile",
+            "Un billet de train"
+          ],
+          "answer": 1,
+          "explain_vi": "Mẫu đơn yêu cầu giấy tờ chứng minh địa chỉ cư trú."
+        },
+        {
+          "q": "Pourquoi Samira téléphone-t-elle au service scolaire ?",
+          "choices": [
+            "Une rubrique du formulaire n'est pas claire",
+            "Elle veut changer d'école",
+            "Elle a perdu son téléphone"
+          ],
+          "answer": 0,
+          "explain_vi": "Cô gọi vì có một mục trong đơn chưa rõ."
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "title": "Une fuite d'eau un dimanche",
+      "vi": "Xử lý nước rò rỉ và khai báo bảo hiểm nhà ở",
+      "paragraphs": [
+        "Dimanche matin, Karim découvre une tache humide au plafond de sa cuisine. Quelques minutes plus tard, des gouttes commencent à tomber près de la fenêtre.",
+        "Il coupe l'eau par précaution, prend des photos et contacte son voisin du dessus. Celui-ci constate qu'un tuyau fuit sous son évier.",
+        "Les deux voisins appellent un plombier. Ils préviennent aussi leurs assurances habitation pour savoir quels documents seront nécessaires.",
+        "Après l'intervention, Karim conserve les photos et la facture. Les voisins remplissent un constat amiable de dégât des eaux. Même si la situation a été stressante, leur coopération a facilité les démarches."
+      ],
+      "translations": [
+        "Sáng Chủ nhật, Karim phát hiện vết ẩm trên trần bếp. Vài phút sau, nước bắt đầu nhỏ xuống gần cửa sổ.",
+        "Anh khóa nước để phòng ngừa, chụp ảnh và liên hệ người hàng xóm tầng trên. Người này phát hiện một đường ống bị rò dưới bồn rửa.",
+        "Hai người gọi thợ sửa ống nước. Họ cũng thông báo cho công ty bảo hiểm nhà ở để hỏi cần những giấy tờ nào.",
+        "Sau khi sửa chữa, Karim giữ ảnh và hóa đơn. Hai người cùng điền biên bản sự cố nước rò rỉ. Dù căng thẳng, việc hợp tác đã giúp thủ tục thuận lợi hơn."
+      ],
+      "questions": [
+        {
+          "q": "Quelle est l'origine du problème ?",
+          "choices": [
+            "Une fenêtre ouverte",
+            "Un tuyau qui fuit chez le voisin du dessus",
+            "Une panne d'électricité"
+          ],
+          "answer": 1,
+          "explain_vi": "Đường ống dưới bồn rửa của người hàng xóm tầng trên bị rò."
+        },
+        {
+          "q": "Quels documents Karim conserve-t-il ?",
+          "choices": [
+            "Les photos et la facture",
+            "Un billet d'avion",
+            "Une carte de cinéma"
+          ],
+          "answer": 0,
+          "explain_vi": "Karim giữ ảnh và hóa đơn sau khi thợ xử lý."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Un entretien à distance",
+      "vi": "Phỏng vấn tuyển dụng trực tuyến và trao đổi về điều kiện làm việc",
+      "paragraphs": [
+        "Après plusieurs années dans le commerce, Nadia postule à un poste de coordination dans une entreprise de services. Son premier entretien d'embauche a lieu en visioconférence.",
+        "La responsable du recrutement lui demande d'expliquer comment ses expériences précédentes pourraient être utiles dans ce nouveau secteur. Nadia décrit un projet complexe qu'elle a mené à bien et souligne ses compétences transférables.",
+        "Lorsque la discussion aborde la rémunération, elle demande quelle fourchette salariale est prévue pour le poste. Elle précise ensuite ses attentes, tout en restant ouverte à une négociation fondée sur les responsabilités réelles.",
+        "Avant de conclure, Nadia s'informe sur la période d'essai, les modalités de télétravail et la date possible de prise de poste. Elle envoie ensuite un message de remerciement qui résume son intérêt pour la mission, sans présumer de la décision finale."
+      ],
+      "translations": [
+        "Sau vài năm làm thương mại, Nadia ứng tuyển vị trí điều phối tại một công ty dịch vụ. Buổi phỏng vấn đầu tiên diễn ra trực tuyến có hình ảnh.",
+        "Người phụ trách tuyển dụng yêu cầu cô giải thích kinh nghiệm cũ có thể hữu ích thế nào trong lĩnh vực mới. Nadia kể về một dự án phức tạp đã hoàn thành và nhấn mạnh các kỹ năng có thể chuyển đổi.",
+        "Khi bàn đến lương, cô hỏi khoảng lương dự kiến cho vị trí. Sau đó cô trình bày kỳ vọng, đồng thời sẵn sàng thương lượng dựa trên trách nhiệm thực tế.",
+        "Trước khi kết thúc, Nadia hỏi về thời gian thử việc, cách làm việc từ xa và ngày có thể bắt đầu. Sau đó cô gửi lời cảm ơn, nhắc lại sự quan tâm tới công việc nhưng không giả định kết quả tuyển dụng."
+      ],
+      "questions": [
+        {
+          "q": "Comment Nadia présente-t-elle son expérience ?",
+          "choices": [
+            "Elle affirme tout savoir faire",
+            "Elle met en valeur ses compétences transférables",
+            "Elle évite de parler de ses projets"
+          ],
+          "answer": 1,
+          "explain_vi": "Nadia nhấn mạnh những kỹ năng có thể áp dụng trong lĩnh vực mới."
+        },
+        {
+          "q": "Quelle est son attitude face au salaire ?",
+          "choices": [
+            "Elle refuse toute discussion",
+            "Elle accepte sans poser de questions",
+            "Elle demande la fourchette et reste ouverte à la négociation"
+          ],
+          "answer": 2,
+          "explain_vi": "Cô hỏi khoảng lương rồi trao đổi linh hoạt dựa trên trách nhiệm công việc."
+        }
+      ]
+    }
+  ],
+  "verbs": [
+    {
+      "level": "A1",
+      "inf": "choisir",
+      "vi": "chọn",
+      "example": "Émilie choisit un film français.",
+      "example_vi": "Émilie chọn một bộ phim Pháp.",
+      "forms": {
+        "present": [
+          "choisis",
+          "choisis",
+          "choisit",
+          "choisissons",
+          "choisissez",
+          "choisissent"
+        ],
+        "imparfait": [
+          "choisissais",
+          "choisissais",
+          "choisissait",
+          "choisissions",
+          "choisissiez",
+          "choisissaient"
+        ],
+        "future": [
+          "choisirai",
+          "choisiras",
+          "choisira",
+          "choisirons",
+          "choisirez",
+          "choisiront"
+        ],
+        "participle": "choisi",
+        "passe_compose": [
+          "ai choisi",
+          "as choisi",
+          "a choisi",
+          "avons choisi",
+          "avez choisi",
+          "ont choisi"
+        ]
+      }
+    },
+    {
+      "level": "A1",
+      "inf": "attendre",
+      "vi": "chờ đợi",
+      "example": "Max attend le début de la séance.",
+      "example_vi": "Max chờ suất chiếu bắt đầu.",
+      "forms": {
+        "present": [
+          "attends",
+          "attends",
+          "attend",
+          "attendons",
+          "attendez",
+          "attendent"
+        ],
+        "imparfait": [
+          "attendais",
+          "attendais",
+          "attendait",
+          "attendions",
+          "attendiez",
+          "attendaient"
+        ],
+        "future": [
+          "attendrai",
+          "attendras",
+          "attendra",
+          "attendrons",
+          "attendrez",
+          "attendront"
+        ],
+        "participle": "attendu",
+        "passe_compose": [
+          "ai attendu",
+          "as attendu",
+          "a attendu",
+          "avons attendu",
+          "avez attendu",
+          "ont attendu"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "inscrire",
+      "vi": "đăng ký tên vào danh sách",
+      "example": "Samira inscrit Lina à la cantine.",
+      "example_vi": "Samira đăng ký ăn trưa tại trường cho Lina.",
+      "forms": {
+        "present": [
+          "inscris",
+          "inscris",
+          "inscrit",
+          "inscrivons",
+          "inscrivez",
+          "inscrivent"
+        ],
+        "imparfait": [
+          "inscrivais",
+          "inscrivais",
+          "inscrivait",
+          "inscrivions",
+          "inscriviez",
+          "inscrivaient"
+        ],
+        "future": [
+          "inscrirai",
+          "inscriras",
+          "inscrira",
+          "inscrirons",
+          "inscrirez",
+          "inscriront"
+        ],
+        "participle": "inscrit",
+        "passe_compose": [
+          "ai inscrit",
+          "as inscrit",
+          "a inscrit",
+          "avons inscrit",
+          "avez inscrit",
+          "ont inscrit"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "fournir",
+      "vi": "cung cấp giấy tờ, thông tin",
+      "example": "Elle fournit un justificatif de domicile.",
+      "example_vi": "Cô cung cấp giấy tờ chứng minh địa chỉ.",
+      "forms": {
+        "present": [
+          "fournis",
+          "fournis",
+          "fournit",
+          "fournissons",
+          "fournissez",
+          "fournissent"
+        ],
+        "imparfait": [
+          "fournissais",
+          "fournissais",
+          "fournissait",
+          "fournissions",
+          "fournissiez",
+          "fournissaient"
+        ],
+        "future": [
+          "fournirai",
+          "fourniras",
+          "fournira",
+          "fournirons",
+          "fournirez",
+          "fourniront"
+        ],
+        "participle": "fourni",
+        "passe_compose": [
+          "ai fourni",
+          "as fourni",
+          "a fourni",
+          "avons fourni",
+          "avez fourni",
+          "ont fourni"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "constater",
+      "vi": "nhận thấy, xác nhận sự việc",
+      "example": "Karim constate une fuite d'eau.",
+      "example_vi": "Karim phát hiện có chỗ rò nước.",
+      "forms": {
+        "present": [
+          "constate",
+          "constates",
+          "constate",
+          "constatons",
+          "constatez",
+          "constatent"
+        ],
+        "imparfait": [
+          "constatais",
+          "constatais",
+          "constatait",
+          "constations",
+          "constatiez",
+          "constataient"
+        ],
+        "future": [
+          "constaterai",
+          "constateras",
+          "constatera",
+          "constaterons",
+          "constaterez",
+          "constateront"
+        ],
+        "participle": "constaté",
+        "passe_compose": [
+          "ai constaté",
+          "as constaté",
+          "a constaté",
+          "avons constaté",
+          "avez constaté",
+          "ont constaté"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "réparer",
+      "vi": "sửa chữa",
+      "example": "Le plombier répare le tuyau.",
+      "example_vi": "Thợ sửa ống nước sửa đường ống.",
+      "forms": {
+        "present": [
+          "répare",
+          "répares",
+          "répare",
+          "réparons",
+          "réparez",
+          "réparent"
+        ],
+        "imparfait": [
+          "réparais",
+          "réparais",
+          "réparait",
+          "réparions",
+          "répariez",
+          "réparaient"
+        ],
+        "future": [
+          "réparerai",
+          "répareras",
+          "réparera",
+          "réparerons",
+          "réparerez",
+          "répareront"
+        ],
+        "participle": "réparé",
+        "passe_compose": [
+          "ai réparé",
+          "as réparé",
+          "a réparé",
+          "avons réparé",
+          "avez réparé",
+          "ont réparé"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "négocier",
+      "vi": "thương lượng",
+      "example": "Nadia négocie les conditions du poste.",
+      "example_vi": "Nadia thương lượng các điều kiện của vị trí.",
+      "forms": {
+        "present": [
+          "négocie",
+          "négocies",
+          "négocie",
+          "négocions",
+          "négociez",
+          "négocient"
+        ],
+        "imparfait": [
+          "négociais",
+          "négociais",
+          "négociait",
+          "négociions",
+          "négociiez",
+          "négociaient"
+        ],
+        "future": [
+          "négocierai",
+          "négocieras",
+          "négociera",
+          "négocierons",
+          "négocierez",
+          "négocieront"
+        ],
+        "participle": "négocié",
+        "passe_compose": [
+          "ai négocié",
+          "as négocié",
+          "a négocié",
+          "avons négocié",
+          "avez négocié",
+          "ont négocié"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "justifier",
+      "vi": "giải thích và đưa lý do chứng minh",
+      "example": "Elle justifie ses attentes salariales.",
+      "example_vi": "Cô giải thích cơ sở cho kỳ vọng lương.",
+      "forms": {
+        "present": [
+          "justifie",
+          "justifies",
+          "justifie",
+          "justifions",
+          "justifiez",
+          "justifient"
+        ],
+        "imparfait": [
+          "justifiais",
+          "justifiais",
+          "justifiait",
+          "justifiions",
+          "justifiiez",
+          "justifiaient"
+        ],
+        "future": [
+          "justifierai",
+          "justifieras",
+          "justifiera",
+          "justifierons",
+          "justifierez",
+          "justifieront"
+        ],
+        "participle": "justifié",
+        "passe_compose": [
+          "ai justifié",
+          "as justifié",
+          "a justifié",
+          "avons justifié",
+          "avez justifié",
+          "ont justifié"
+        ]
+      }
+    }
+  ],
+  "subjects": [
+    "je",
+    "tu",
+    "il/elle",
+    "nous",
+    "vous",
+    "ils/elles"
+  ],
+  "source": "Nội dung học tiếng Pháp tự biên soạn cho Mon Prof de Français"
+}
