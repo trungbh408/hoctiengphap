@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-10-26",
-  "released_count": 5,
+  "last_checked": "2026-10-27",
+  "released_count": 6,
   "total_prepared": 14,
   "lessons": [
     {
@@ -189,6 +189,44 @@
           "vi": "bao gồm; hiểu",
           "present": "je comprends",
           "passe_compose": "j'ai compris"
+        }
+      ],
+      "kind": "new"
+    },
+    {
+      "day": 6,
+      "level": "B1",
+      "title": "Au travail",
+      "story": "Nadia commence son nouveau travail lundi. Sa collègue lui explique comment utiliser le logiciel. À midi, toute l'équipe déjeune ensemble à la cantine.",
+      "vocabulary": [
+        {
+          "word": "la collègue",
+          "vi": "đồng nghiệp nữ",
+          "example": "Ma collègue m'aide."
+        },
+        {
+          "word": "le logiciel",
+          "vi": "phần mềm",
+          "example": "Ce logiciel est pratique."
+        },
+        {
+          "word": "la cantine",
+          "vi": "nhà ăn tập thể",
+          "example": "Nous mangeons à la cantine."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "commencer",
+          "vi": "bắt đầu",
+          "present": "je commence",
+          "passe_compose": "j'ai commencé"
+        },
+        {
+          "infinitive": "expliquer",
+          "vi": "giải thích",
+          "present": "j'explique",
+          "passe_compose": "j'ai expliqué"
         }
       ],
       "kind": "new"
