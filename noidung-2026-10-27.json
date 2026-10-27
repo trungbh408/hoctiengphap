@@ -1,0 +1,699 @@
+{
+  "date": "2026-10-27",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "words": [
+    {
+      "level": "A1",
+      "word": "une laverie",
+      "pos": "danh từ giống cái",
+      "vi": "tiệm giặt quần áo tự động",
+      "example": "La laverie ferme à vingt heures.",
+      "example_vi": "Tiệm giặt tự động đóng cửa lúc 20 giờ."
+    },
+    {
+      "level": "A1",
+      "word": "une machine à laver",
+      "pos": "danh từ giống cái",
+      "vi": "máy giặt",
+      "example": "Cette machine à laver est libre.",
+      "example_vi": "Máy giặt này đang trống."
+    },
+    {
+      "level": "A1",
+      "word": "la lessive",
+      "pos": "danh từ giống cái",
+      "vi": "nước giặt hoặc bột giặt",
+      "example": "Je mets de la lessive dans le bac.",
+      "example_vi": "Tôi cho nước giặt vào ngăn chứa."
+    },
+    {
+      "level": "A1",
+      "word": "un jeton",
+      "pos": "danh từ giống đực",
+      "vi": "đồng xu chuyên dụng để vận hành máy",
+      "example": "Il faut deux jetons pour cette machine.",
+      "example_vi": "Cần hai xu để dùng máy này."
+    },
+    {
+      "level": "A1",
+      "word": "un sèche-linge",
+      "pos": "danh từ giống đực",
+      "vi": "máy sấy quần áo",
+      "example": "Le sèche-linge est au fond de la salle.",
+      "example_vi": "Máy sấy ở cuối phòng."
+    },
+    {
+      "level": "A1",
+      "word": "le linge",
+      "pos": "danh từ giống đực, nghĩa tập hợp",
+      "vi": "quần áo, đồ vải cần giặt hoặc đã giặt",
+      "example": "Je plie le linge propre.",
+      "example_vi": "Tôi gấp quần áo sạch."
+    },
+    {
+      "level": "A2",
+      "word": "une exposition",
+      "pos": "danh từ giống cái",
+      "vi": "cuộc triển lãm",
+      "example": "L'exposition se termine dimanche.",
+      "example_vi": "Triển lãm kết thúc vào Chủ nhật."
+    },
+    {
+      "level": "A2",
+      "word": "un créneau horaire",
+      "pos": "danh từ giống đực",
+      "vi": "khung giờ đã chọn",
+      "example": "Notre créneau horaire commence à quatorze heures.",
+      "example_vi": "Khung giờ của chúng tôi bắt đầu lúc 14 giờ."
+    },
+    {
+      "level": "A2",
+      "word": "un billet électronique",
+      "pos": "danh từ giống đực",
+      "vi": "vé điện tử",
+      "example": "Je montre mon billet électronique à l'entrée.",
+      "example_vi": "Tôi đưa vé điện tử ở lối vào."
+    },
+    {
+      "level": "A2",
+      "word": "un vestiaire",
+      "pos": "danh từ giống đực",
+      "vi": "nơi gửi áo khoác và đồ cá nhân",
+      "example": "Nous laissons nos manteaux au vestiaire.",
+      "example_vi": "Chúng tôi gửi áo khoác ở phòng giữ đồ."
+    },
+    {
+      "level": "A2",
+      "word": "une visite guidée",
+      "pos": "danh từ giống cái",
+      "vi": "chuyến tham quan có hướng dẫn viên",
+      "example": "La visite guidée dure une heure.",
+      "example_vi": "Chuyến tham quan có hướng dẫn kéo dài một giờ."
+    },
+    {
+      "level": "A2",
+      "word": "une œuvre d'art",
+      "pos": "danh từ giống cái",
+      "vi": "tác phẩm nghệ thuật",
+      "example": "Cette œuvre d'art attire beaucoup de visiteurs.",
+      "example_vi": "Tác phẩm nghệ thuật này thu hút nhiều khách."
+    },
+    {
+      "level": "B1",
+      "word": "un fournisseur d'électricité",
+      "pos": "danh từ giống đực",
+      "vi": "nhà cung cấp điện",
+      "example": "Nous comparons deux fournisseurs d'électricité.",
+      "example_vi": "Chúng tôi so sánh hai nhà cung cấp điện."
+    },
+    {
+      "level": "B1",
+      "word": "un tarif",
+      "pos": "danh từ giống đực",
+      "vi": "mức giá áp dụng",
+      "example": "Le tarif change selon l'offre.",
+      "example_vi": "Mức giá thay đổi tùy gói dịch vụ."
+    },
+    {
+      "level": "B1",
+      "word": "un compteur",
+      "pos": "danh từ giống đực",
+      "vi": "đồng hồ đo lượng điện tiêu thụ",
+      "example": "Le compteur se trouve dans le couloir.",
+      "example_vi": "Đồng hồ điện nằm ở hành lang."
+    },
+    {
+      "level": "B1",
+      "word": "une facture",
+      "pos": "danh từ giống cái",
+      "vi": "hóa đơn phải thanh toán",
+      "example": "J'ai reçu ma facture d'électricité.",
+      "example_vi": "Tôi đã nhận hóa đơn tiền điện."
+    },
+    {
+      "level": "B1",
+      "word": "un relevé de compteur",
+      "pos": "danh từ giống đực",
+      "vi": "chỉ số ghi từ đồng hồ điện",
+      "example": "Je transmets le relevé de compteur.",
+      "example_vi": "Tôi gửi chỉ số đồng hồ điện."
+    },
+    {
+      "level": "B1",
+      "word": "une résiliation",
+      "pos": "danh từ giống cái",
+      "vi": "việc chấm dứt hợp đồng",
+      "example": "La résiliation de l'ancien contrat est confirmée.",
+      "example_vi": "Việc chấm dứt hợp đồng cũ đã được xác nhận."
+    },
+    {
+      "level": "B2",
+      "word": "un produit défectueux",
+      "pos": "cụm danh từ giống đực",
+      "vi": "sản phẩm bị lỗi, không hoạt động đúng",
+      "example": "Le client signale un produit défectueux.",
+      "example_vi": "Khách hàng thông báo sản phẩm bị lỗi."
+    },
+    {
+      "level": "B2",
+      "word": "un remboursement",
+      "pos": "danh từ giống đực",
+      "vi": "việc hoàn lại tiền",
+      "example": "Elle demande un remboursement intégral.",
+      "example_vi": "Cô ấy yêu cầu hoàn lại toàn bộ tiền."
+    },
+    {
+      "level": "B2",
+      "word": "une réclamation",
+      "pos": "danh từ giống cái",
+      "vi": "đơn hoặc yêu cầu khiếu nại",
+      "example": "J'envoie une réclamation écrite au vendeur.",
+      "example_vi": "Tôi gửi khiếu nại bằng văn bản cho người bán."
+    },
+    {
+      "level": "B2",
+      "word": "une preuve d'achat",
+      "pos": "danh từ giống cái",
+      "vi": "bằng chứng đã mua hàng",
+      "example": "Conservez une preuve d'achat.",
+      "example_vi": "Hãy giữ bằng chứng mua hàng."
+    },
+    {
+      "level": "B2",
+      "word": "un service après-vente",
+      "pos": "danh từ giống đực",
+      "vi": "bộ phận dịch vụ sau bán hàng",
+      "example": "Le service après-vente répond par courriel.",
+      "example_vi": "Bộ phận hậu mãi trả lời qua email."
+    },
+    {
+      "level": "B2",
+      "word": "une médiation",
+      "pos": "danh từ giống cái",
+      "vi": "quá trình hòa giải có bên trung gian",
+      "example": "Une médiation peut aider à résoudre le litige.",
+      "example_vi": "Hòa giải có thể giúp giải quyết tranh chấp."
+    }
+  ],
+  "stories": [
+    {
+      "level": "A1",
+      "title": "Une matinée à la laverie",
+      "vi": "Một buổi sáng ở tiệm giặt tự động",
+      "paragraphs": [
+        "Samedi matin, Émilie va à la laverie près de chez elle. Elle porte un grand sac de linge.",
+        "Elle choisit une machine à laver libre. Elle met ses vêtements dans la machine et ajoute un peu de lessive.",
+        "Pour démarrer, elle achète deux jetons. Pendant le lavage, elle lit un livre sur une chaise.",
+        "Après trente minutes, elle sort le linge. Elle utilise le sèche-linge, puis elle rentre chez elle avec ses vêtements propres."
+      ],
+      "translations": [
+        "Sáng thứ Bảy, Émilie đến tiệm giặt tự động gần nhà. Cô mang một túi quần áo lớn.",
+        "Cô chọn một máy giặt đang trống. Cô cho quần áo vào máy và thêm một ít nước giặt.",
+        "Để khởi động, cô mua hai xu chuyên dụng. Trong lúc giặt, cô ngồi đọc sách.",
+        "Sau ba mươi phút, cô lấy quần áo ra. Cô dùng máy sấy rồi về nhà với quần áo sạch."
+      ],
+      "questions": [
+        {
+          "q": "Que met Émilie dans la machine à laver ?",
+          "choices": [
+            "Des livres",
+            "Ses vêtements et de la lessive",
+            "Des chaussures neuves"
+          ],
+          "answer": 1,
+          "explain_vi": "Émilie cho quần áo và một ít nước giặt vào máy."
+        },
+        {
+          "q": "Que fait-elle pendant le lavage ?",
+          "choices": [
+            "Elle lit un livre",
+            "Elle cuisine",
+            "Elle téléphone au musée"
+          ],
+          "answer": 0,
+          "explain_vi": "Trong lúc máy chạy, Émilie đọc sách."
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Une réservation au musée",
+      "vi": "Đặt giờ tham quan bảo tàng",
+      "paragraphs": [
+        "Dimanche, Malik et Zoé ont décidé de visiter une exposition de photographies. La veille, ils avaient réservé deux billets électroniques sur le site du musée.",
+        "Leur créneau horaire commençait à quatorze heures, mais ils sont arrivés vingt minutes en avance. À l'entrée, une employée a scanné leurs billets.",
+        "Comme ils portaient de gros manteaux, ils les ont laissés au vestiaire. Ils ont ensuite rejoint une visite guidée qui présentait les œuvres les plus connues.",
+        "À la fin de la visite, Zoé a acheté une carte postale de sa photographie préférée. Les deux amis ont trouvé cette sortie intéressante et facile à organiser."
+      ],
+      "translations": [
+        "Chủ nhật, Malik và Zoé quyết định đi xem triển lãm ảnh. Hôm trước, họ đã đặt hai vé điện tử trên website bảo tàng.",
+        "Khung giờ của họ bắt đầu lúc 14 giờ, nhưng họ đến sớm 20 phút. Ở cửa vào, một nhân viên quét vé.",
+        "Vì mặc áo khoác dày, họ gửi áo tại phòng giữ đồ. Sau đó, họ tham gia chuyến tham quan có hướng dẫn giới thiệu các tác phẩm nổi tiếng nhất.",
+        "Cuối chuyến tham quan, Zoé mua một bưu thiếp in bức ảnh cô thích nhất. Hai người thấy chuyến đi thú vị và dễ sắp xếp."
+      ],
+      "questions": [
+        {
+          "q": "Quand Malik et Zoé ont-ils réservé leurs billets ?",
+          "choices": [
+            "Le lendemain",
+            "La veille de la visite",
+            "À la sortie du musée"
+          ],
+          "answer": 1,
+          "explain_vi": "Họ đặt vé vào ngày hôm trước."
+        },
+        {
+          "q": "Pourquoi vont-ils au vestiaire ?",
+          "choices": [
+            "Pour acheter des billets",
+            "Pour laisser leurs manteaux",
+            "Pour déjeuner"
+          ],
+          "answer": 1,
+          "explain_vi": "Họ gửi áo khoác tại nơi giữ đồ."
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "title": "Comparer deux offres d'électricité",
+      "vi": "So sánh hai gói cung cấp điện cho căn hộ",
+      "paragraphs": [
+        "Depuis son déménagement, Antoine trouve ses factures d'électricité difficiles à comprendre. Un collègue lui conseille de comparer les offres plutôt que de regarder seulement le prix annoncé dans une publicité.",
+        "Antoine consulte deux fournisseurs. Il examine le tarif du kilowattheure, le coût de l'abonnement et les conditions de révision des prix. Il découvre qu'une offre apparemment moins chère pourrait coûter davantage selon sa consommation.",
+        "Pour estimer sa consommation, il relève les chiffres de son compteur et vérifie plusieurs anciennes factures. Il téléphone ensuite au service client pour demander comment se passe un changement de fournisseur.",
+        "Après avoir reçu des explications écrites, Antoine choisit l'offre qui lui convient le mieux. Il conserve tous les documents, notamment la confirmation du nouveau contrat. Il comprend qu'il vaut mieux comparer le coût total plutôt qu'un seul chiffre."
+      ],
+      "translations": [
+        "Từ khi chuyển nhà, Antoine thấy các hóa đơn điện khó hiểu. Đồng nghiệp khuyên anh so sánh các gói thay vì chỉ nhìn giá quảng cáo.",
+        "Antoine tìm hiểu hai nhà cung cấp. Anh xem giá mỗi kWh, phí thuê bao và điều kiện điều chỉnh giá. Anh nhận ra một gói tưởng rẻ hơn có thể tốn hơn tùy mức tiêu thụ.",
+        "Để ước tính mức tiêu thụ, anh ghi chỉ số đồng hồ và kiểm tra vài hóa đơn cũ. Sau đó anh gọi bộ phận chăm sóc khách hàng hỏi quy trình đổi nhà cung cấp.",
+        "Sau khi nhận giải thích bằng văn bản, Antoine chọn gói phù hợp. Anh giữ toàn bộ giấy tờ, nhất là xác nhận hợp đồng mới. Anh hiểu cần so sánh tổng chi phí thay vì chỉ một con số."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Antoine consulte-t-il ses anciennes factures ?",
+          "choices": [
+            "Pour estimer sa consommation",
+            "Pour trouver son passeport",
+            "Pour payer une amende"
+          ],
+          "answer": 0,
+          "explain_vi": "Anh dùng hóa đơn cũ để ước tính lượng điện tiêu thụ."
+        },
+        {
+          "q": "Quel critère juge-t-il finalement important ?",
+          "choices": [
+            "La couleur du logo",
+            "Le coût total de l'offre",
+            "Le nombre de publicités"
+          ],
+          "answer": 1,
+          "explain_vi": "Anh so sánh tổng chi phí của gói điện."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Un appareil livré en mauvais état",
+      "vi": "Khiếu nại sản phẩm mua trực tuyến và tìm hướng giải quyết",
+      "paragraphs": [
+        "Après avoir commandé un robot de cuisine sur Internet, Nadia découvre que l'appareil ne fonctionne pas correctement dès la première utilisation. Elle prend des photographies du défaut et conserve la facture ainsi que les échanges avec le vendeur.",
+        "Elle contacte le service après-vente en décrivant précisément le problème. Au lieu de réclamer immédiatement une compensation supplémentaire, elle demande quelles solutions sont proposées dans le cadre des garanties applicables : réparation, remplacement ou remboursement selon la situation.",
+        "Le vendeur lui répond d'abord par un message automatique qui ne traite pas sa demande. Nadia formule alors une réclamation écrite, indique son numéro de commande et fixe un délai raisonnable pour obtenir une réponse concrète. Elle évite toutefois d'affirmer des droits sans avoir vérifié les conditions légales.",
+        "Quelques jours plus tard, le vendeur propose un remplacement et organise le retour du produit défectueux. Nadia accepte après avoir reçu les modalités par écrit. Si aucun accord n'avait été possible, elle aurait envisagé une médiation de la consommation. Cette expérience lui rappelle l'importance des preuves et d'une communication claire."
+      ],
+      "translations": [
+        "Sau khi đặt mua máy chế biến thực phẩm trên mạng, Nadia phát hiện máy hoạt động không đúng ngay lần dùng đầu. Cô chụp ảnh lỗi và giữ hóa đơn cùng trao đổi với người bán.",
+        "Cô liên hệ bộ phận hậu mãi, mô tả cụ thể sự cố. Thay vì đòi thêm tiền bồi thường ngay, cô hỏi những phương án theo bảo hành áp dụng: sửa, đổi hoặc hoàn tiền tùy trường hợp.",
+        "Người bán ban đầu chỉ trả lời tự động, không giải quyết yêu cầu. Nadia gửi khiếu nại bằng văn bản, nêu mã đơn hàng và thời hạn hợp lý để nhận câu trả lời cụ thể. Tuy nhiên cô không tự khẳng định quyền lợi khi chưa kiểm tra quy định pháp luật.",
+        "Vài ngày sau, người bán đề nghị đổi máy và sắp xếp nhận lại sản phẩm lỗi. Nadia đồng ý sau khi có điều kiện bằng văn bản. Nếu không thỏa thuận được, cô sẽ cân nhắc hòa giải tiêu dùng. Trải nghiệm này nhắc cô về giá trị của bằng chứng và giao tiếp rõ ràng."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Nadia garde-t-elle des photographies et la facture ?",
+          "choices": [
+            "Pour décorer son bureau",
+            "Pour documenter le défaut et l'achat",
+            "Pour changer de banque"
+          ],
+          "answer": 1,
+          "explain_vi": "Ảnh và hóa đơn giúp chứng minh lỗi và giao dịch mua hàng."
+        },
+        {
+          "q": "Quelle solution le vendeur propose-t-il finalement ?",
+          "choices": [
+            "Un remplacement du produit",
+            "Un voyage gratuit",
+            "Une réduction sur l'électricité"
+          ],
+          "answer": 0,
+          "explain_vi": "Người bán đồng ý đổi sản phẩm và tổ chức nhận lại hàng lỗi."
+        }
+      ]
+    }
+  ],
+  "verbs": [
+    {
+      "level": "A1",
+      "inf": "laver",
+      "vi": "giặt, rửa",
+      "example": "Je lave mes vêtements le samedi.",
+      "example_vi": "Tôi giặt quần áo vào thứ Bảy.",
+      "forms": {
+        "present": [
+          "lave",
+          "laves",
+          "lave",
+          "lavons",
+          "lavez",
+          "lavent"
+        ],
+        "imparfait": [
+          "lavais",
+          "lavais",
+          "lavait",
+          "lavions",
+          "laviez",
+          "lavaient"
+        ],
+        "future": [
+          "laverai",
+          "laveras",
+          "lavera",
+          "laverons",
+          "laverez",
+          "laveront"
+        ],
+        "passe_compose": [
+          "ai lavé",
+          "as lavé",
+          "a lavé",
+          "avons lavé",
+          "avez lavé",
+          "ont lavé"
+        ]
+      }
+    },
+    {
+      "level": "A1",
+      "inf": "sécher",
+      "vi": "làm khô, sấy",
+      "example": "Je sèche les serviettes au sèche-linge.",
+      "example_vi": "Tôi sấy khăn bằng máy sấy.",
+      "forms": {
+        "present": [
+          "séche",
+          "séches",
+          "séche",
+          "séchons",
+          "séchez",
+          "séchent"
+        ],
+        "imparfait": [
+          "séchais",
+          "séchais",
+          "séchait",
+          "séchions",
+          "séchiez",
+          "séchaient"
+        ],
+        "future": [
+          "sécherai",
+          "sécheras",
+          "séchera",
+          "sécherons",
+          "sécherez",
+          "sécheront"
+        ],
+        "passe_compose": [
+          "ai séché",
+          "as séché",
+          "a séché",
+          "avons séché",
+          "avez séché",
+          "ont séché"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "réserver",
+      "vi": "đặt trước",
+      "example": "Nous réservons des billets en ligne.",
+      "example_vi": "Chúng tôi đặt vé trực tuyến.",
+      "forms": {
+        "present": [
+          "réserve",
+          "réserves",
+          "réserve",
+          "réservons",
+          "réservez",
+          "réservent"
+        ],
+        "imparfait": [
+          "réservais",
+          "réservais",
+          "réservait",
+          "réservions",
+          "réserviez",
+          "réservaient"
+        ],
+        "future": [
+          "réserverai",
+          "réserveras",
+          "réservera",
+          "réserverons",
+          "réserverez",
+          "réserveront"
+        ],
+        "passe_compose": [
+          "ai réservé",
+          "as réservé",
+          "a réservé",
+          "avons réservé",
+          "avez réservé",
+          "ont réservé"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "voir",
+      "vi": "nhìn thấy, xem",
+      "example": "Je vois une œuvre intéressante.",
+      "example_vi": "Tôi xem một tác phẩm thú vị.",
+      "forms": {
+        "present": [
+          "vois",
+          "vois",
+          "voit",
+          "voyons",
+          "voyez",
+          "voient"
+        ],
+        "imparfait": [
+          "voyais",
+          "voyais",
+          "voyait",
+          "voyions",
+          "voyiez",
+          "voyaient"
+        ],
+        "future": [
+          "verrai",
+          "verras",
+          "verra",
+          "verrons",
+          "verrez",
+          "verront"
+        ],
+        "passe_compose": [
+          "ai vu",
+          "as vu",
+          "a vu",
+          "avons vu",
+          "avez vu",
+          "ont vu"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "comparer",
+      "vi": "so sánh",
+      "example": "Antoine compare les tarifs de deux fournisseurs.",
+      "example_vi": "Antoine so sánh giá của hai nhà cung cấp.",
+      "forms": {
+        "present": [
+          "compare",
+          "compares",
+          "compare",
+          "comparons",
+          "comparez",
+          "comparent"
+        ],
+        "imparfait": [
+          "comparais",
+          "comparais",
+          "comparait",
+          "comparions",
+          "compariez",
+          "comparaient"
+        ],
+        "future": [
+          "comparerai",
+          "compareras",
+          "comparera",
+          "comparerons",
+          "comparerez",
+          "compareront"
+        ],
+        "passe_compose": [
+          "ai comparé",
+          "as comparé",
+          "a comparé",
+          "avons comparé",
+          "avez comparé",
+          "ont comparé"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "choisir",
+      "vi": "lựa chọn",
+      "example": "Il choisit une offre adaptée à ses besoins.",
+      "example_vi": "Anh ấy chọn gói phù hợp với nhu cầu.",
+      "forms": {
+        "present": [
+          "choisis",
+          "choisis",
+          "choisit",
+          "choisissons",
+          "choisissez",
+          "choisissent"
+        ],
+        "imparfait": [
+          "choisissais",
+          "choisissais",
+          "choisissait",
+          "choisissions",
+          "choisissiez",
+          "choisissaient"
+        ],
+        "future": [
+          "choisirai",
+          "choisiras",
+          "choisira",
+          "choisirons",
+          "choisirez",
+          "choisiront"
+        ],
+        "passe_compose": [
+          "ai choisi",
+          "as choisi",
+          "a choisi",
+          "avons choisi",
+          "avez choisi",
+          "ont choisi"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "réclamer",
+      "vi": "yêu cầu, khiếu nại đòi quyền lợi",
+      "example": "Nadia réclame une réponse écrite.",
+      "example_vi": "Nadia yêu cầu câu trả lời bằng văn bản.",
+      "forms": {
+        "present": [
+          "réclame",
+          "réclames",
+          "réclame",
+          "réclamons",
+          "réclamez",
+          "réclament"
+        ],
+        "imparfait": [
+          "réclamais",
+          "réclamais",
+          "réclamait",
+          "réclamions",
+          "réclamiez",
+          "réclamaient"
+        ],
+        "future": [
+          "réclamerai",
+          "réclameras",
+          "réclamera",
+          "réclamerons",
+          "réclamerez",
+          "réclameront"
+        ],
+        "passe_compose": [
+          "ai réclamé",
+          "as réclamé",
+          "a réclamé",
+          "avons réclamé",
+          "avez réclamé",
+          "ont réclamé"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "obtenir",
+      "vi": "nhận được, đạt được",
+      "example": "Elle obtient un remplacement de l'appareil.",
+      "example_vi": "Cô ấy được đổi máy.",
+      "forms": {
+        "present": [
+          "obtiens",
+          "obtiens",
+          "obtient",
+          "obtenons",
+          "obtenez",
+          "obtiennent"
+        ],
+        "imparfait": [
+          "obtenais",
+          "obtenais",
+          "obtenait",
+          "obtenions",
+          "obteniez",
+          "obtenaient"
+        ],
+        "future": [
+          "obtiendrai",
+          "obtiendras",
+          "obtiendra",
+          "obtiendrons",
+          "obtiendrez",
+          "obtiendront"
+        ],
+        "passe_compose": [
+          "ai obtenu",
+          "as obtenu",
+          "a obtenu",
+          "avons obtenu",
+          "avez obtenu",
+          "ont obtenu"
+        ]
+      }
+    }
+  ],
+  "subjects": [
+    "je",
+    "tu",
+    "il/elle",
+    "nous",
+    "vous",
+    "ils/elles"
+  ]
+}
