@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-10-27",
-  "released_count": 6,
+  "last_checked": "2026-10-28",
+  "released_count": 7,
   "total_prepared": 14,
   "lessons": [
     {
@@ -227,6 +227,44 @@
           "vi": "giải thích",
           "present": "j'explique",
           "passe_compose": "j'ai expliqué"
+        }
+      ],
+      "kind": "new"
+    },
+    {
+      "day": 7,
+      "level": "B1",
+      "title": "La météo",
+      "story": "Il pleuvait quand Hugo est sorti de chez lui. Il avait oublié son parapluie. Heureusement, son voisin lui a proposé de marcher sous le même parapluie.",
+      "vocabulary": [
+        {
+          "word": "le parapluie",
+          "vi": "ô; dù che mưa",
+          "example": "J'ai oublié mon parapluie."
+        },
+        {
+          "word": "heureusement",
+          "vi": "may mắn thay",
+          "example": "Heureusement, il est arrivé."
+        },
+        {
+          "word": "le voisin",
+          "vi": "hàng xóm nam",
+          "example": "Mon voisin est gentil."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "oublier",
+          "vi": "quên",
+          "present": "j'oublie",
+          "passe_compose": "j'ai oublié"
+        },
+        {
+          "infinitive": "proposer",
+          "vi": "đề nghị",
+          "present": "je propose",
+          "passe_compose": "j'ai proposé"
         }
       ],
       "kind": "new"
