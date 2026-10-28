@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-28",
+  "words": [
+    {
+      "level": "A1",
+      "word": "un bouquet",
+      "pos": "danh từ giống đực",
+      "vi": "bó hoa",
+      "example": "J'achète un bouquet de tulipes.",
+      "example_vi": "Tôi mua một bó hoa tulip."
+    },
+    {
+      "level": "A1",
+      "word": "une fleur",
+      "pos": "danh từ giống cái",
+      "vi": "bông hoa",
+      "example": "Cette fleur est jaune.",
+      "example_vi": "Bông hoa này màu vàng."
+    },
+    {
+      "level": "A1",
+      "word": "un vendeur / une vendeuse",
+      "pos": "danh từ",
+      "vi": "người bán hàng",
+      "example": "La vendeuse prépare mon bouquet.",
+      "example_vi": "Cô bán hàng chuẩn bị bó hoa cho tôi."
+    },
+    {
+      "level": "A1",
+      "word": "un pot",
+      "pos": "danh từ giống đực",
+      "vi": "chậu trồng cây",
+      "example": "Le basilic pousse dans un petit pot.",
+      "example_vi": "Cây húng quế mọc trong một chậu nhỏ."
+    },
+    {
+      "level": "A1",
+      "word": "frais / fraîche",
+      "pos": "tính từ",
+      "vi": "tươi, mới (hoa, thực phẩm)",
+      "example": "Ces fleurs sont fraîches.",
+      "example_vi": "Những bông hoa này còn tươi."
+    },
+    {
+      "level": "A1",
+      "word": "arroser",
+      "pos": "động từ",
+      "vi": "tưới nước cho cây",
+      "example": "J'arrose mes plantes le matin.",
+      "example_vi": "Tôi tưới cây vào buổi sáng."
+    },
+    {
+      "level": "A2",
+      "word": "un abonnement",
+      "pos": "danh từ giống đực",
+      "vi": "vé tháng hoặc gói đăng ký dịch vụ",
+      "example": "Je prends un abonnement mensuel de tram.",
+      "example_vi": "Tôi mua vé tháng đi tàu điện."
+    },
+    {
+      "level": "A2",
+      "word": "un distributeur automatique",
+      "pos": "danh từ giống đực",
+      "vi": "máy bán vé tự động",
+      "example": "Le distributeur accepte la carte bancaire.",
+      "example_vi": "Máy bán vé chấp nhận thẻ ngân hàng."
+    },
+    {
+      "level": "A2",
+      "word": "un trajet",
+      "pos": "danh từ giống đực",
+      "vi": "chuyến đi, hành trình",
+      "example": "Ce trajet dure quinze minutes.",
+      "example_vi": "Chuyến đi này mất mười lăm phút."
+    },
+    {
+      "level": "A2",
+      "word": "une correspondance",
+      "pos": "danh từ giống cái",
+      "vi": "điểm hoặc lượt chuyển tuyến",
+      "example": "Je change de tram à la correspondance.",
+      "example_vi": "Tôi đổi tàu điện tại điểm chuyển tuyến."
+    },
+    {
+      "level": "A2",
+      "word": "valider un titre de transport",
+      "pos": "cụm động từ",
+      "vi": "xác thực vé trước khi đi",
+      "example": "Il faut valider son titre de transport.",
+      "example_vi": "Cần xác thực vé đi lại."
+    },
+    {
+      "level": "A2",
+      "word": "recharger",
+      "pos": "động từ",
+      "vi": "nạp thêm tiền hoặc lượt sử dụng",
+      "example": "Je recharge ma carte de transport.",
+      "example_vi": "Tôi nạp thêm tiền vào thẻ đi lại."
+    },
+    {
+      "level": "B1",
+      "word": "un atelier participatif",
+      "pos": "danh từ giống đực",
+      "vi": "buổi thực hành có người tham gia",
+      "example": "L'atelier participatif commence à dix heures.",
+      "example_vi": "Buổi thực hành có người tham gia bắt đầu lúc mười giờ."
+    },
+    {
+      "level": "B1",
+      "word": "une crevaison",
+      "pos": "danh từ giống cái",
+      "vi": "sự thủng lốp xe",
+      "example": "J'ai une crevaison sur mon vélo.",
+      "example_vi": "Xe đạp của tôi bị thủng lốp."
+    },
+    {
+      "level": "B1",
+      "word": "une chambre à air",
+      "pos": "danh từ giống cái",
+      "vi": "ruột xe",
+      "example": "Il faut changer la chambre à air.",
+      "example_vi": "Cần thay ruột xe."
+    },
+    {
+      "level": "B1",
+      "word": "un outil",
+      "pos": "danh từ giống đực",
+      "vi": "dụng cụ sửa chữa",
+      "example": "Le bénévole me prête un outil.",
+      "example_vi": "Tình nguyện viên cho tôi mượn một dụng cụ."
+    },
+    {
+      "level": "B1",
+      "word": "une réparation",
+      "pos": "danh từ giống cái",
+      "vi": "việc sửa chữa",
+      "example": "La réparation prend une demi-heure.",
+      "example_vi": "Việc sửa chữa mất nửa giờ."
+    },
+    {
+      "level": "B1",
+      "word": "un conseil pratique",
+      "pos": "danh từ giống đực",
+      "vi": "lời khuyên hữu ích để thực hành",
+      "example": "Je reçois un conseil pratique pour entretenir mon vélo.",
+      "example_vi": "Tôi nhận được lời khuyên hữu ích để bảo dưỡng xe đạp."
+    },
+    {
+      "level": "B2",
+      "word": "une reconversion professionnelle",
+      "pos": "danh từ giống cái",
+      "vi": "việc chuyển đổi nghề nghiệp",
+      "example": "Elle prépare une reconversion professionnelle.",
+      "example_vi": "Cô ấy chuẩn bị chuyển nghề."
+    },
+    {
+      "level": "B2",
+      "word": "une compétence transférable",
+      "pos": "danh từ giống cái",
+      "vi": "kỹ năng có thể áp dụng sang công việc khác",
+      "example": "L'organisation est une compétence transférable.",
+      "example_vi": "Khả năng tổ chức là một kỹ năng có thể áp dụng sang công việc khác."
+    },
+    {
+      "level": "B2",
+      "word": "un organisme de formation",
+      "pos": "danh từ giống đực",
+      "vi": "đơn vị đào tạo nghề",
+      "example": "Elle contacte un organisme de formation.",
+      "example_vi": "Cô ấy liên hệ một đơn vị đào tạo."
+    },
+    {
+      "level": "B2",
+      "word": "un financement",
+      "pos": "danh từ giống đực",
+      "vi": "nguồn kinh phí hỗ trợ",
+      "example": "Elle cherche un financement pour sa formation.",
+      "example_vi": "Cô ấy tìm nguồn kinh phí cho khóa đào tạo."
+    },
+    {
+      "level": "B2",
+      "word": "un justificatif",
+      "pos": "danh từ giống đực",
+      "vi": "giấy tờ chứng minh",
+      "example": "Le dossier exige un justificatif.",
+      "example_vi": "Hồ sơ yêu cầu giấy tờ chứng minh."
+    },
+    {
+      "level": "B2",
+      "word": "une candidature",
+      "pos": "danh từ giống cái",
+      "vi": "hồ sơ hoặc việc ứng tuyển",
+      "example": "Elle prépare sa candidature avec soin.",
+      "example_vi": "Cô ấy chuẩn bị hồ sơ ứng tuyển cẩn thận."
+    }
+  ],
+  "stories": [
+    {
+      "level": "A1",
+      "title": "Des fleurs pour Mamie",
+      "vi": "Mua hoa ở chợ sáng cuối tuần",
+      "paragraphs": [
+        "Samedi matin, Émilie va au marché avec son frère. Ils veulent acheter des fleurs pour leur grand-mère.",
+        "Devant un petit stand, Émilie voit des tulipes rouges et jaunes. Elle demande : « Bonjour, combien coûte ce bouquet ? »",
+        "La vendeuse répond : « Huit euros. » Son frère choisit aussi un petit pot de basilic. Ils paient et disent merci.",
+        "À midi, ils arrivent chez leur grand-mère. Elle sourit et pose les fleurs sur la table."
+      ],
+      "translations": [
+        "Sáng thứ Bảy, Émilie đi chợ cùng em trai. Họ muốn mua hoa tặng bà.",
+        "Trước một quầy nhỏ, Émilie nhìn thấy hoa tulip đỏ và vàng. Cô hỏi: “Xin chào, bó hoa này giá bao nhiêu?”",
+        "Người bán đáp: “Tám euro.” Em trai cô còn chọn một chậu húng quế nhỏ. Họ thanh toán và cảm ơn.",
+        "Đến trưa, họ đến nhà bà. Bà mỉm cười và đặt hoa lên bàn."
+      ],
+      "questions": [
+        {
+          "q": "Pour qui Émilie achète-t-elle des fleurs ?",
+          "choices": [
+            "Pour sa grand-mère",
+            "Pour son professeur",
+            "Pour son voisin"
+          ],
+          "answer": 0,
+          "explain_vi": "Émilie mua hoa tặng bà."
+        },
+        {
+          "q": "Combien coûte le bouquet ?",
+          "choices": [
+            "Cinq euros",
+            "Huit euros",
+            "Douze euros"
+          ],
+          "answer": 1,
+          "explain_vi": "Bó hoa có giá tám euro."
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Une carte de tram à Strasbourg",
+      "vi": "Nạp thẻ đi tàu điện ở Strasbourg",
+      "paragraphs": [
+        "Depuis son arrivée à Strasbourg, Karim prend souvent le tram pour aller à son cours de français. Jusqu'à présent, il achetait des tickets à l'unité.",
+        "Ce matin, une amie lui conseille de comparer les tarifs des abonnements. Karim consulte les informations officielles du réseau avant de choisir la formule qui correspond à ses trajets.",
+        "Au distributeur automatique, il suit les instructions et recharge sa carte. Comme il ne comprend pas un message à l'écran, il demande de l'aide à une agente.",
+        "Avant de monter dans le tram, il valide son titre de transport. Il descend à la station suivante pour prendre une correspondance et arrive à l'heure en classe."
+      ],
+      "translations": [
+        "Từ khi đến Strasbourg, Karim thường đi tàu điện đến lớp tiếng Pháp. Trước đây anh mua vé lẻ.",
+        "Sáng nay, một người bạn khuyên anh so sánh giá các loại vé tháng. Karim xem thông tin chính thức của mạng lưới giao thông trước khi chọn gói phù hợp với các chuyến đi của mình.",
+        "Tại máy bán vé tự động, anh làm theo hướng dẫn và nạp thẻ. Vì không hiểu một thông báo trên màn hình, anh nhờ nhân viên giúp đỡ.",
+        "Trước khi lên tàu điện, anh xác thực vé. Anh xuống ở ga kế tiếp để đổi tuyến và đến lớp đúng giờ."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Karim compare-t-il les abonnements ?",
+          "choices": [
+            "Pour choisir une formule adaptée",
+            "Pour acheter un vélo",
+            "Pour réserver un hôtel"
+          ],
+          "answer": 0,
+          "explain_vi": "Anh muốn chọn gói phù hợp với các chuyến đi."
+        },
+        {
+          "q": "Que fait-il avant de monter dans le tram ?",
+          "choices": [
+            "Il achète un journal",
+            "Il valide son titre de transport",
+            "Il téléphone à sa sœur"
+          ],
+          "answer": 1,
+          "explain_vi": "Anh xác thực vé trước khi lên tàu."
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "title": "Réparer son vélo ensemble",
+      "vi": "Tham gia buổi sửa xe đạp cộng đồng",
+      "paragraphs": [
+        "Dimanche dernier, Pauline a découvert que la roue arrière de son vélo était à plat. Elle pensait d'abord aller directement chez un réparateur, mais une affiche dans son quartier annonçait un atelier participatif.",
+        "Sur place, un bénévole lui a montré comment retirer la roue et trouver le trou dans la chambre à air. Pauline n'avait jamais réalisé cette opération et elle avait peur d'abîmer son vélo.",
+        "Au lieu de faire le travail à sa place, le bénévole lui a prêté les outils nécessaires et lui a expliqué chaque étape. Pendant qu'elle réparait la roue, d'autres habitants apprenaient à régler leurs freins.",
+        "Une heure plus tard, Pauline pouvait rentrer à vélo. Elle avait non seulement économisé une réparation, mais aussi gagné en confiance. Elle a promis de revenir pour aider à installer les tables lors du prochain atelier."
+      ],
+      "translations": [
+        "Chủ nhật trước, Pauline phát hiện bánh sau xe đạp bị xẹp. Ban đầu cô định mang ngay đến tiệm sửa, nhưng một tờ thông báo trong khu phố giới thiệu buổi sửa chữa cộng đồng.",
+        "Tại đó, một tình nguyện viên chỉ cô cách tháo bánh và tìm lỗ thủng ở ruột xe. Pauline chưa từng làm việc này và sợ làm hỏng xe.",
+        "Thay vì sửa hộ, tình nguyện viên cho cô mượn dụng cụ và giải thích từng bước. Trong khi cô sửa bánh, những cư dân khác học cách chỉnh phanh.",
+        "Một giờ sau, Pauline có thể đạp xe về nhà. Cô không chỉ tiết kiệm được tiền sửa mà còn tự tin hơn. Cô hứa sẽ quay lại giúp kê bàn ở buổi tiếp theo."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Pauline hésitait-elle au début ?",
+          "choices": [
+            "Elle craignait d'abîmer son vélo",
+            "Elle n'avait pas de vélo",
+            "Elle voulait acheter un tram"
+          ],
+          "answer": 0,
+          "explain_vi": "Cô sợ làm hỏng xe vì chưa từng tự sửa."
+        },
+        {
+          "q": "Que fait le bénévole ?",
+          "choices": [
+            "Il lui vend un vélo neuf",
+            "Il lui prête des outils et la guide",
+            "Il ferme l'atelier"
+          ],
+          "answer": 1,
+          "explain_vi": "Tình nguyện viên cho mượn dụng cụ và hướng dẫn từng bước."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Changer de métier sans improviser",
+      "vi": "Lập kế hoạch chuyển nghề và tìm khóa đào tạo phù hợp",
+      "paragraphs": [
+        "Après douze ans dans la vente, Leïla envisage une reconversion vers la gestion de projets numériques. Elle apprécie le contact avec les clients, mais souhaite désormais participer davantage à la conception des services.",
+        "Lors d'un entretien d'orientation, une conseillère l'invite à distinguer les compétences qu'elle maîtrise déjà de celles qu'elle devra acquérir. Sa capacité à négocier, à organiser un calendrier et à résoudre des conflits constitue un atout transférable.",
+        "Leïla compare plusieurs organismes de formation en examinant le programme, le rythme, les prérequis et les possibilités de financement. Elle vérifie les conditions auprès des interlocuteurs compétents, car les aides ne sont ni automatiques ni identiques pour tous les candidats.",
+        "Plutôt que de quitter immédiatement son emploi, elle prépare un dossier argumenté et rencontre deux professionnels du secteur. Leurs témoignages nuancent son enthousiasme : le métier comporte aussi des contraintes techniques et des délais serrés. Cette démarche lui permet de prendre une décision plus réfléchie."
+      ],
+      "translations": [
+        "Sau mười hai năm làm bán hàng, Leïla cân nhắc chuyển sang quản lý dự án số. Cô thích tiếp xúc khách hàng nhưng giờ muốn tham gia nhiều hơn vào quá trình thiết kế dịch vụ.",
+        "Trong buổi tư vấn hướng nghiệp, một cố vấn khuyên cô phân biệt kỹ năng đã có với kỹ năng cần học thêm. Khả năng thương lượng, sắp xếp lịch và giải quyết xung đột là lợi thế có thể chuyển sang nghề mới.",
+        "Leïla so sánh nhiều đơn vị đào tạo dựa trên chương trình, nhịp học, điều kiện đầu vào và khả năng được hỗ trợ kinh phí. Cô kiểm tra điều kiện với cơ quan liên quan vì hỗ trợ không tự động áp dụng và không giống nhau với mọi ứng viên.",
+        "Thay vì nghỉ việc ngay, cô chuẩn bị hồ sơ có lập luận và gặp hai người đang làm trong ngành. Kinh nghiệm của họ khiến cô nhìn nhận thực tế hơn: nghề cũng có yêu cầu kỹ thuật và thời hạn gấp. Cách chuẩn bị này giúp cô đưa ra quyết định thận trọng."
+      ],
+      "questions": [
+        {
+          "q": "Quel est l'objectif de l'entretien d'orientation ?",
+          "choices": [
+            "Distinguer les compétences acquises et celles à développer",
+            "Obtenir automatiquement une aide financière",
+            "Signer immédiatement un contrat"
+          ],
+          "answer": 0,
+          "explain_vi": "Buổi tư vấn giúp xác định kỹ năng đã có và cần phát triển."
+        },
+        {
+          "q": "Pourquoi Leïla rencontre-t-elle des professionnels ?",
+          "choices": [
+            "Pour éviter toute formation",
+            "Pour mieux comprendre les réalités du métier",
+            "Pour demander un billet de tram"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô muốn hiểu thực tế công việc trước khi quyết định."
+        }
+      ]
+    }
+  ],
+  "verbs": [
+    {
+      "level": "A1",
+      "inf": "acheter",
+      "vi": "mua",
+      "example": "J'achète des fleurs pour ma grand-mère.",
+      "example_vi": "Tôi mua hoa tặng bà.",
+      "forms": {
+        "present": [
+          "achète",
+          "achètes",
+          "achète",
+          "achetons",
+          "achetez",
+          "achètent"
+        ],
+        "imparfait": [
+          "achetais",
+          "achetais",
+          "achetait",
+          "achetions",
+          "achetiez",
+          "achetaient"
+        ],
+        "future": [
+          "achèterai",
+          "achèteras",
+          "achètera",
+          "achèterons",
+          "achèterez",
+          "achèteront"
+        ],
+        "passe_compose": [
+          "ai acheté",
+          "as acheté",
+          "a acheté",
+          "avons acheté",
+          "avez acheté",
+          "ont acheté"
+        ]
+      }
+    },
+    {
+      "level": "A1",
+      "inf": "arroser",
+      "vi": "tưới cây",
+      "example": "Nous arrosons les fleurs le matin.",
+      "example_vi": "Chúng tôi tưới hoa vào buổi sáng.",
+      "forms": {
+        "present": [
+          "arrose",
+          "arroses",
+          "arrose",
+          "arrosons",
+          "arrosez",
+          "arrosent"
+        ],
+        "imparfait": [
+          "arrosais",
+          "arrosais",
+          "arrosait",
+          "arrosions",
+          "arrosiez",
+          "arrosaient"
+        ],
+        "future": [
+          "arroserai",
+          "arroseras",
+          "arrosera",
+          "arroserons",
+          "arroserez",
+          "arroseront"
+        ],
+        "passe_compose": [
+          "ai arrosé",
+          "as arrosé",
+          "a arrosé",
+          "avons arrosé",
+          "avez arrosé",
+          "ont arrosé"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "recharger",
+      "vi": "nạp lại tiền hoặc năng lượng",
+      "example": "Je recharge ma carte avant de partir.",
+      "example_vi": "Tôi nạp thẻ trước khi đi.",
+      "forms": {
+        "present": [
+          "recharge",
+          "recharges",
+          "recharge",
+          "rechargons",
+          "rechargez",
+          "rechargent"
+        ],
+        "imparfait": [
+          "rechargais",
+          "rechargais",
+          "rechargait",
+          "rechargions",
+          "rechargiez",
+          "rechargaient"
+        ],
+        "future": [
+          "rechargerai",
+          "rechargeras",
+          "rechargera",
+          "rechargerons",
+          "rechargerez",
+          "rechargeront"
+        ],
+        "passe_compose": [
+          "ai rechargé",
+          "as rechargé",
+          "a rechargé",
+          "avons rechargé",
+          "avez rechargé",
+          "ont rechargé"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "attendre",
+      "vi": "chờ đợi",
+      "example": "J'attends le tram à l'arrêt.",
+      "example_vi": "Tôi chờ tàu điện ở trạm.",
+      "forms": {
+        "present": [
+          "attends",
+          "attends",
+          "attend",
+          "attendons",
+          "attendez",
+          "attendent"
+        ],
+        "imparfait": [
+          "attendais",
+          "attendais",
+          "attendait",
+          "attendions",
+          "attendiez",
+          "attendaient"
+        ],
+        "future": [
+          "attendrai",
+          "attendras",
+          "attendra",
+          "attendrons",
+          "attendrez",
+          "attendront"
+        ],
+        "passe_compose": [
+          "ai attendu",
+          "as attendu",
+          "a attendu",
+          "avons attendu",
+          "avez attendu",
+          "ont attendu"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "réparer",
+      "vi": "sửa chữa",
+      "example": "Pauline répare la roue de son vélo.",
+      "example_vi": "Pauline sửa bánh xe đạp của mình.",
+      "forms": {
+        "present": [
+          "répare",
+          "répares",
+          "répare",
+          "réparons",
+          "réparez",
+          "réparent"
+        ],
+        "imparfait": [
+          "réparais",
+          "réparais",
+          "réparait",
+          "réparions",
+          "répariez",
+          "réparaient"
+        ],
+        "future": [
+          "réparerai",
+          "répareras",
+          "réparera",
+          "réparerons",
+          "réparerez",
+          "répareront"
+        ],
+        "passe_compose": [
+          "ai réparé",
+          "as réparé",
+          "a réparé",
+          "avons réparé",
+          "avez réparé",
+          "ont réparé"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "emprunter",
+      "vi": "mượn",
+      "example": "Elle emprunte des outils au bénévole.",
+      "example_vi": "Cô ấy mượn dụng cụ của tình nguyện viên.",
+      "forms": {
+        "present": [
+          "emprunte",
+          "empruntes",
+          "emprunte",
+          "empruntons",
+          "empruntez",
+          "empruntent"
+        ],
+        "imparfait": [
+          "empruntais",
+          "empruntais",
+          "empruntait",
+          "empruntions",
+          "empruntiez",
+          "empruntaient"
+        ],
+        "future": [
+          "emprunterai",
+          "emprunteras",
+          "empruntera",
+          "emprunterons",
+          "emprunterez",
+          "emprunteront"
+        ],
+        "passe_compose": [
+          "ai emprunté",
+          "as emprunté",
+          "a emprunté",
+          "avons emprunté",
+          "avez emprunté",
+          "ont emprunté"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "justifier",
+      "vi": "chứng minh, giải trình",
+      "example": "Leïla justifie son choix de formation.",
+      "example_vi": "Leïla giải trình lý do chọn khóa đào tạo.",
+      "forms": {
+        "present": [
+          "justifie",
+          "justifies",
+          "justifie",
+          "justifions",
+          "justifiez",
+          "justifient"
+        ],
+        "imparfait": [
+          "justifiais",
+          "justifiais",
+          "justifiait",
+          "justifiions",
+          "justifiiez",
+          "justifiaient"
+        ],
+        "future": [
+          "justifierai",
+          "justifieras",
+          "justifiera",
+          "justifierons",
+          "justifierez",
+          "justifieront"
+        ],
+        "passe_compose": [
+          "ai justifié",
+          "as justifié",
+          "a justifié",
+          "avons justifié",
+          "avez justifié",
+          "ont justifié"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "convaincre",
+      "vi": "thuyết phục",
+      "example": "Elle convainc son responsable avec un projet précis.",
+      "example_vi": "Cô ấy thuyết phục quản lý bằng một kế hoạch cụ thể.",
+      "forms": {
+        "present": [
+          "convaincs",
+          "convaincs",
+          "convainc",
+          "convainquons",
+          "convainquez",
+          "convainquent"
+        ],
+        "imparfait": [
+          "convainquais",
+          "convainquais",
+          "convainquait",
+          "convainquions",
+          "convainquiez",
+          "convainquaient"
+        ],
+        "future": [
+          "convaincrai",
+          "convaincras",
+          "convaincra",
+          "convaincrons",
+          "convaincrez",
+          "convaincront"
+        ],
+        "passe_compose": [
+          "ai convaincu",
+          "as convaincu",
+          "a convaincu",
+          "avons convaincu",
+          "avez convaincu",
+          "ont convaincu"
+        ]
+      }
+    }
+  ],
+  "subjects": [
+    "je",
+    "tu",
+    "il/elle",
+    "nous",
+    "vous",
+    "ils/elles"
+  ]
+}
