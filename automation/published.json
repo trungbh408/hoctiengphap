@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-10-28",
-  "released_count": 7,
+  "last_checked": "2026-10-29",
+  "released_count": 8,
   "total_prepared": 14,
   "lessons": [
     {
@@ -265,6 +265,44 @@
           "vi": "đề nghị",
           "present": "je propose",
           "passe_compose": "j'ai proposé"
+        }
+      ],
+      "kind": "new"
+    },
+    {
+      "day": 8,
+      "level": "A2",
+      "title": "À la poste",
+      "story": "Marie doit envoyer un colis à Strasbourg. L'employé pèse le paquet et lui propose deux tarifs. Elle choisit l'envoi avec suivi pour connaître la date de livraison.",
+      "vocabulary": [
+        {
+          "word": "le colis",
+          "vi": "bưu kiện",
+          "example": "J'envoie un colis."
+        },
+        {
+          "word": "le suivi",
+          "vi": "việc theo dõi đơn hàng",
+          "example": "Je vérifie le suivi."
+        },
+        {
+          "word": "la livraison",
+          "vi": "việc giao hàng",
+          "example": "La livraison arrive demain."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "envoyer",
+          "vi": "gửi",
+          "present": "j'envoie",
+          "passe_compose": "j'ai envoyé"
+        },
+        {
+          "infinitive": "choisir",
+          "vi": "chọn",
+          "present": "je choisis",
+          "passe_compose": "j'ai choisi"
         }
       ],
       "kind": "new"
