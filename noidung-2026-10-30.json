@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-30",
+  "words": [
+    {
+      "level": "A1",
+      "word": "un chat",
+      "pos": "danh từ giống đực",
+      "vi": "con mèo",
+      "example": "Le chat dort sur le canapé.",
+      "example_vi": "Con mèo ngủ trên ghế sofa."
+    },
+    {
+      "level": "A1",
+      "word": "une gamelle",
+      "pos": "danh từ giống cái",
+      "vi": "bát đựng thức ăn hoặc nước cho thú cưng",
+      "example": "Je remplis la gamelle du chat.",
+      "example_vi": "Tôi đổ đầy bát thức ăn của mèo."
+    },
+    {
+      "level": "A1",
+      "word": "des croquettes",
+      "pos": "danh từ giống cái số nhiều",
+      "vi": "thức ăn viên khô cho thú cưng",
+      "example": "Le chat mange des croquettes.",
+      "example_vi": "Con mèo ăn thức ăn viên."
+    },
+    {
+      "level": "A1",
+      "word": "une litière",
+      "pos": "danh từ giống cái",
+      "vi": "khay hoặc cát vệ sinh cho mèo, tùy ngữ cảnh",
+      "example": "Je nettoie la litière chaque soir.",
+      "example_vi": "Tối nào tôi cũng dọn khay vệ sinh của mèo."
+    },
+    {
+      "level": "A1",
+      "word": "un double des clés",
+      "pos": "cụm danh từ giống đực",
+      "vi": "bộ chìa khóa dự phòng",
+      "example": "Ma voisine me donne un double des clés.",
+      "example_vi": "Hàng xóm đưa tôi một bộ chìa khóa dự phòng."
+    },
+    {
+      "level": "A1",
+      "word": "une consigne",
+      "pos": "danh từ giống cái",
+      "vi": "lời dặn, chỉ dẫn cần làm theo",
+      "example": "Je lis les consignes de ma voisine.",
+      "example_vi": "Tôi đọc những lời dặn của người hàng xóm."
+    },
+    {
+      "level": "A2",
+      "word": "un écran fissuré",
+      "pos": "cụm danh từ giống đực",
+      "vi": "màn hình bị nứt",
+      "example": "L'écran de mon téléphone est fissuré.",
+      "example_vi": "Màn hình điện thoại của tôi bị nứt."
+    },
+    {
+      "level": "A2",
+      "word": "un réparateur / une réparatrice",
+      "pos": "danh từ chỉ người",
+      "vi": "thợ sửa chữa",
+      "example": "La réparatrice examine mon téléphone.",
+      "example_vi": "Nữ thợ sửa kiểm tra điện thoại của tôi."
+    },
+    {
+      "level": "A2",
+      "word": "un diagnostic",
+      "pos": "danh từ giống đực",
+      "vi": "kết quả kiểm tra để xác định lỗi thiết bị",
+      "example": "Le diagnostic prend vingt minutes.",
+      "example_vi": "Việc kiểm tra xác định lỗi mất hai mươi phút."
+    },
+    {
+      "level": "A2",
+      "word": "une pièce de rechange",
+      "pos": "danh từ giống cái",
+      "vi": "linh kiện thay thế",
+      "example": "La pièce de rechange arrivera demain.",
+      "example_vi": "Linh kiện thay thế sẽ đến vào ngày mai."
+    },
+    {
+      "level": "A2",
+      "word": "une réparation express",
+      "pos": "danh từ giống cái",
+      "vi": "dịch vụ sửa chữa nhanh",
+      "example": "L'atelier propose une réparation express.",
+      "example_vi": "Tiệm có dịch vụ sửa nhanh."
+    },
+    {
+      "level": "A2",
+      "word": "un appareil de prêt",
+      "pos": "danh từ giống đực",
+      "vi": "thiết bị cho mượn sử dụng tạm thời",
+      "example": "L'atelier me propose un appareil de prêt.",
+      "example_vi": "Tiệm đề nghị cho tôi mượn một thiết bị dùng tạm."
+    },
+    {
+      "level": "B1",
+      "word": "une coupure de réseau",
+      "pos": "danh từ giống cái",
+      "vi": "sự gián đoạn hoặc mất kết nối mạng",
+      "example": "Une coupure de réseau interrompt la réunion.",
+      "example_vi": "Mạng bị gián đoạn làm cuộc họp phải dừng."
+    },
+    {
+      "level": "B1",
+      "word": "un routeur",
+      "pos": "danh từ giống đực",
+      "vi": "bộ định tuyến mạng",
+      "example": "Je redémarre le routeur.",
+      "example_vi": "Tôi khởi động lại bộ định tuyến."
+    },
+    {
+      "level": "B1",
+      "word": "une assistance technique",
+      "pos": "danh từ giống cái",
+      "vi": "bộ phận hỗ trợ kỹ thuật",
+      "example": "J'appelle l'assistance technique.",
+      "example_vi": "Tôi gọi bộ phận hỗ trợ kỹ thuật."
+    },
+    {
+      "level": "B1",
+      "word": "un partage de connexion",
+      "pos": "danh từ giống đực",
+      "vi": "tính năng chia sẻ kết nối Internet từ thiết bị khác",
+      "example": "J'utilise le partage de connexion de mon téléphone.",
+      "example_vi": "Tôi dùng tính năng chia sẻ mạng từ điện thoại."
+    },
+    {
+      "level": "B1",
+      "word": "un rétablissement",
+      "pos": "danh từ giống đực",
+      "vi": "việc khôi phục hoạt động của dịch vụ",
+      "example": "Le rétablissement du service est prévu ce soir.",
+      "example_vi": "Dịch vụ dự kiến được khôi phục vào tối nay."
+    },
+    {
+      "level": "B1",
+      "word": "une solution de secours",
+      "pos": "danh từ giống cái",
+      "vi": "phương án dự phòng khi có sự cố",
+      "example": "Nous avons trouvé une solution de secours.",
+      "example_vi": "Chúng tôi đã tìm được phương án dự phòng."
+    },
+    {
+      "level": "B2",
+      "word": "une ressourcerie",
+      "pos": "danh từ giống cái",
+      "vi": "cơ sở thu gom, sửa chữa và đưa đồ cũ trở lại sử dụng",
+      "example": "La ressourcerie remet des objets en circulation.",
+      "example_vi": "Cơ sở tái sử dụng đưa các đồ vật trở lại vòng sử dụng."
+    },
+    {
+      "level": "B2",
+      "word": "le réemploi",
+      "pos": "danh từ giống đực",
+      "vi": "việc sử dụng lại đồ vật thay vì thải bỏ",
+      "example": "Le réemploi réduit les déchets.",
+      "example_vi": "Việc tái sử dụng làm giảm rác thải."
+    },
+    {
+      "level": "B2",
+      "word": "une économie circulaire",
+      "pos": "danh từ giống cái",
+      "vi": "nền kinh tế tuần hoàn",
+      "example": "Le projet s'inscrit dans une économie circulaire.",
+      "example_vi": "Dự án thuộc định hướng kinh tế tuần hoàn."
+    },
+    {
+      "level": "B2",
+      "word": "une subvention municipale",
+      "pos": "danh từ giống cái",
+      "vi": "khoản hỗ trợ tài chính từ chính quyền thành phố hoặc thị trấn",
+      "example": "L'association sollicite une subvention municipale.",
+      "example_vi": "Hội xin khoản trợ cấp từ chính quyền địa phương."
+    },
+    {
+      "level": "B2",
+      "word": "une gouvernance partagée",
+      "pos": "danh từ giống cái",
+      "vi": "cơ chế quản trị có nhiều bên cùng tham gia",
+      "example": "Une gouvernance partagée associe bénévoles et habitants.",
+      "example_vi": "Cơ chế quản trị chung có sự tham gia của tình nguyện viên và cư dân."
+    },
+    {
+      "level": "B2",
+      "word": "une viabilité financière",
+      "pos": "danh từ giống cái",
+      "vi": "khả năng duy trì hoạt động bền vững về tài chính",
+      "example": "La viabilité financière reste à démontrer.",
+      "example_vi": "Khả năng tự duy trì về tài chính vẫn cần được chứng minh."
+    }
+  ],
+  "stories": [
+    {
+      "level": "A1",
+      "title": "Le chat de Madame Moreau",
+      "vi": "Chăm sóc mèo giúp hàng xóm trong hai ngày",
+      "paragraphs": [
+        "Madame Moreau part chez sa fille pour deux jours. Elle demande à Émilie de garder son chat, Milo.",
+        "Avant de partir, elle donne à Émilie un double des clés et une petite liste de consignes.",
+        "Chaque matin, Émilie nourrit Milo et remplit sa gamelle d'eau. Le soir, elle nettoie la litière.",
+        "Quand Madame Moreau rentre, Milo dort sur le canapé. Elle remercie Émilie et reprend ses clés."
+      ],
+      "translations": [
+        "Bà Moreau sang nhà con gái hai ngày. Bà nhờ Émilie trông giúp con mèo tên Milo.",
+        "Trước khi đi, bà đưa Émilie bộ chìa khóa dự phòng và một danh sách lời dặn ngắn.",
+        "Mỗi sáng Émilie cho Milo ăn và đổ đầy bát nước. Buổi tối cô dọn khay vệ sinh.",
+        "Khi bà Moreau về, Milo đang ngủ trên ghế sofa. Bà cảm ơn Émilie và nhận lại chìa khóa."
+      ],
+      "questions": [
+        {
+          "q": "Combien de jours Madame Moreau s'absente-t-elle ?",
+          "choices": [
+            "Un jour",
+            "Deux jours",
+            "Une semaine"
+          ],
+          "answer": 1,
+          "explain_vi": "Bà Moreau đi vắng hai ngày."
+        },
+        {
+          "q": "Que fait Émilie le soir ?",
+          "choices": [
+            "Elle nettoie la litière.",
+            "Elle achète un canapé.",
+            "Elle part chez sa fille."
+          ],
+          "answer": 0,
+          "explain_vi": "Buổi tối Émilie dọn khay vệ sinh của mèo."
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Un téléphone à réparer",
+      "vi": "Mang điện thoại nứt màn hình đến tiệm sửa",
+      "paragraphs": [
+        "Hier, Thomas a fait tomber son téléphone dans la rue. L'écran était fissuré, mais l'appareil fonctionnait encore.",
+        "Ce matin, il l'a déposé dans un atelier de réparation. La réparatrice a effectué un diagnostic et lui a expliqué le prix de l'intervention.",
+        "La pièce de rechange n'était pas disponible immédiatement. Thomas a accepté d'attendre jusqu'au lendemain et a demandé s'il existait un appareil de prêt.",
+        "Le lendemain, il est revenu chercher son téléphone. Avant de payer, il a vérifié que l'écran répondait correctement et a conservé la facture."
+      ],
+      "translations": [
+        "Hôm qua Thomas làm rơi điện thoại trên đường. Màn hình bị nứt nhưng máy vẫn hoạt động.",
+        "Sáng nay anh mang máy đến tiệm sửa. Nữ thợ kiểm tra lỗi và giải thích giá sửa chữa.",
+        "Linh kiện thay thế chưa có ngay. Thomas đồng ý đợi đến hôm sau và hỏi có máy cho mượn tạm không.",
+        "Hôm sau anh quay lại nhận điện thoại. Trước khi thanh toán, anh kiểm tra màn hình có phản hồi tốt không và giữ lại hóa đơn."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Thomas apporte-t-il son téléphone à l'atelier ?",
+          "choices": [
+            "La batterie a disparu.",
+            "L'écran est fissuré.",
+            "Il veut acheter un chargeur."
+          ],
+          "answer": 1,
+          "explain_vi": "Màn hình điện thoại bị nứt sau khi rơi."
+        },
+        {
+          "q": "Que vérifie-t-il avant de payer ?",
+          "choices": [
+            "La couleur de la boutique",
+            "La météo",
+            "Le fonctionnement de l'écran"
+          ],
+          "answer": 2,
+          "explain_vi": "Anh kiểm tra màn hình hoạt động đúng trước khi trả tiền."
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "title": "Une réunion sans Internet",
+      "vi": "Xử lý sự cố mạng khi làm việc từ xa",
+      "paragraphs": [
+        "Nadia travaillait à domicile lorsqu'une coupure de réseau a interrompu une réunion en visioconférence avec ses collègues. Au début, elle pensait que le problème venait de son ordinateur.",
+        "Elle a redémarré le routeur, puis elle a essayé de se reconnecter. Comme rien ne changeait, elle a contacté l'assistance technique de son fournisseur d'accès.",
+        "Le conseiller lui a annoncé que plusieurs logements du quartier étaient touchés et que le rétablissement du service était prévu dans la soirée. Nadia a prévenu son équipe et a utilisé le partage de connexion de son téléphone pour terminer une tâche urgente.",
+        "Le lendemain, sa responsable lui a proposé de préparer une solution de secours pour les prochaines réunions importantes. Nadia a compris qu'anticiper les incidents pouvait éviter beaucoup de stress."
+      ],
+      "translations": [
+        "Nadia đang làm việc tại nhà thì sự cố mạng làm gián đoạn cuộc họp video với đồng nghiệp. Ban đầu cô tưởng máy tính của mình có vấn đề.",
+        "Cô khởi động lại bộ định tuyến rồi thử kết nối lại. Vì không có gì thay đổi, cô liên hệ bộ phận hỗ trợ kỹ thuật của nhà mạng.",
+        "Nhân viên báo rằng nhiều nhà trong khu phố cũng bị ảnh hưởng và mạng dự kiến được khôi phục vào tối nay. Nadia báo cho nhóm rồi chia sẻ mạng từ điện thoại để hoàn thành việc gấp.",
+        "Ngày hôm sau, người quản lý đề nghị cô chuẩn bị phương án dự phòng cho các cuộc họp quan trọng sau này. Nadia hiểu rằng chủ động dự phòng sự cố có thể giảm nhiều căng thẳng."
+      ],
+      "questions": [
+        {
+          "q": "Quelle est la cause du problème ?",
+          "choices": [
+            "Une panne qui touche plusieurs logements",
+            "Une erreur de mot de passe uniquement",
+            "Un ordinateur volé"
+          ],
+          "answer": 0,
+          "explain_vi": "Sự cố mạng ảnh hưởng nhiều nhà trong khu vực."
+        },
+        {
+          "q": "Comment Nadia termine-t-elle sa tâche urgente ?",
+          "choices": [
+            "Elle attend trois jours.",
+            "Elle utilise le partage de connexion de son téléphone.",
+            "Elle emprunte un routeur au voisin."
+          ],
+          "answer": 1,
+          "explain_vi": "Nadia dùng chia sẻ Internet từ điện thoại."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Une ressourcerie pour le quartier",
+      "vi": "Xây dựng mô hình tái sử dụng đồ cũ ở khu dân cư",
+      "paragraphs": [
+        "Une association locale souhaite ouvrir une ressourcerie où les habitants pourraient déposer des objets encore utilisables. Après vérification ou réparation, ces objets seraient proposés à petit prix, afin de favoriser le réemploi plutôt que le gaspillage.",
+        "Le projet suscite de l'enthousiasme, mais plusieurs membres soulignent les difficultés à venir : trouver un local accessible, organiser les permanences et assurer une gouvernance partagée entre salariés, bénévoles et habitants.",
+        "Lors d'une rencontre avec la mairie, la présidente présente un budget prévisionnel et sollicite une subvention municipale. L'élue chargée de l'environnement soutient le principe, tout en demandant des indicateurs précis sur la fréquentation, les déchets évités et la viabilité financière.",
+        "L'association décide alors de commencer par une expérimentation de six mois dans un local prêté. Elle évaluera les résultats avant d'envisager une ouverture permanente. Cette approche progressive permet de défendre l'ambition écologique sans minimiser les contraintes économiques."
+      ],
+      "translations": [
+        "Một hội địa phương muốn mở cơ sở thu gom và tái sử dụng, nơi cư dân có thể gửi đồ vật còn dùng được. Sau khi kiểm tra hoặc sửa chữa, đồ sẽ được bán lại giá thấp nhằm khuyến khích tái sử dụng thay vì lãng phí.",
+        "Dự án được hưởng ứng nhưng nhiều thành viên chỉ ra khó khăn: tìm địa điểm dễ tiếp cận, tổ chức lịch trực và bảo đảm cơ chế quản trị có sự tham gia của nhân viên, tình nguyện viên và cư dân.",
+        "Trong cuộc gặp với tòa thị chính, chủ tịch hội trình bày ngân sách dự kiến và xin trợ cấp. Đại diện phụ trách môi trường ủng hộ chủ trương nhưng yêu cầu các chỉ số cụ thể về lượt người đến, lượng rác giảm và khả năng duy trì tài chính.",
+        "Hội quyết định thử nghiệm sáu tháng trong một địa điểm được cho mượn. Họ sẽ đánh giá kết quả trước khi cân nhắc hoạt động lâu dài. Cách làm từng bước giúp theo đuổi mục tiêu môi trường mà không xem nhẹ ràng buộc kinh tế."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi la mairie demande-t-elle des indicateurs ?",
+          "choices": [
+            "Pour interdire tout bénévolat",
+            "Pour évaluer les résultats et la viabilité du projet",
+            "Pour fixer le prix des téléphones"
+          ],
+          "answer": 1,
+          "explain_vi": "Chính quyền muốn đánh giá tác động và tính bền vững tài chính."
+        },
+        {
+          "q": "Quelle stratégie l'association adopte-t-elle ?",
+          "choices": [
+            "Une expérimentation de six mois avant une décision durable",
+            "Une ouverture définitive immédiate",
+            "L'abandon de la réparation"
+          ],
+          "answer": 0,
+          "explain_vi": "Hội sẽ thử nghiệm sáu tháng rồi mới quyết định lâu dài."
+        }
+      ]
+    }
+  ],
+  "verbs": [
+    {
+      "level": "A1",
+      "inf": "nourrir",
+      "vi": "cho ăn, nuôi dưỡng",
+      "example": "Émilie nourrit le chat chaque matin.",
+      "example_vi": "Émilie cho mèo ăn mỗi sáng.",
+      "forms": {
+        "present": [
+          "nourris",
+          "nourris",
+          "nourrit",
+          "nourrissons",
+          "nourrissez",
+          "nourrissent"
+        ],
+        "imparfait": [
+          "nourrissais",
+          "nourrissais",
+          "nourrissait",
+          "nourrissions",
+          "nourrissiez",
+          "nourrissaient"
+        ],
+        "future": [
+          "nourrirai",
+          "nourriras",
+          "nourrira",
+          "nourrirons",
+          "nourrirez",
+          "nourriront"
+        ],
+        "passe_compose": [
+          "ai nourri",
+          "as nourri",
+          "a nourri",
+          "avons nourri",
+          "avez nourri",
+          "ont nourri"
+        ]
+      }
+    },
+    {
+      "level": "A1",
+      "inf": "garder",
+      "vi": "trông nom, giữ",
+      "example": "Je garde le chat de ma voisine.",
+      "example_vi": "Tôi trông mèo giúp người hàng xóm.",
+      "forms": {
+        "present": [
+          "garde",
+          "gardes",
+          "garde",
+          "gardons",
+          "gardez",
+          "gardent"
+        ],
+        "imparfait": [
+          "gardais",
+          "gardais",
+          "gardait",
+          "gardions",
+          "gardiez",
+          "gardaient"
+        ],
+        "future": [
+          "garderai",
+          "garderas",
+          "gardera",
+          "garderons",
+          "garderez",
+          "garderont"
+        ],
+        "passe_compose": [
+          "ai gardé",
+          "as gardé",
+          "a gardé",
+          "avons gardé",
+          "avez gardé",
+          "ont gardé"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "déposer",
+      "vi": "để lại, mang đến giao",
+      "example": "Thomas dépose son téléphone à l'atelier.",
+      "example_vi": "Thomas mang điện thoại đến tiệm để sửa.",
+      "forms": {
+        "present": [
+          "dépose",
+          "déposes",
+          "dépose",
+          "déposons",
+          "déposez",
+          "déposent"
+        ],
+        "imparfait": [
+          "déposais",
+          "déposais",
+          "déposait",
+          "déposions",
+          "déposiez",
+          "déposaient"
+        ],
+        "future": [
+          "déposerai",
+          "déposeras",
+          "déposera",
+          "déposerons",
+          "déposerez",
+          "déposeront"
+        ],
+        "passe_compose": [
+          "ai déposé",
+          "as déposé",
+          "a déposé",
+          "avons déposé",
+          "avez déposé",
+          "ont déposé"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "remplacer",
+      "vi": "thay thế",
+      "example": "La réparatrice remplace l'écran.",
+      "example_vi": "Nữ thợ sửa thay màn hình.",
+      "forms": {
+        "present": [
+          "remplace",
+          "remplaces",
+          "remplace",
+          "remplaçons",
+          "remplacez",
+          "remplacent"
+        ],
+        "imparfait": [
+          "remplaçais",
+          "remplaçais",
+          "remplaçait",
+          "remplacions",
+          "remplaciez",
+          "remplaçaient"
+        ],
+        "future": [
+          "remplacerai",
+          "remplaceras",
+          "remplacera",
+          "remplacerons",
+          "remplacerez",
+          "remplaceront"
+        ],
+        "passe_compose": [
+          "ai remplacé",
+          "as remplacé",
+          "a remplacé",
+          "avons remplacé",
+          "avez remplacé",
+          "ont remplacé"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "redémarrer",
+      "vi": "khởi động lại",
+      "example": "Nadia redémarre le routeur.",
+      "example_vi": "Nadia khởi động lại bộ định tuyến.",
+      "forms": {
+        "present": [
+          "redémarre",
+          "redémarres",
+          "redémarre",
+          "redémarrons",
+          "redémarrez",
+          "redémarrent"
+        ],
+        "imparfait": [
+          "redémarrais",
+          "redémarrais",
+          "redémarrait",
+          "redémarrions",
+          "redémarriez",
+          "redémarraient"
+        ],
+        "future": [
+          "redémarrerai",
+          "redémarreras",
+          "redémarrera",
+          "redémarrerons",
+          "redémarrerez",
+          "redémarreront"
+        ],
+        "passe_compose": [
+          "ai redémarré",
+          "as redémarré",
+          "a redémarré",
+          "avons redémarré",
+          "avez redémarré",
+          "ont redémarré"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "résoudre",
+      "vi": "giải quyết",
+      "example": "Le technicien résout le problème.",
+      "example_vi": "Kỹ thuật viên giải quyết sự cố.",
+      "forms": {
+        "present": [
+          "résous",
+          "résous",
+          "résout",
+          "résolvons",
+          "résolvez",
+          "résolvent"
+        ],
+        "imparfait": [
+          "résolvais",
+          "résolvais",
+          "résolvait",
+          "résolvions",
+          "résolviez",
+          "résolvaient"
+        ],
+        "future": [
+          "résoudrai",
+          "résoudras",
+          "résoudra",
+          "résoudrons",
+          "résoudrez",
+          "résoudront"
+        ],
+        "passe_compose": [
+          "ai résolu",
+          "as résolu",
+          "a résolu",
+          "avons résolu",
+          "avez résolu",
+          "ont résolu"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "mutualiser",
+      "vi": "dùng chung, chia sẻ nguồn lực",
+      "example": "Les associations mutualisent leurs ressources.",
+      "example_vi": "Các hội cùng chia sẻ nguồn lực.",
+      "forms": {
+        "present": [
+          "mutualise",
+          "mutualises",
+          "mutualise",
+          "mutualisons",
+          "mutualisez",
+          "mutualisent"
+        ],
+        "imparfait": [
+          "mutualisais",
+          "mutualisais",
+          "mutualisait",
+          "mutualisions",
+          "mutualisiez",
+          "mutualisaient"
+        ],
+        "future": [
+          "mutualiserai",
+          "mutualiseras",
+          "mutualisera",
+          "mutualiserons",
+          "mutualiserez",
+          "mutualiseront"
+        ],
+        "passe_compose": [
+          "ai mutualisé",
+          "as mutualisé",
+          "a mutualisé",
+          "avons mutualisé",
+          "avez mutualisé",
+          "ont mutualisé"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "soutenir",
+      "vi": "ủng hộ, hỗ trợ",
+      "example": "La mairie soutient le projet.",
+      "example_vi": "Chính quyền địa phương ủng hộ dự án.",
+      "forms": {
+        "present": [
+          "soutiens",
+          "soutiens",
+          "soutient",
+          "soutenons",
+          "soutenez",
+          "soutiennent"
+        ],
+        "imparfait": [
+          "soutenais",
+          "soutenais",
+          "soutenait",
+          "soutenions",
+          "souteniez",
+          "soutenaient"
+        ],
+        "future": [
+          "soutiendrai",
+          "soutiendras",
+          "soutiendra",
+          "soutiendrons",
+          "soutiendrez",
+          "soutiendront"
+        ],
+        "passe_compose": [
+          "ai soutenu",
+          "as soutenu",
+          "a soutenu",
+          "avons soutenu",
+          "avez soutenu",
+          "ont soutenu"
+        ]
+      }
+    }
+  ],
+  "subjects": [
+    "je",
+    "tu",
+    "il/elle",
+    "nous",
+    "vous",
+    "ils/elles"
+  ]
+}
