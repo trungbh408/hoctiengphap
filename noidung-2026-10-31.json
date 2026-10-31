@@ -1,0 +1,685 @@
+{
+  "date": "2026-10-31",
+  "words": [
+    {
+      "level": "A1",
+      "word": "une invitation",
+      "pos": "danh từ giống cái",
+      "vi": "lời mời",
+      "example": "Je reçois une invitation.",
+      "example_vi": "Tôi nhận được một lời mời."
+    },
+    {
+      "level": "A1",
+      "word": "un goûter",
+      "pos": "danh từ giống đực",
+      "vi": "bữa ăn nhẹ buổi chiều",
+      "example": "Nous préparons un goûter.",
+      "example_vi": "Chúng tôi chuẩn bị bữa ăn nhẹ."
+    },
+    {
+      "level": "A1",
+      "word": "un voisin",
+      "pos": "danh từ giống đực",
+      "vi": "người hàng xóm",
+      "example": "Mon voisin est gentil.",
+      "example_vi": "Hàng xóm của tôi tốt bụng."
+    },
+    {
+      "level": "A1",
+      "word": "une assiette",
+      "pos": "danh từ giống cái",
+      "vi": "cái đĩa",
+      "example": "Je prends une assiette.",
+      "example_vi": "Tôi lấy một cái đĩa."
+    },
+    {
+      "level": "A1",
+      "word": "une boisson",
+      "pos": "danh từ giống cái",
+      "vi": "đồ uống",
+      "example": "Elle apporte une boisson.",
+      "example_vi": "Cô ấy mang đồ uống đến."
+    },
+    {
+      "level": "A1",
+      "word": "un gâteau",
+      "pos": "danh từ giống đực",
+      "vi": "chiếc bánh ngọt",
+      "example": "Le gâteau est délicieux.",
+      "example_vi": "Chiếc bánh rất ngon."
+    },
+    {
+      "level": "A2",
+      "word": "une parcelle",
+      "pos": "danh từ giống cái",
+      "vi": "luống đất được phân chia",
+      "example": "Nous cultivons une parcelle.",
+      "example_vi": "Chúng tôi canh tác một luống đất."
+    },
+    {
+      "level": "A2",
+      "word": "une graine",
+      "pos": "danh từ giống cái",
+      "vi": "hạt giống",
+      "example": "Lina plante une graine.",
+      "example_vi": "Lina gieo một hạt giống."
+    },
+    {
+      "level": "A2",
+      "word": "un arrosoir",
+      "pos": "danh từ giống đực",
+      "vi": "bình tưới cây",
+      "example": "Je remplis l'arrosoir.",
+      "example_vi": "Tôi đổ đầy bình tưới."
+    },
+    {
+      "level": "A2",
+      "word": "une récolte",
+      "pos": "danh từ giống cái",
+      "vi": "vụ thu hoạch",
+      "example": "La récolte commence demain.",
+      "example_vi": "Ngày mai bắt đầu thu hoạch."
+    },
+    {
+      "level": "A2",
+      "word": "du compost",
+      "pos": "danh từ giống đực",
+      "vi": "phân hữu cơ ủ",
+      "example": "Nous utilisons du compost.",
+      "example_vi": "Chúng tôi dùng phân ủ."
+    },
+    {
+      "level": "A2",
+      "word": "un bénévole",
+      "pos": "danh từ giống đực",
+      "vi": "tình nguyện viên",
+      "example": "Un bénévole nous aide.",
+      "example_vi": "Một tình nguyện viên giúp chúng tôi."
+    },
+    {
+      "level": "B1",
+      "word": "une formation",
+      "pos": "danh từ giống cái",
+      "vi": "khóa đào tạo",
+      "example": "Je suis une formation aux premiers secours.",
+      "example_vi": "Tôi tham gia khóa đào tạo sơ cứu."
+    },
+    {
+      "level": "B1",
+      "word": "un geste",
+      "pos": "danh từ giống đực",
+      "vi": "động tác, thao tác",
+      "example": "La formatrice montre un geste.",
+      "example_vi": "Giảng viên chỉ một động tác."
+    },
+    {
+      "level": "B1",
+      "word": "un malaise",
+      "pos": "danh từ giống đực",
+      "vi": "cơn choáng, tình trạng đột ngột không khỏe",
+      "example": "Une personne fait un malaise.",
+      "example_vi": "Một người đột nhiên bị choáng."
+    },
+    {
+      "level": "B1",
+      "word": "un témoin",
+      "pos": "danh từ giống đực",
+      "vi": "người chứng kiến",
+      "example": "Le témoin appelle les secours.",
+      "example_vi": "Người chứng kiến gọi cứu hộ."
+    },
+    {
+      "level": "B1",
+      "word": "un défibrillateur",
+      "pos": "danh từ giống đực",
+      "vi": "máy khử rung tim",
+      "example": "Le défibrillateur est à l'accueil.",
+      "example_vi": "Máy khử rung tim ở quầy tiếp đón."
+    },
+    {
+      "level": "B1",
+      "word": "une urgence",
+      "pos": "danh từ giống cái",
+      "vi": "tình huống khẩn cấp",
+      "example": "C'est une urgence médicale.",
+      "example_vi": "Đây là một trường hợp cấp cứu."
+    },
+    {
+      "level": "B2",
+      "word": "un budget participatif",
+      "pos": "cụm danh từ giống đực",
+      "vi": "ngân sách cho dự án do người dân đề xuất",
+      "example": "La commune lance un budget participatif.",
+      "example_vi": "Chính quyền xã khởi động ngân sách có sự tham gia của người dân."
+    },
+    {
+      "level": "B2",
+      "word": "une enveloppe budgétaire",
+      "pos": "cụm danh từ giống cái",
+      "vi": "khoản ngân sách được phân bổ",
+      "example": "L'enveloppe budgétaire est limitée.",
+      "example_vi": "Khoản ngân sách được phân bổ có giới hạn."
+    },
+    {
+      "level": "B2",
+      "word": "un arbitrage",
+      "pos": "danh từ giống đực",
+      "vi": "quyết định cân nhắc giữa các phương án",
+      "example": "Un arbitrage sera nécessaire.",
+      "example_vi": "Sẽ cần đưa ra quyết định lựa chọn."
+    },
+    {
+      "level": "B2",
+      "word": "une candidature",
+      "pos": "danh từ giống cái",
+      "vi": "hồ sơ đăng ký tham gia",
+      "example": "Sa candidature est recevable.",
+      "example_vi": "Hồ sơ đăng ký của cô ấy hợp lệ."
+    },
+    {
+      "level": "B2",
+      "word": "une concertation",
+      "pos": "danh từ giống cái",
+      "vi": "quá trình tham vấn ý kiến",
+      "example": "La concertation réunit les habitants.",
+      "example_vi": "Cuộc tham vấn quy tụ cư dân."
+    },
+    {
+      "level": "B2",
+      "word": "un financement",
+      "pos": "danh từ giống đực",
+      "vi": "nguồn kinh phí, tài trợ",
+      "example": "Le financement reste à confirmer.",
+      "example_vi": "Nguồn kinh phí vẫn cần xác nhận."
+    }
+  ],
+  "stories": [
+    {
+      "level": "A1",
+      "title": "Le goûter de bienvenue",
+      "vi": "Bữa ăn nhẹ chào đón hàng xóm mới",
+      "paragraphs": [
+        "Camille vient d'arriver dans son nouvel immeuble. Elle trouve une invitation dans sa boîte aux lettres.",
+        "Dimanche, les voisins organisent un goûter dans la cour. Camille apporte une boisson et des assiettes.",
+        "Madame Petit prépare un gâteau. Tout le monde parle et Camille apprend les prénoms de ses voisins."
+      ],
+      "translations": [
+        "Camille vừa chuyển đến tòa nhà mới. Cô tìm thấy một lời mời trong hộp thư.",
+        "Chủ nhật, hàng xóm tổ chức bữa ăn nhẹ ở sân chung. Camille mang đồ uống và đĩa đến.",
+        "Bà Petit chuẩn bị một chiếc bánh. Mọi người trò chuyện và Camille học tên của các hàng xóm."
+      ],
+      "questions": [
+        {
+          "q": "Où Camille trouve-t-elle l'invitation ?",
+          "choices": [
+            "Dans sa boîte aux lettres",
+            "À la gare",
+            "Au cinéma"
+          ],
+          "answer": 0,
+          "explain_vi": "Cô tìm thấy lời mời trong hộp thư."
+        },
+        {
+          "q": "Que prépare Madame Petit ?",
+          "choices": [
+            "Une soupe",
+            "Un gâteau",
+            "Une salade"
+          ],
+          "answer": 1,
+          "explain_vi": "Bà Petit làm một chiếc bánh."
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Le jardin partagé de Colmar",
+      "vi": "Khu vườn cộng đồng tại Colmar",
+      "paragraphs": [
+        "Dimanche dernier, Lina a visité un jardin partagé à Colmar. Des habitants y cultivent des légumes sur de petites parcelles.",
+        "Un bénévole lui a montré comment utiliser le compost. Ensuite, Lina a planté des graines de radis et rempli un arrosoir.",
+        "Comme il faisait chaud, elle a arrosé la terre. Avant de partir, elle s'est inscrite pour aider lors de la prochaine récolte."
+      ],
+      "translations": [
+        "Chủ nhật trước, Lina đến thăm khu vườn cộng đồng ở Colmar. Cư dân trồng rau trên những luống đất nhỏ.",
+        "Một tình nguyện viên chỉ cô cách dùng phân ủ. Sau đó Lina gieo hạt củ cải và đổ đầy bình tưới.",
+        "Vì trời nóng, cô tưới đất. Trước khi về, cô đăng ký giúp đỡ vào đợt thu hoạch tiếp theo."
+      ],
+      "questions": [
+        {
+          "q": "Qu'est-ce que Lina plante ?",
+          "choices": [
+            "Des graines de radis",
+            "Des roses",
+            "Des pommes de terre"
+          ],
+          "answer": 0,
+          "explain_vi": "Cô gieo hạt củ cải."
+        },
+        {
+          "q": "Pourquoi utilise-t-elle un arrosoir ?",
+          "choices": [
+            "Pour laver une voiture",
+            "Pour arroser la terre",
+            "Pour nettoyer une fenêtre"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô dùng bình tưới để tưới đất."
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "title": "Apprendre les premiers secours",
+      "vi": "Tham gia khóa học sơ cứu",
+      "paragraphs": [
+        "Après avoir vu une personne faire un malaise dans le métro, Julien a décidé de suivre une formation aux premiers secours.",
+        "La formatrice a expliqué qu'il fallait vérifier la sécurité des lieux, appeler les secours et suivre leurs instructions. Les participants ont ensuite pratiqué des gestes sur des mannequins.",
+        "Julien a aussi appris à repérer un défibrillateur. Il a compris qu'un témoin doit réagir calmement, sans se substituer aux professionnels."
+      ],
+      "translations": [
+        "Sau khi thấy một người bị choáng trên tàu điện ngầm, Julien quyết định tham gia khóa sơ cứu.",
+        "Giảng viên giải thích phải kiểm tra an toàn hiện trường, gọi cấp cứu và làm theo hướng dẫn. Sau đó học viên thực hành các thao tác trên hình nộm.",
+        "Julien còn học cách tìm máy khử rung tim. Anh hiểu người chứng kiến cần ứng phó bình tĩnh, không thay thế nhân viên chuyên môn."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Julien suit-il la formation ?",
+          "choices": [
+            "Pour devenir chauffeur",
+            "Après avoir vu un malaise",
+            "Pour apprendre à cuisiner"
+          ],
+          "answer": 1,
+          "explain_vi": "Anh đăng ký sau khi chứng kiến một người bị choáng."
+        },
+        {
+          "q": "Que faut-il vérifier d'abord ?",
+          "choices": [
+            "La sécurité des lieux",
+            "La météo de demain",
+            "Le prix du billet"
+          ],
+          "answer": 0,
+          "explain_vi": "Cần kiểm tra an toàn hiện trường trước."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Un budget participatif pour la commune",
+      "vi": "Thảo luận cách phân bổ ngân sách cho dự án của người dân",
+      "paragraphs": [
+        "La commune de Valmont réserve une enveloppe budgétaire aux projets proposés par ses habitants. Cette initiative vise à encourager leur participation aux décisions locales.",
+        "Lors d'une concertation, plusieurs candidatures sont présentées : planter des arbres, installer des fontaines et rénover une salle associative. Chaque proposition doit respecter des critères de coût et de faisabilité.",
+        "Les services municipaux examineront les dossiers avant le vote. Si le montant des projets sélectionnés dépasse les ressources disponibles, un arbitrage sera nécessaire. La mairie devra expliquer clairement comment elle répartit le financement."
+      ],
+      "translations": [
+        "Chính quyền Valmont dành một khoản ngân sách cho các dự án do cư dân đề xuất. Sáng kiến nhằm khuyến khích họ tham gia quyết định địa phương.",
+        "Trong cuộc tham vấn, nhiều hồ sơ được trình bày: trồng cây, lắp vòi nước uống và cải tạo phòng sinh hoạt hội đoàn. Mỗi đề xuất phải đáp ứng tiêu chí chi phí và tính khả thi.",
+        "Cơ quan địa phương sẽ xem xét hồ sơ trước khi bỏ phiếu. Nếu tổng tiền của các dự án được chọn vượt nguồn lực, sẽ cần quyết định ưu tiên. Chính quyền phải giải thích rõ cách phân bổ kinh phí."
+      ],
+      "questions": [
+        {
+          "q": "Quel est l'objectif du dispositif ?",
+          "choices": [
+            "Supprimer les réunions",
+            "Faire participer les habitants",
+            "Interdire les projets"
+          ],
+          "answer": 1,
+          "explain_vi": "Mục tiêu là tăng sự tham gia của cư dân."
+        },
+        {
+          "q": "Quand faut-il procéder à un arbitrage ?",
+          "choices": [
+            "Si le coût dépasse les ressources",
+            "Si aucun projet n'existe",
+            "Avant toute proposition"
+          ],
+          "answer": 0,
+          "explain_vi": "Cần lựa chọn ưu tiên khi chi phí vượt ngân sách."
+        }
+      ]
+    }
+  ],
+  "verbs": [
+    {
+      "level": "A1",
+      "inf": "inviter",
+      "vi": "mời",
+      "example": "Camille invite ses voisins.",
+      "example_vi": "Camille mời hàng xóm.",
+      "forms": {
+        "present": [
+          "invite",
+          "invites",
+          "invite",
+          "invitons",
+          "invitez",
+          "invitent"
+        ],
+        "imparfait": [
+          "invitais",
+          "invitais",
+          "invitait",
+          "invitions",
+          "invitiez",
+          "invitaient"
+        ],
+        "future": [
+          "inviterai",
+          "inviteras",
+          "invitera",
+          "inviterons",
+          "inviterez",
+          "inviteront"
+        ],
+        "passe_compose": [
+          "ai invité",
+          "as invité",
+          "a invité",
+          "avons invité",
+          "avez invité",
+          "ont invité"
+        ]
+      }
+    },
+    {
+      "level": "A1",
+      "inf": "apporter",
+      "vi": "mang đến",
+      "example": "Elle apporte des assiettes.",
+      "example_vi": "Cô ấy mang đĩa đến.",
+      "forms": {
+        "present": [
+          "apporte",
+          "apportes",
+          "apporte",
+          "apportons",
+          "apportez",
+          "apportent"
+        ],
+        "imparfait": [
+          "apportais",
+          "apportais",
+          "apportait",
+          "apportions",
+          "apportiez",
+          "apportaient"
+        ],
+        "future": [
+          "apporterai",
+          "apporteras",
+          "apportera",
+          "apporterons",
+          "apporterez",
+          "apporteront"
+        ],
+        "passe_compose": [
+          "ai apporté",
+          "as apporté",
+          "a apporté",
+          "avons apporté",
+          "avez apporté",
+          "ont apporté"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "cultiver",
+      "vi": "trồng trọt",
+      "example": "Ils cultivent des légumes.",
+      "example_vi": "Họ trồng rau.",
+      "forms": {
+        "present": [
+          "cultive",
+          "cultives",
+          "cultive",
+          "cultivons",
+          "cultivez",
+          "cultivent"
+        ],
+        "imparfait": [
+          "cultivais",
+          "cultivais",
+          "cultivait",
+          "cultivions",
+          "cultiviez",
+          "cultivaient"
+        ],
+        "future": [
+          "cultiverai",
+          "cultiveras",
+          "cultivera",
+          "cultiverons",
+          "cultiverez",
+          "cultiveront"
+        ],
+        "passe_compose": [
+          "ai cultivé",
+          "as cultivé",
+          "a cultivé",
+          "avons cultivé",
+          "avez cultivé",
+          "ont cultivé"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "arroser",
+      "vi": "tưới cây",
+      "example": "Lina arrose les radis.",
+      "example_vi": "Lina tưới củ cải.",
+      "forms": {
+        "present": [
+          "arrose",
+          "arroses",
+          "arrose",
+          "arrosons",
+          "arrosez",
+          "arrosent"
+        ],
+        "imparfait": [
+          "arrosais",
+          "arrosais",
+          "arrosait",
+          "arrosions",
+          "arrosiez",
+          "arrosaient"
+        ],
+        "future": [
+          "arroserai",
+          "arroseras",
+          "arrosera",
+          "arroserons",
+          "arroserez",
+          "arroseront"
+        ],
+        "passe_compose": [
+          "ai arrosé",
+          "as arrosé",
+          "a arrosé",
+          "avons arrosé",
+          "avez arrosé",
+          "ont arrosé"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "protéger",
+      "vi": "bảo vệ",
+      "example": "Les secouristes protègent la victime.",
+      "example_vi": "Nhân viên cứu hộ bảo vệ nạn nhân.",
+      "forms": {
+        "present": [
+          "protège",
+          "protèges",
+          "protège",
+          "protégeons",
+          "protégez",
+          "protègent"
+        ],
+        "imparfait": [
+          "protégeais",
+          "protégeais",
+          "protégeait",
+          "protégions",
+          "protégiez",
+          "protégeaient"
+        ],
+        "future": [
+          "protégerai",
+          "protégeras",
+          "protégera",
+          "protégerons",
+          "protégerez",
+          "protégeront"
+        ],
+        "passe_compose": [
+          "ai protégé",
+          "as protégé",
+          "a protégé",
+          "avons protégé",
+          "avez protégé",
+          "ont protégé"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "réagir",
+      "vi": "ứng phó",
+      "example": "Julien réagit calmement.",
+      "example_vi": "Julien ứng phó bình tĩnh.",
+      "forms": {
+        "present": [
+          "réagis",
+          "réagis",
+          "réagit",
+          "réagissons",
+          "réagissez",
+          "réagissent"
+        ],
+        "imparfait": [
+          "réagissais",
+          "réagissais",
+          "réagissait",
+          "réagissions",
+          "réagissiez",
+          "réagissaient"
+        ],
+        "future": [
+          "réagirai",
+          "réagiras",
+          "réagira",
+          "réagirons",
+          "réagirez",
+          "réagiront"
+        ],
+        "passe_compose": [
+          "ai réagi",
+          "as réagi",
+          "a réagi",
+          "avons réagi",
+          "avez réagi",
+          "ont réagi"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "financer",
+      "vi": "tài trợ",
+      "example": "La commune finance le projet.",
+      "example_vi": "Chính quyền tài trợ dự án.",
+      "forms": {
+        "present": [
+          "finance",
+          "finances",
+          "finance",
+          "finançons",
+          "financez",
+          "financent"
+        ],
+        "imparfait": [
+          "finançais",
+          "finançais",
+          "finançait",
+          "financions",
+          "financiez",
+          "finançaient"
+        ],
+        "future": [
+          "financerai",
+          "financeras",
+          "financera",
+          "financerons",
+          "financerez",
+          "financeront"
+        ],
+        "passe_compose": [
+          "ai financé",
+          "as financé",
+          "a financé",
+          "avons financé",
+          "avez financé",
+          "ont financé"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "répartir",
+      "vi": "phân bổ",
+      "example": "Les élus répartissent les ressources.",
+      "example_vi": "Các đại biểu phân bổ nguồn lực.",
+      "forms": {
+        "present": [
+          "répartis",
+          "répartis",
+          "répartit",
+          "répartissons",
+          "répartissez",
+          "répartissent"
+        ],
+        "imparfait": [
+          "répartissais",
+          "répartissais",
+          "répartissait",
+          "répartissions",
+          "répartissiez",
+          "répartissaient"
+        ],
+        "future": [
+          "répartirai",
+          "répartiras",
+          "répartira",
+          "répartirons",
+          "répartirez",
+          "répartiront"
+        ],
+        "passe_compose": [
+          "ai réparti",
+          "as réparti",
+          "a réparti",
+          "avons réparti",
+          "avez réparti",
+          "ont réparti"
+        ]
+      }
+    }
+  ],
+  "subjects": [
+    "je",
+    "tu",
+    "il/elle",
+    "nous",
+    "vous",
+    "ils/elles"
+  ]
+}
