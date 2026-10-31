@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-10-30",
-  "released_count": 9,
+  "last_checked": "2026-10-31",
+  "released_count": 10,
   "total_prepared": 14,
   "lessons": [
     {
@@ -341,6 +341,44 @@
           "vi": "mang đến",
           "present": "j'apporte",
           "passe_compose": "j'ai apporté"
+        }
+      ],
+      "kind": "new"
+    },
+    {
+      "day": 10,
+      "level": "A1",
+      "title": "Au restaurant",
+      "story": "Le serveur apporte la carte à Sophie. Elle hésite entre le poisson et le plat végétarien. Finalement, elle commande une soupe et demande une carafe d'eau.",
+      "vocabulary": [
+        {
+          "word": "la carte",
+          "vi": "thực đơn",
+          "example": "Puis-je voir la carte ?"
+        },
+        {
+          "word": "hésiter",
+          "vi": "do dự",
+          "example": "J'hésite entre deux plats."
+        },
+        {
+          "word": "la carafe",
+          "vi": "bình nước",
+          "example": "Une carafe d'eau, s'il vous plaît."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "commander",
+          "vi": "gọi món; đặt hàng",
+          "present": "je commande",
+          "passe_compose": "j'ai commandé"
+        },
+        {
+          "infinitive": "demander",
+          "vi": "hỏi; yêu cầu",
+          "present": "je demande",
+          "passe_compose": "j'ai demandé"
         }
       ],
       "kind": "new"
