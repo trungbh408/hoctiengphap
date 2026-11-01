@@ -1,0 +1,689 @@
+{
+  "date": "2026-11-01",
+  "words": [
+    {
+      "level": "A1",
+      "word": "un sentier",
+      "pos": "danh từ giống đực",
+      "vi": "lối mòn dành cho người đi bộ",
+      "example": "Ce sentier longe la rivière.",
+      "example_vi": "Lối mòn này chạy dọc theo con sông."
+    },
+    {
+      "level": "A1",
+      "word": "une rivière",
+      "pos": "danh từ giống cái",
+      "vi": "con sông nhỏ",
+      "example": "La rivière est calme aujourd'hui.",
+      "example_vi": "Hôm nay dòng sông yên ả."
+    },
+    {
+      "level": "A1",
+      "word": "un banc",
+      "pos": "danh từ giống đực",
+      "vi": "ghế băng dài ở nơi công cộng",
+      "example": "Nous nous reposons sur un banc.",
+      "example_vi": "Chúng tôi nghỉ chân trên một chiếc ghế băng."
+    },
+    {
+      "level": "A1",
+      "word": "une feuille",
+      "pos": "danh từ giống cái",
+      "vi": "chiếc lá cây",
+      "example": "Une feuille jaune tombe.",
+      "example_vi": "Một chiếc lá vàng rơi xuống."
+    },
+    {
+      "level": "A1",
+      "word": "un canard",
+      "pos": "danh từ giống đực",
+      "vi": "con vịt",
+      "example": "Le canard nage dans l'eau.",
+      "example_vi": "Con vịt bơi dưới nước."
+    },
+    {
+      "level": "A1",
+      "word": "une promenade",
+      "pos": "danh từ giống cái",
+      "vi": "cuộc đi dạo",
+      "example": "Je fais une promenade le dimanche.",
+      "example_vi": "Tôi đi dạo vào Chủ nhật."
+    },
+    {
+      "level": "A2",
+      "word": "une patinoire",
+      "pos": "danh từ giống cái",
+      "vi": "sân trượt băng",
+      "example": "La patinoire ouvre à dix heures.",
+      "example_vi": "Sân trượt băng mở cửa lúc mười giờ."
+    },
+    {
+      "level": "A2",
+      "word": "des patins à glace",
+      "pos": "cụm danh từ số nhiều, giống đực",
+      "vi": "đôi giày trượt băng",
+      "example": "Je loue des patins à glace.",
+      "example_vi": "Tôi thuê một đôi giày trượt băng."
+    },
+    {
+      "level": "A2",
+      "word": "un casque",
+      "pos": "danh từ giống đực",
+      "vi": "mũ bảo hộ",
+      "example": "L'enfant met son casque.",
+      "example_vi": "Đứa trẻ đội mũ bảo hộ."
+    },
+    {
+      "level": "A2",
+      "word": "une séance",
+      "pos": "danh từ giống cái",
+      "vi": "buổi học hoặc buổi tập",
+      "example": "La séance dure quarante minutes.",
+      "example_vi": "Buổi học kéo dài bốn mươi phút."
+    },
+    {
+      "level": "A2",
+      "word": "une chute",
+      "pos": "danh từ giống cái",
+      "vi": "cú ngã",
+      "example": "Après une petite chute, elle se relève.",
+      "example_vi": "Sau một cú ngã nhẹ, cô ấy đứng dậy."
+    },
+    {
+      "level": "A2",
+      "word": "une consigne",
+      "pos": "danh từ giống cái",
+      "vi": "lời hướng dẫn hoặc quy tắc cần tuân theo",
+      "example": "Le moniteur explique les consignes.",
+      "example_vi": "Huấn luyện viên giải thích các hướng dẫn."
+    },
+    {
+      "level": "B1",
+      "word": "une fiche de paie",
+      "pos": "danh từ giống cái",
+      "vi": "phiếu lương hằng tháng",
+      "example": "Je vérifie ma fiche de paie.",
+      "example_vi": "Tôi kiểm tra phiếu lương của mình."
+    },
+    {
+      "level": "B1",
+      "word": "une retenue",
+      "pos": "danh từ giống cái",
+      "vi": "khoản tiền bị khấu trừ",
+      "example": "Cette retenue figure sur le bulletin.",
+      "example_vi": "Khoản khấu trừ này xuất hiện trên phiếu lương."
+    },
+    {
+      "level": "B1",
+      "word": "un montant",
+      "pos": "danh từ giống đực",
+      "vi": "số tiền cụ thể",
+      "example": "Le montant indiqué est incorrect.",
+      "example_vi": "Số tiền ghi trên đó không chính xác."
+    },
+    {
+      "level": "B1",
+      "word": "une anomalie",
+      "pos": "danh từ giống cái",
+      "vi": "điểm bất thường hoặc sai lệch",
+      "example": "J'ai signalé une anomalie au service concerné.",
+      "example_vi": "Tôi đã báo một sai lệch cho bộ phận liên quan."
+    },
+    {
+      "level": "B1",
+      "word": "les ressources humaines",
+      "pos": "cụm danh từ giống cái số nhiều",
+      "vi": "bộ phận nhân sự",
+      "example": "Les ressources humaines répondent à mon message.",
+      "example_vi": "Bộ phận nhân sự trả lời tin nhắn của tôi."
+    },
+    {
+      "level": "B1",
+      "word": "une régularisation",
+      "pos": "danh từ giống cái",
+      "vi": "việc điều chỉnh lại khoản tiền hoặc hồ sơ cho đúng",
+      "example": "La régularisation apparaîtra le mois prochain.",
+      "example_vi": "Khoản điều chỉnh sẽ xuất hiện vào tháng sau."
+    },
+    {
+      "level": "B2",
+      "word": "une desserte",
+      "pos": "danh từ giống cái",
+      "vi": "việc phục vụ một địa bàn bằng phương tiện công cộng",
+      "example": "La desserte du village est insuffisante.",
+      "example_vi": "Dịch vụ giao thông phục vụ ngôi làng còn thiếu."
+    },
+    {
+      "level": "B2",
+      "word": "un usager",
+      "pos": "danh từ giống đực",
+      "vi": "người sử dụng dịch vụ công cộng",
+      "example": "Les usagers demandent un départ plus tardif.",
+      "example_vi": "Người sử dụng dịch vụ đề nghị có chuyến khởi hành muộn hơn."
+    },
+    {
+      "level": "B2",
+      "word": "une fréquentation",
+      "pos": "danh từ giống cái",
+      "vi": "lượng người sử dụng một tuyến hoặc địa điểm",
+      "example": "La fréquentation baisse le dimanche.",
+      "example_vi": "Lượng khách sử dụng giảm vào Chủ nhật."
+    },
+    {
+      "level": "B2",
+      "word": "une subvention",
+      "pos": "danh từ giống cái",
+      "vi": "khoản trợ cấp tài chính từ cơ quan hoặc tổ chức",
+      "example": "La commune sollicite une subvention.",
+      "example_vi": "Chính quyền xã đề nghị một khoản trợ cấp."
+    },
+    {
+      "level": "B2",
+      "word": "un horaire",
+      "pos": "danh từ giống đực",
+      "vi": "giờ chạy hoặc lịch trình",
+      "example": "Cet horaire ne convient pas aux salariés.",
+      "example_vi": "Giờ chạy này không phù hợp với người đi làm."
+    },
+    {
+      "level": "B2",
+      "word": "une liaison",
+      "pos": "danh từ giống cái",
+      "vi": "tuyến kết nối giao thông giữa hai địa điểm",
+      "example": "Cette liaison relie le village à la gare.",
+      "example_vi": "Tuyến này nối ngôi làng với nhà ga."
+    }
+  ],
+  "stories": [
+    {
+      "level": "A1",
+      "title": "Le banc près de la rivière",
+      "vi": "Đi dạo bên bờ sông vào mùa thu",
+      "paragraphs": [
+        "Dimanche matin, Sofia fait une promenade près de la rivière. Il fait frais, mais le soleil brille.",
+        "Elle marche sur un petit sentier. Elle voit des feuilles jaunes et deux canards dans l'eau.",
+        "Sofia s'assoit sur un banc et boit de l'eau. Après dix minutes, elle rentre chez elle, contente de sa matinée."
+      ],
+      "translations": [
+        "Sáng Chủ nhật, Sofia đi dạo gần con sông. Trời mát nhưng có nắng.",
+        "Cô đi trên một lối mòn nhỏ. Cô nhìn thấy những chiếc lá vàng và hai con vịt dưới nước.",
+        "Sofia ngồi trên ghế băng và uống nước. Sau mười phút, cô về nhà, vui vì buổi sáng của mình."
+      ],
+      "questions": [
+        {
+          "q": "Où Sofia se promène-t-elle ?",
+          "choices": [
+            "Près de la rivière",
+            "Dans un cinéma",
+            "À la gare"
+          ],
+          "answer": 0,
+          "explain_vi": "Sofia đi dạo gần con sông."
+        },
+        {
+          "q": "Combien de canards voit-elle ?",
+          "choices": [
+            "Un",
+            "Deux",
+            "Quatre"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô nhìn thấy hai con vịt."
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Premiers pas sur la glace",
+      "vi": "Buổi học trượt băng đầu tiên",
+      "paragraphs": [
+        "Samedi après-midi, Mehdi est allé à la patinoire avec sa cousine. Comme il n'avait pas de patins, il en a loué à l'entrée.",
+        "Avant la séance, le moniteur a expliqué les consignes de sécurité. Mehdi a mis son casque et il a commencé à avancer lentement, près de la barrière.",
+        "Au bout de quelques minutes, il a glissé et il est tombé. Sa cousine l'a aidé à se relever. À la fin, Mehdi était fatigué, mais il voulait revenir la semaine suivante."
+      ],
+      "translations": [
+        "Chiều thứ Bảy, Mehdi đến sân trượt băng cùng chị em họ. Vì không có giày trượt, anh thuê một đôi ở lối vào.",
+        "Trước buổi học, huấn luyện viên giải thích các quy tắc an toàn. Mehdi đội mũ bảo hộ và bắt đầu di chuyển chậm gần lan can.",
+        "Sau vài phút, anh trượt chân và ngã. Chị em họ giúp anh đứng dậy. Cuối buổi, Mehdi mệt nhưng muốn quay lại tuần sau."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Mehdi loue-t-il des patins ?",
+          "choices": [
+            "Il a oublié son argent",
+            "Il n'en possède pas",
+            "Il veut les offrir"
+          ],
+          "answer": 1,
+          "explain_vi": "Anh không có giày trượt riêng."
+        },
+        {
+          "q": "Que fait sa cousine après sa chute ?",
+          "choices": [
+            "Elle part",
+            "Elle appelle la police",
+            "Elle l'aide à se relever"
+          ],
+          "answer": 2,
+          "explain_vi": "Cô giúp anh đứng dậy."
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "title": "Une ligne étrange sur la fiche de paie",
+      "vi": "Phát hiện và yêu cầu điều chỉnh sai lệch trên phiếu lương",
+      "paragraphs": [
+        "En consultant sa fiche de paie d'octobre, Élodie a remarqué une retenue qu'elle ne comprenait pas. Le montant de son salaire net était inférieur à celui qu'elle attendait.",
+        "Elle a comparé le bulletin avec celui du mois précédent, puis elle a écrit au service des ressources humaines. Dans son message, elle a décrit l'anomalie sans affirmer qu'il s'agissait forcément d'une erreur.",
+        "Le lendemain, un gestionnaire lui a répondu qu'une vérification était nécessaire. Après examen, le service a confirmé une saisie incorrecte et annoncé une régularisation sur la paie suivante.",
+        "Élodie a conservé les échanges écrits. Elle a retenu qu'il vaut mieux demander une explication précise avant de tirer une conclusion."
+      ],
+      "translations": [
+        "Khi xem phiếu lương tháng Mười, Élodie nhận thấy một khoản khấu trừ mà cô không hiểu. Lương thực nhận thấp hơn mức cô dự kiến.",
+        "Cô so sánh phiếu lương với tháng trước rồi viết cho bộ phận nhân sự. Trong thư, cô mô tả điểm bất thường mà không khẳng định ngay đó chắc chắn là lỗi.",
+        "Ngày hôm sau, nhân viên phụ trách trả lời rằng cần kiểm tra. Sau khi xem xét, bộ phận xác nhận nhập liệu sai và thông báo sẽ điều chỉnh trong kỳ lương tiếp theo.",
+        "Élodie lưu lại các trao đổi bằng văn bản. Cô nhận ra nên yêu cầu giải thích rõ trước khi kết luận."
+      ],
+      "questions": [
+        {
+          "q": "Que fait Élodie avant d'écrire aux ressources humaines ?",
+          "choices": [
+            "Elle quitte son emploi",
+            "Elle compare deux bulletins",
+            "Elle appelle un journaliste"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô so sánh phiếu lương với tháng trước."
+        },
+        {
+          "q": "Quand la régularisation est-elle annoncée ?",
+          "choices": [
+            "Sur la paie suivante",
+            "Dans cinq ans",
+            "Le jour même en espèces"
+          ],
+          "answer": 0,
+          "explain_vi": "Khoản điều chỉnh được thông báo cho kỳ lương kế tiếp."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Le dernier bus du village",
+      "vi": "Tranh luận về việc duy trì tuyến xe buýt phục vụ vùng nông thôn",
+      "paragraphs": [
+        "Dans une commune rurale, l'exploitant envisage de supprimer le dernier bus du soir, dont la fréquentation est jugée trop faible. Cette décision pourrait toutefois compliquer les déplacements des salariés qui terminent tard et des jeunes qui rentrent de leurs activités.",
+        "Lors d'une réunion publique, plusieurs usagers expliquent que les horaires actuels ne correspondent déjà pas aux besoins réels. Une habitante propose de tester une desserte sur réservation, tandis qu'un commerçant craint qu'une réduction du service n'isole davantage le village.",
+        "Les élus rappellent que le maintien de la liaison a un coût et qu'une éventuelle subvention doit être justifiée. Ils demandent donc des données plus détaillées : nombre de voyageurs par créneau, correspondances avec les trains et coûts d'exploitation.",
+        "Plutôt que de choisir immédiatement entre suppression et statu quo, la commune décide de négocier une expérimentation de six mois avec l'opérateur. Son bilan devra mesurer non seulement la fréquentation, mais aussi l'accès à l'emploi et aux services essentiels."
+      ],
+      "translations": [
+        "Tại một xã nông thôn, đơn vị vận hành dự định bỏ chuyến xe buýt cuối ngày vì lượng khách bị đánh giá là quá thấp. Tuy nhiên, quyết định này có thể gây khó cho người lao động tan ca muộn và thanh thiếu niên trở về sau các hoạt động.",
+        "Trong cuộc họp công khai, nhiều hành khách giải thích rằng giờ chạy hiện tại vốn đã không đáp ứng nhu cầu. Một cư dân đề xuất thử dịch vụ đặt xe trước, trong khi một chủ cửa hàng lo việc giảm dịch vụ sẽ khiến làng bị cô lập hơn.",
+        "Các đại biểu địa phương nhắc rằng duy trì tuyến xe có chi phí và khoản trợ cấp, nếu có, phải được giải trình. Vì vậy họ yêu cầu số liệu chi tiết hơn: khách theo từng khung giờ, kết nối tàu hỏa và chi phí vận hành.",
+        "Thay vì lập tức chọn giữa hủy tuyến và giữ nguyên, chính quyền quyết định thương lượng thử nghiệm sáu tháng với đơn vị vận hành. Báo cáo đánh giá sẽ xem xét không chỉ lượng khách mà cả khả năng tiếp cận việc làm và dịch vụ thiết yếu."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi l'exploitant envisage-t-il de supprimer le dernier bus ?",
+          "choices": [
+            "À cause d'une fréquentation jugée faible",
+            "Parce que le village est fermé",
+            "À cause d'un nouveau cinéma"
+          ],
+          "answer": 0,
+          "explain_vi": "Đơn vị vận hành cho rằng chuyến cuối có quá ít khách."
+        },
+        {
+          "q": "Quel critère doit aussi figurer dans le bilan ?",
+          "choices": [
+            "La couleur des bus",
+            "L'accès à l'emploi et aux services",
+            "La publicité dans les journaux"
+          ],
+          "answer": 1,
+          "explain_vi": "Cần đánh giá tác động tới việc làm và dịch vụ thiết yếu."
+        }
+      ]
+    }
+  ],
+  "verbs": [
+    {
+      "level": "A1",
+      "inf": "marcher",
+      "vi": "đi bộ",
+      "example": "Sofia marche près de la rivière.",
+      "example_vi": "Sofia đi bộ gần con sông.",
+      "forms": {
+        "present": [
+          "marche",
+          "marches",
+          "marche",
+          "marchons",
+          "marchez",
+          "marchent"
+        ],
+        "imparfait": [
+          "marchais",
+          "marchais",
+          "marchait",
+          "marchions",
+          "marchiez",
+          "marchaient"
+        ],
+        "future": [
+          "marcherai",
+          "marcheras",
+          "marchera",
+          "marcherons",
+          "marcherez",
+          "marcheront"
+        ],
+        "passe_compose": [
+          "ai marché",
+          "as marché",
+          "a marché",
+          "avons marché",
+          "avez marché",
+          "ont marché"
+        ]
+      }
+    },
+    {
+      "level": "A1",
+      "inf": "observer",
+      "vi": "quan sát",
+      "example": "Elle observe les canards.",
+      "example_vi": "Cô quan sát những con vịt.",
+      "forms": {
+        "present": [
+          "observe",
+          "observes",
+          "observe",
+          "observons",
+          "observez",
+          "observent"
+        ],
+        "imparfait": [
+          "observais",
+          "observais",
+          "observait",
+          "observions",
+          "observiez",
+          "observaient"
+        ],
+        "future": [
+          "observerai",
+          "observeras",
+          "observera",
+          "observerons",
+          "observerez",
+          "observeront"
+        ],
+        "passe_compose": [
+          "ai observé",
+          "as observé",
+          "a observé",
+          "avons observé",
+          "avez observé",
+          "ont observé"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "glisser",
+      "vi": "trượt, trượt chân",
+      "example": "Mehdi glisse sur la glace.",
+      "example_vi": "Mehdi trượt trên mặt băng.",
+      "forms": {
+        "present": [
+          "glisse",
+          "glisses",
+          "glisse",
+          "glissons",
+          "glissez",
+          "glissent"
+        ],
+        "imparfait": [
+          "glissais",
+          "glissais",
+          "glissait",
+          "glissions",
+          "glissiez",
+          "glissaient"
+        ],
+        "future": [
+          "glisserai",
+          "glisseras",
+          "glissera",
+          "glisserons",
+          "glisserez",
+          "glisseront"
+        ],
+        "passe_compose": [
+          "ai glissé",
+          "as glissé",
+          "a glissé",
+          "avons glissé",
+          "avez glissé",
+          "ont glissé"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "mettre",
+      "vi": "đặt, mặc, đội (tùy ngữ cảnh)",
+      "example": "Il met son casque avant la séance.",
+      "example_vi": "Anh đội mũ bảo hộ trước buổi học.",
+      "forms": {
+        "present": [
+          "mets",
+          "mets",
+          "met",
+          "mettons",
+          "mettez",
+          "mettent"
+        ],
+        "imparfait": [
+          "mettais",
+          "mettais",
+          "mettait",
+          "mettions",
+          "mettiez",
+          "mettaient"
+        ],
+        "future": [
+          "mettrai",
+          "mettras",
+          "mettra",
+          "mettrons",
+          "mettrez",
+          "mettront"
+        ],
+        "passe_compose": [
+          "ai mis",
+          "as mis",
+          "a mis",
+          "avons mis",
+          "avez mis",
+          "ont mis"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "vérifier",
+      "vi": "kiểm tra, xác minh",
+      "example": "Le gestionnaire vérifie le montant.",
+      "example_vi": "Nhân viên phụ trách kiểm tra số tiền.",
+      "forms": {
+        "present": [
+          "vérifie",
+          "vérifies",
+          "vérifie",
+          "vérifions",
+          "vérifiez",
+          "vérifient"
+        ],
+        "imparfait": [
+          "vérifiais",
+          "vérifiais",
+          "vérifiait",
+          "vérifiions",
+          "vérifiiez",
+          "vérifiaient"
+        ],
+        "future": [
+          "vérifierai",
+          "vérifieras",
+          "vérifiera",
+          "vérifierons",
+          "vérifierez",
+          "vérifieront"
+        ],
+        "passe_compose": [
+          "ai vérifié",
+          "as vérifié",
+          "a vérifié",
+          "avons vérifié",
+          "avez vérifié",
+          "ont vérifié"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "signaler",
+      "vi": "báo, thông báo một vấn đề",
+      "example": "Élodie signale une anomalie.",
+      "example_vi": "Élodie báo một điểm bất thường.",
+      "forms": {
+        "present": [
+          "signale",
+          "signales",
+          "signale",
+          "signalons",
+          "signalez",
+          "signalent"
+        ],
+        "imparfait": [
+          "signalais",
+          "signalais",
+          "signalait",
+          "signalions",
+          "signaliez",
+          "signalaient"
+        ],
+        "future": [
+          "signalerai",
+          "signaleras",
+          "signalera",
+          "signalerons",
+          "signalerez",
+          "signaleront"
+        ],
+        "passe_compose": [
+          "ai signalé",
+          "as signalé",
+          "a signalé",
+          "avons signalé",
+          "avez signalé",
+          "ont signalé"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "maintenir",
+      "vi": "duy trì, giữ nguyên hoạt động",
+      "example": "La commune souhaite maintenir la liaison.",
+      "example_vi": "Chính quyền xã muốn duy trì tuyến kết nối.",
+      "forms": {
+        "present": [
+          "maintiens",
+          "maintiens",
+          "maintient",
+          "maintenons",
+          "maintenez",
+          "maintiennent"
+        ],
+        "imparfait": [
+          "maintenais",
+          "maintenais",
+          "maintenait",
+          "maintenions",
+          "mainteniez",
+          "maintenaient"
+        ],
+        "future": [
+          "maintiendrai",
+          "maintiendras",
+          "maintiendra",
+          "maintiendrons",
+          "maintiendrez",
+          "maintiendront"
+        ],
+        "passe_compose": [
+          "ai maintenu",
+          "as maintenu",
+          "a maintenu",
+          "avons maintenu",
+          "avez maintenu",
+          "ont maintenu"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "négocier",
+      "vi": "thương lượng, đàm phán",
+      "example": "Les élus négocient avec l'opérateur.",
+      "example_vi": "Các đại biểu thương lượng với đơn vị vận hành.",
+      "forms": {
+        "present": [
+          "négocie",
+          "négocies",
+          "négocie",
+          "négocions",
+          "négociez",
+          "négocient"
+        ],
+        "imparfait": [
+          "négociais",
+          "négociais",
+          "négociait",
+          "négociions",
+          "négociiez",
+          "négociaient"
+        ],
+        "future": [
+          "négocierai",
+          "négocieras",
+          "négociera",
+          "négocierons",
+          "négocierez",
+          "négocieront"
+        ],
+        "passe_compose": [
+          "ai négocié",
+          "as négocié",
+          "a négocié",
+          "avons négocié",
+          "avez négocié",
+          "ont négocié"
+        ]
+      }
+    }
+  ],
+  "subjects": [
+    "je",
+    "tu",
+    "il/elle",
+    "nous",
+    "vous",
+    "ils/elles"
+  ]
+}
