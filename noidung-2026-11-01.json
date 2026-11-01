@@ -75,11 +75,11 @@
     },
     {
       "level": "A2",
-      "word": "une séance",
+      "word": "une pointure",
       "pos": "danh từ giống cái",
-      "vi": "buổi học hoặc buổi tập",
-      "example": "La séance dure quarante minutes.",
-      "example_vi": "Buổi học kéo dài bốn mươi phút."
+      "vi": "cỡ giày",
+      "example": "Quelle est votre pointure ?",
+      "example_vi": "Cỡ giày của bạn là bao nhiêu?"
     },
     {
       "level": "A2",
@@ -91,11 +91,11 @@
     },
     {
       "level": "A2",
-      "word": "une consigne",
-      "pos": "danh từ giống cái",
-      "vi": "lời hướng dẫn hoặc quy tắc cần tuân theo",
-      "example": "Le moniteur explique les consignes.",
-      "example_vi": "Huấn luyện viên giải thích các hướng dẫn."
+      "word": "un moniteur",
+      "pos": "danh từ giống đực",
+      "vi": "huấn luyện viên hướng dẫn trượt băng",
+      "example": "Le moniteur explique les règles.",
+      "example_vi": "Huấn luyện viên giải thích các quy tắc."
     },
     {
       "level": "B1",
