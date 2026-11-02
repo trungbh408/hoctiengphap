@@ -1,0 +1,687 @@
+{
+  "date": "2026-11-02",
+  "words": [
+    {
+      "level": "A1",
+      "word": "un salon de coiffure",
+      "pos": "danh từ giống đực",
+      "vi": "tiệm cắt tóc",
+      "example": "Le salon de coiffure ouvre à neuf heures.",
+      "example_vi": "Tiệm cắt tóc mở cửa lúc chín giờ."
+    },
+    {
+      "level": "A1",
+      "word": "un rendez-vous",
+      "pos": "danh từ giống đực",
+      "vi": "cuộc hẹn đã đặt trước",
+      "example": "J'ai rendez-vous chez le coiffeur à dix heures.",
+      "example_vi": "Tôi có lịch hẹn ở tiệm cắt tóc lúc mười giờ."
+    },
+    {
+      "level": "A1",
+      "word": "une frange",
+      "pos": "danh từ giống cái",
+      "vi": "tóc mái",
+      "example": "Je voudrais une frange plus courte.",
+      "example_vi": "Tôi muốn cắt tóc mái ngắn hơn."
+    },
+    {
+      "level": "A1",
+      "word": "des ciseaux",
+      "pos": "danh từ số nhiều",
+      "vi": "cái kéo",
+      "example": "La coiffeuse prend ses ciseaux.",
+      "example_vi": "Thợ làm tóc lấy kéo."
+    },
+    {
+      "level": "A1",
+      "word": "un miroir",
+      "pos": "danh từ giống đực",
+      "vi": "gương soi",
+      "example": "Léa regarde ses cheveux dans le miroir.",
+      "example_vi": "Léa nhìn tóc mình trong gương."
+    },
+    {
+      "level": "A1",
+      "word": "court, courte",
+      "pos": "tính từ",
+      "vi": "ngắn (độ dài)",
+      "example": "Je préfère les cheveux courts.",
+      "example_vi": "Tôi thích tóc ngắn."
+    },
+    {
+      "level": "A2",
+      "word": "une déchèterie",
+      "pos": "danh từ giống cái",
+      "vi": "điểm tiếp nhận rác cồng kềnh và rác cần phân loại",
+      "example": "Nous apportons le vieux meuble à la déchèterie.",
+      "example_vi": "Chúng tôi mang chiếc bàn cũ đến điểm tiếp nhận rác."
+    },
+    {
+      "level": "A2",
+      "word": "un bac de tri",
+      "pos": "danh từ giống đực",
+      "vi": "thùng phân loại rác",
+      "example": "Mettez le carton dans le bac de tri.",
+      "example_vi": "Hãy bỏ bìa các-tông vào thùng phân loại."
+    },
+    {
+      "level": "A2",
+      "word": "un emballage",
+      "pos": "danh từ giống đực",
+      "vi": "bao bì",
+      "example": "Cet emballage est en plastique.",
+      "example_vi": "Bao bì này làm bằng nhựa."
+    },
+    {
+      "level": "A2",
+      "word": "une consigne",
+      "pos": "danh từ giống cái",
+      "vi": "hướng dẫn hoặc quy định cần tuân theo",
+      "example": "Lisez les consignes avant de déposer les déchets.",
+      "example_vi": "Hãy đọc hướng dẫn trước khi bỏ rác."
+    },
+    {
+      "level": "A2",
+      "word": "réutilisable",
+      "pos": "tính từ",
+      "vi": "có thể tái sử dụng",
+      "example": "Ce sac est réutilisable.",
+      "example_vi": "Chiếc túi này có thể tái sử dụng."
+    },
+    {
+      "level": "A2",
+      "word": "un encombrant",
+      "pos": "danh từ giống đực",
+      "vi": "đồ vật cồng kềnh cần thu gom riêng",
+      "example": "Ce matelas est un encombrant.",
+      "example_vi": "Chiếc nệm này thuộc loại rác cồng kềnh."
+    },
+    {
+      "level": "B1",
+      "word": "un atelier de conversation",
+      "pos": "danh từ giống đực",
+      "vi": "buổi sinh hoạt luyện hội thoại",
+      "example": "L'atelier de conversation a lieu le mercredi.",
+      "example_vi": "Buổi luyện hội thoại diễn ra vào thứ Tư."
+    },
+    {
+      "level": "B1",
+      "word": "une association",
+      "pos": "danh từ giống cái",
+      "vi": "hội hoặc tổ chức cộng đồng",
+      "example": "Une association organise des cours gratuits.",
+      "example_vi": "Một hội cộng đồng tổ chức các lớp học miễn phí."
+    },
+    {
+      "level": "B1",
+      "word": "un bénévole",
+      "pos": "danh từ giống đực",
+      "vi": "tình nguyện viên nam (giống cái: une bénévole)",
+      "example": "Un bénévole aide les nouveaux arrivants.",
+      "example_vi": "Một tình nguyện viên giúp những người mới đến."
+    },
+    {
+      "level": "B1",
+      "word": "une hésitation",
+      "pos": "danh từ giống cái",
+      "vi": "sự ngập ngừng, do dự khi nói",
+      "example": "Elle parle malgré ses hésitations.",
+      "example_vi": "Cô ấy vẫn nói dù còn ngập ngừng."
+    },
+    {
+      "level": "B1",
+      "word": "une mise en situation",
+      "pos": "danh từ giống cái",
+      "vi": "bài thực hành tình huống giả định",
+      "example": "Nous faisons une mise en situation au guichet.",
+      "example_vi": "Chúng tôi thực hành một tình huống tại quầy giao dịch."
+    },
+    {
+      "level": "B1",
+      "word": "prendre confiance",
+      "pos": "cụm động từ",
+      "vi": "trở nên tự tin hơn",
+      "example": "Avec la pratique, Malik prend confiance.",
+      "example_vi": "Nhờ luyện tập, Malik trở nên tự tin hơn."
+    },
+    {
+      "level": "B2",
+      "word": "une cohabitation",
+      "pos": "danh từ giống cái",
+      "vi": "việc sống chung trong cùng nhà",
+      "example": "La cohabitation demande des règles claires.",
+      "example_vi": "Việc sống chung đòi hỏi những quy tắc rõ ràng."
+    },
+    {
+      "level": "B2",
+      "word": "intergénérationnel, intergénérationnelle",
+      "pos": "tính từ",
+      "vi": "giữa các thế hệ",
+      "example": "Le programme propose un logement intergénérationnel.",
+      "example_vi": "Chương trình cung cấp chỗ ở giữa các thế hệ."
+    },
+    {
+      "level": "B2",
+      "word": "une contrepartie",
+      "pos": "danh từ giống cái",
+      "vi": "phần việc hoặc lợi ích trao đổi tương ứng",
+      "example": "L'aide quotidienne peut constituer une contrepartie.",
+      "example_vi": "Việc hỗ trợ hằng ngày có thể là một phần trao đổi."
+    },
+    {
+      "level": "B2",
+      "word": "un engagement réciproque",
+      "pos": "danh từ giống đực",
+      "vi": "cam kết hai bên cùng có trách nhiệm",
+      "example": "Le contrat précise les engagements réciproques.",
+      "example_vi": "Hợp đồng nêu rõ các cam kết của hai bên."
+    },
+    {
+      "level": "B2",
+      "word": "une médiation",
+      "pos": "danh từ giống cái",
+      "vi": "quá trình hòa giải giữa các bên",
+      "example": "Une médiation peut résoudre le désaccord.",
+      "example_vi": "Hòa giải có thể giải quyết bất đồng."
+    },
+    {
+      "level": "B2",
+      "word": "préserver l'autonomie",
+      "pos": "cụm động từ",
+      "vi": "duy trì sự tự chủ trong sinh hoạt",
+      "example": "Le dispositif cherche à préserver l'autonomie des habitants.",
+      "example_vi": "Mô hình hướng tới duy trì sự tự chủ của cư dân."
+    }
+  ],
+  "stories": [
+    {
+      "level": "A1",
+      "title": "Une coupe de cheveux avant la fête",
+      "vi": "Đi cắt tóc trước bữa tiệc",
+      "paragraphs": [
+        "Samedi matin, Emma va dans un salon de coiffure à Lyon. Elle a rendez-vous à dix heures. La coiffeuse lui dit bonjour et lui montre une chaise.",
+        "Emma explique : « Je voudrais les cheveux un peu plus courts, mais je garde ma frange. » La coiffeuse sourit et prend ses ciseaux.",
+        "Après la coupe, Emma se regarde dans le miroir. Elle est contente. Elle paie et rentre chez elle avant la fête de sa cousine."
+      ],
+      "translations": [
+        "Sáng thứ Bảy, Emma đến một tiệm cắt tóc ở Lyon. Cô có lịch hẹn lúc mười giờ. Thợ làm tóc chào cô và chỉ cho cô một chiếc ghế.",
+        "Emma giải thích: « Tôi muốn tóc ngắn hơn một chút, nhưng vẫn giữ tóc mái. » Thợ làm tóc mỉm cười và lấy kéo.",
+        "Sau khi cắt, Emma nhìn mình trong gương. Cô rất hài lòng. Cô thanh toán rồi về nhà trước bữa tiệc của chị em họ."
+      ],
+      "questions": [
+        {
+          "q": "À quelle heure Emma a-t-elle rendez-vous ?",
+          "choices": [
+            "À huit heures",
+            "À dix heures",
+            "À midi"
+          ],
+          "answer": 1,
+          "explain_vi": "Emma có lịch hẹn lúc 10 giờ."
+        },
+        {
+          "q": "Que veut garder Emma ?",
+          "choices": [
+            "Sa frange",
+            "Ses cheveux très longs",
+            "Son chapeau"
+          ],
+          "answer": 0,
+          "explain_vi": "Emma muốn giữ tóc mái (sa frange)."
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Le samedi à la déchèterie",
+      "vi": "Mang đồ cũ đi phân loại tại điểm tiếp nhận rác",
+      "paragraphs": [
+        "Dimanche dernier, Nadia et son voisin ont vidé leur cave. Ils ont trouvé une vieille chaise cassée, des cartons et plusieurs emballages. Ils ne savaient pas où déposer tous ces objets.",
+        "Avant de partir, Nadia a consulté les consignes de la déchèterie de sa commune. Sur place, un agent leur a indiqué les différents bacs de tri. Il leur a expliqué que les objets réutilisables pouvaient être déposés dans un espace séparé.",
+        "Nadia a gardé une lampe qui fonctionnait encore pour la donner à une association. Elle a compris que jeter moins commence souvent par mieux trier."
+      ],
+      "translations": [
+        "Chủ nhật tuần trước, Nadia và người hàng xóm dọn tầng hầm. Họ tìm thấy một chiếc ghế gãy, các thùng các-tông và nhiều bao bì. Họ không biết nên đem tất cả những thứ đó đi đâu.",
+        "Trước khi đi, Nadia xem hướng dẫn của điểm tiếp nhận rác tại địa phương. Tại đó, một nhân viên chỉ cho họ các thùng phân loại. Anh giải thích rằng đồ còn dùng được có thể để ở một khu riêng.",
+        "Nadia giữ lại một chiếc đèn vẫn hoạt động để tặng cho một hội cộng đồng. Cô hiểu rằng giảm vứt bỏ thường bắt đầu bằng phân loại tốt hơn."
+      ],
+      "questions": [
+        {
+          "q": "Qu'a fait Nadia avant de partir ?",
+          "choices": [
+            "Elle a consulté les consignes",
+            "Elle a acheté une chaise",
+            "Elle a téléphoné à son médecin"
+          ],
+          "answer": 0,
+          "explain_vi": "Cô đã xem hướng dẫn của điểm tiếp nhận rác."
+        },
+        {
+          "q": "Que décide-t-elle de donner ?",
+          "choices": [
+            "Un matelas",
+            "Une lampe qui fonctionne",
+            "Des cartons mouillés"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô quyết định tặng chiếc đèn còn hoạt động."
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "title": "Oser parler français au centre social",
+      "vi": "Vượt qua ngại ngùng trong buổi luyện giao tiếp tiếng Pháp",
+      "paragraphs": [
+        "Quand Malik s'est installé à Grenoble, il comprenait assez bien les conversations simples, mais il hésitait à prendre la parole. Il avait peur de faire des erreurs devant des inconnus.",
+        "Une association de quartier organisait chaque mercredi un atelier de conversation. Lors de sa première séance, une bénévole a proposé une mise en situation : demander un renseignement au guichet d'une gare. Malik a d'abord cherché ses mots, puis il a réussi à expliquer son problème.",
+        "Les autres participants l'ont encouragé. Depuis, Malik vient régulièrement. Il remarque qu'il fait encore des fautes, mais qu'il prend confiance. Pour lui, progresser signifie désormais communiquer, même sans parler parfaitement."
+      ],
+      "translations": [
+        "Khi Malik chuyển đến Grenoble, anh hiểu khá tốt các cuộc trò chuyện đơn giản nhưng ngại phát biểu. Anh sợ mắc lỗi trước người lạ.",
+        "Một hội cộng đồng trong khu phố tổ chức buổi luyện hội thoại vào mỗi thứ Tư. Ở buổi đầu tiên, một tình nguyện viên đưa ra tình huống giả định: hỏi thông tin tại quầy ở ga tàu. Ban đầu Malik tìm từ rất lâu, sau đó anh đã giải thích được vấn đề.",
+        "Những người tham gia khác động viên anh. Từ đó Malik đến đều đặn. Anh nhận thấy mình vẫn mắc lỗi nhưng ngày càng tự tin. Với anh, tiến bộ giờ đây nghĩa là giao tiếp được, dù chưa nói hoàn hảo."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Malik hésitait-il à parler ?",
+          "choices": [
+            "Il ne voulait pas apprendre",
+            "Il craignait de faire des erreurs",
+            "Il n'aimait pas les trains"
+          ],
+          "answer": 1,
+          "explain_vi": "Anh sợ mắc lỗi khi nói trước người lạ."
+        },
+        {
+          "q": "Que comprend Malik à la fin ?",
+          "choices": [
+            "Il faut être parfait pour parler",
+            "Il doit arrêter les ateliers",
+            "On peut communiquer même avec des erreurs"
+          ],
+          "answer": 2,
+          "explain_vi": "Anh hiểu rằng vẫn có thể giao tiếp dù còn mắc lỗi."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Habiter ensemble, sans renoncer à son indépendance",
+      "vi": "Mô hình ở ghép giữa các thế hệ và cách thỏa thuận trách nhiệm",
+      "paragraphs": [
+        "À Strasbourg, une association met en relation des étudiants à la recherche d'un logement et des personnes âgées disposant d'une chambre libre. L'objectif est de favoriser les échanges entre générations tout en luttant contre l'isolement.",
+        "Camille, étudiante, envisage de vivre chez Madame Bernard. En contrepartie d'un loyer modéré, elle pourrait partager certains repas et rendre de petits services. Cependant, les deux femmes souhaitent éviter toute ambiguïté : il ne s'agit ni d'un emploi d'aide à domicile ni d'une présence permanente.",
+        "Avant de signer leur accord, elles discutent des horaires, des espaces privés, des visites et de la répartition des charges. L'association leur conseille de formaliser leurs engagements réciproques et prévoit une médiation en cas de désaccord.",
+        "Cette cohabitation ne peut réussir que si chacun conserve sa liberté. Pour Camille comme pour Madame Bernard, le véritable enjeu consiste à construire une relation solidaire sans créer de dépendance imposée."
+      ],
+      "translations": [
+        "Tại Strasbourg, một hội cộng đồng kết nối sinh viên đang tìm chỗ ở với người cao tuổi có phòng trống. Mục tiêu là thúc đẩy giao lưu giữa các thế hệ, đồng thời giảm tình trạng cô đơn.",
+        "Camille, một sinh viên, dự định ở cùng bà Bernard. Đổi lại mức tiền thuê vừa phải, cô có thể cùng ăn vài bữa và giúp những việc nhỏ. Tuy nhiên, cả hai muốn tránh hiểu nhầm: đây không phải công việc chăm sóc tại nhà hay nghĩa vụ có mặt thường xuyên.",
+        "Trước khi ký thỏa thuận, họ trao đổi về giờ giấc, không gian riêng, khách đến thăm và cách chia chi phí. Hội cộng đồng khuyên họ ghi rõ cam kết của mỗi bên và dự kiến hòa giải nếu có bất đồng.",
+        "Việc sống chung chỉ thành công khi mỗi người vẫn giữ được tự do của mình. Với cả Camille và bà Bernard, điều cốt lõi là xây dựng quan hệ tương trợ mà không tạo ra sự lệ thuộc bắt buộc."
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi l'association recommande-t-elle un accord écrit ?",
+          "choices": [
+            "Pour interdire toutes les visites",
+            "Pour clarifier les responsabilités de chacun",
+            "Pour obliger Camille à travailler toute la journée"
+          ],
+          "answer": 1,
+          "explain_vi": "Thỏa thuận bằng văn bản giúp làm rõ quyền và trách nhiệm mỗi bên."
+        },
+        {
+          "q": "Quelle condition est essentielle à la réussite du projet ?",
+          "choices": [
+            "Préserver l'autonomie de chacun",
+            "Supprimer tous les espaces privés",
+            "Imposer une présence permanente"
+          ],
+          "answer": 0,
+          "explain_vi": "Mô hình phải bảo vệ sự tự chủ và tự do của cả hai."
+        }
+      ]
+    }
+  ],
+  "verbs": [
+    {
+      "level": "A1",
+      "inf": "couper",
+      "vi": "cắt",
+      "example": "La coiffeuse coupe les cheveux d'Emma.",
+      "example_vi": "Thợ làm tóc cắt tóc cho Emma.",
+      "forms": {
+        "present": [
+          "coupe",
+          "coupes",
+          "coupe",
+          "coupons",
+          "coupez",
+          "coupent"
+        ],
+        "imparfait": [
+          "coupais",
+          "coupais",
+          "coupait",
+          "coupions",
+          "coupiez",
+          "coupaient"
+        ],
+        "future": [
+          "couperai",
+          "couperas",
+          "coupera",
+          "couperons",
+          "couperez",
+          "couperont"
+        ],
+        "passe_compose": [
+          "ai coupé",
+          "as coupé",
+          "a coupé",
+          "avons coupé",
+          "avez coupé",
+          "ont coupé"
+        ]
+      }
+    },
+    {
+      "level": "A1",
+      "inf": "choisir",
+      "vi": "lựa chọn",
+      "example": "Emma choisit une coupe simple.",
+      "example_vi": "Emma chọn một kiểu tóc đơn giản.",
+      "forms": {
+        "present": [
+          "choisis",
+          "choisis",
+          "choisit",
+          "choisissons",
+          "choisissez",
+          "choisissent"
+        ],
+        "imparfait": [
+          "choisissais",
+          "choisissais",
+          "choisissait",
+          "choisissions",
+          "choisissiez",
+          "choisissaient"
+        ],
+        "future": [
+          "choisirai",
+          "choisiras",
+          "choisira",
+          "choisirons",
+          "choisirez",
+          "choisiront"
+        ],
+        "passe_compose": [
+          "ai choisi",
+          "as choisi",
+          "a choisi",
+          "avons choisi",
+          "avez choisi",
+          "ont choisi"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "jeter",
+      "vi": "vứt bỏ",
+      "example": "Il ne faut pas jeter cette lampe.",
+      "example_vi": "Không nên vứt chiếc đèn này.",
+      "forms": {
+        "present": [
+          "jette",
+          "jettes",
+          "jette",
+          "jetons",
+          "jetez",
+          "jettent"
+        ],
+        "imparfait": [
+          "jetais",
+          "jetais",
+          "jetait",
+          "jetions",
+          "jetiez",
+          "jetaient"
+        ],
+        "future": [
+          "jetterai",
+          "jetteras",
+          "jettera",
+          "jetterons",
+          "jetterez",
+          "jetteront"
+        ],
+        "passe_compose": [
+          "ai jeté",
+          "as jeté",
+          "a jeté",
+          "avons jeté",
+          "avez jeté",
+          "ont jeté"
+        ]
+      }
+    },
+    {
+      "level": "A2",
+      "inf": "trier",
+      "vi": "phân loại",
+      "example": "Nous trions les emballages.",
+      "example_vi": "Chúng tôi phân loại bao bì.",
+      "forms": {
+        "present": [
+          "trie",
+          "tries",
+          "trie",
+          "trions",
+          "triez",
+          "trient"
+        ],
+        "imparfait": [
+          "triais",
+          "triais",
+          "triait",
+          "triions",
+          "triiez",
+          "triaient"
+        ],
+        "future": [
+          "trierai",
+          "trieras",
+          "triera",
+          "trierons",
+          "trierez",
+          "trieront"
+        ],
+        "passe_compose": [
+          "ai trié",
+          "as trié",
+          "a trié",
+          "avons trié",
+          "avez trié",
+          "ont trié"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "expliquer",
+      "vi": "giải thích",
+      "example": "Malik explique son problème en français.",
+      "example_vi": "Malik giải thích vấn đề của mình bằng tiếng Pháp.",
+      "forms": {
+        "present": [
+          "explique",
+          "expliques",
+          "explique",
+          "expliquons",
+          "expliquez",
+          "expliquent"
+        ],
+        "imparfait": [
+          "expliquais",
+          "expliquais",
+          "expliquait",
+          "expliquions",
+          "expliquiez",
+          "expliquaient"
+        ],
+        "future": [
+          "expliquerai",
+          "expliqueras",
+          "expliquera",
+          "expliquerons",
+          "expliquerez",
+          "expliqueront"
+        ],
+        "passe_compose": [
+          "ai expliqué",
+          "as expliqué",
+          "a expliqué",
+          "avons expliqué",
+          "avez expliqué",
+          "ont expliqué"
+        ]
+      }
+    },
+    {
+      "level": "B1",
+      "inf": "progresser",
+      "vi": "tiến bộ",
+      "example": "Elle progresse grâce aux ateliers.",
+      "example_vi": "Cô ấy tiến bộ nhờ các buổi thực hành.",
+      "forms": {
+        "present": [
+          "progresse",
+          "progresses",
+          "progresse",
+          "progressons",
+          "progressez",
+          "progressent"
+        ],
+        "imparfait": [
+          "progressais",
+          "progressais",
+          "progressait",
+          "progressions",
+          "progressiez",
+          "progressaient"
+        ],
+        "future": [
+          "progresserai",
+          "progresseras",
+          "progressera",
+          "progresserons",
+          "progresserez",
+          "progresseront"
+        ],
+        "passe_compose": [
+          "ai progressé",
+          "as progressé",
+          "a progressé",
+          "avons progressé",
+          "avez progressé",
+          "ont progressé"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "accueillir",
+      "vi": "đón tiếp, tiếp nhận",
+      "example": "Madame Bernard accueille une étudiante.",
+      "example_vi": "Bà Bernard đón một sinh viên đến ở.",
+      "forms": {
+        "present": [
+          "accueille",
+          "accueilles",
+          "accueille",
+          "accueillons",
+          "accueillez",
+          "accueillent"
+        ],
+        "imparfait": [
+          "accueillais",
+          "accueillais",
+          "accueillait",
+          "accueillions",
+          "accueilliez",
+          "accueillaient"
+        ],
+        "future": [
+          "accueillerai",
+          "accueilleras",
+          "accueillera",
+          "accueillerons",
+          "accueillerez",
+          "accueilleront"
+        ],
+        "passe_compose": [
+          "ai accueilli",
+          "as accueilli",
+          "a accueilli",
+          "avons accueilli",
+          "avez accueilli",
+          "ont accueilli"
+        ]
+      }
+    },
+    {
+      "level": "B2",
+      "inf": "partager",
+      "vi": "chia sẻ",
+      "example": "Elles partagent certains repas.",
+      "example_vi": "Họ cùng ăn một số bữa.",
+      "forms": {
+        "present": [
+          "partage",
+          "partages",
+          "partage",
+          "partageons",
+          "partagez",
+          "partagent"
+        ],
+        "imparfait": [
+          "partageais",
+          "partageais",
+          "partageait",
+          "partagions",
+          "partagiez",
+          "partageaient"
+        ],
+        "future": [
+          "partagerai",
+          "partageras",
+          "partagera",
+          "partagerons",
+          "partagerez",
+          "partageront"
+        ],
+        "passe_compose": [
+          "ai partagé",
+          "as partagé",
+          "a partagé",
+          "avons partagé",
+          "avez partagé",
+          "ont partagé"
+        ]
+      }
+    }
+  ],
+  "subjects": [
+    "je",
+    "tu",
+    "il/elle",
+    "nous",
+    "vous",
+    "ils/elles"
+  ]
+}
