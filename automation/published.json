@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-11-01",
-  "released_count": 11,
+  "last_checked": "2026-11-02",
+  "released_count": 12,
   "total_prepared": 14,
   "lessons": [
     {
@@ -417,6 +417,44 @@
           "vi": "thực hiện",
           "present": "je réalise",
           "passe_compose": "j'ai réalisé"
+        }
+      ],
+      "kind": "new"
+    },
+    {
+      "day": 12,
+      "level": "A2",
+      "title": "À la mairie",
+      "story": "Élodie se rend à la mairie pour demander un document. À l'accueil, on lui indique le bon guichet. Elle présente sa pièce d'identité et remplit un formulaire.",
+      "vocabulary": [
+        {
+          "word": "la mairie",
+          "vi": "tòa thị chính",
+          "example": "Je vais à la mairie."
+        },
+        {
+          "word": "le guichet",
+          "vi": "quầy tiếp nhận",
+          "example": "Le guichet ouvre à neuf heures."
+        },
+        {
+          "word": "le formulaire",
+          "vi": "mẫu đơn",
+          "example": "Je remplis le formulaire."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "remplir",
+          "vi": "điền",
+          "present": "je remplis",
+          "passe_compose": "j'ai rempli"
+        },
+        {
+          "infinitive": "présenter",
+          "vi": "xuất trình; giới thiệu",
+          "present": "je présente",
+          "passe_compose": "j'ai présenté"
         }
       ],
       "kind": "new"
