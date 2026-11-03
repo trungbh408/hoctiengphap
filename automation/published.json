@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-11-02",
-  "released_count": 12,
+  "last_checked": "2026-11-03",
+  "released_count": 13,
   "total_prepared": 14,
   "lessons": [
     {
@@ -455,6 +455,44 @@
           "vi": "xuất trình; giới thiệu",
           "present": "je présente",
           "passe_compose": "j'ai présenté"
+        }
+      ],
+      "kind": "new"
+    },
+    {
+      "day": 13,
+      "level": "B1",
+      "title": "Une promenade",
+      "story": "Après le déjeuner, Antoine se promène le long de la rivière. Il remarque un petit pont en pierre et s'arrête pour prendre une photo. Le paysage lui rappelle son enfance.",
+      "vocabulary": [
+        {
+          "word": "la rivière",
+          "vi": "dòng sông",
+          "example": "La rivière traverse la ville."
+        },
+        {
+          "word": "le pont",
+          "vi": "cây cầu",
+          "example": "Nous traversons le pont."
+        },
+        {
+          "word": "le paysage",
+          "vi": "phong cảnh",
+          "example": "Le paysage est magnifique."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "remarquer",
+          "vi": "nhận thấy",
+          "present": "je remarque",
+          "passe_compose": "j'ai remarqué"
+        },
+        {
+          "infinitive": "se promener",
+          "vi": "đi dạo",
+          "present": "je me promène",
+          "passe_compose": "je me suis promené(e)"
         }
       ],
       "kind": "new"
