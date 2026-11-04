@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-11-03",
-  "released_count": 13,
+  "last_checked": "2026-11-04",
+  "released_count": 14,
   "total_prepared": 14,
   "lessons": [
     {
@@ -493,6 +493,44 @@
           "vi": "đi dạo",
           "present": "je me promène",
           "passe_compose": "je me suis promené(e)"
+        }
+      ],
+      "kind": "new"
+    },
+    {
+      "day": 14,
+      "level": "A2",
+      "title": "Un cours de français",
+      "story": "Pendant le cours, Ana ne comprend pas une expression. Elle demande au professeur de répéter plus lentement. Après plusieurs exemples, elle réussit à utiliser l'expression.",
+      "vocabulary": [
+        {
+          "word": "l'expression",
+          "vi": "cách diễn đạt",
+          "example": "Cette expression est utile."
+        },
+        {
+          "word": "lentement",
+          "vi": "chậm rãi",
+          "example": "Parlez lentement, s'il vous plaît."
+        },
+        {
+          "word": "réussir",
+          "vi": "thành công; làm được",
+          "example": "Je réussis l'exercice."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "répéter",
+          "vi": "lặp lại",
+          "present": "je répète",
+          "passe_compose": "j'ai répété"
+        },
+        {
+          "infinitive": "utiliser",
+          "vi": "sử dụng",
+          "present": "j'utilise",
+          "passe_compose": "j'ai utilisé"
         }
       ],
       "kind": "new"
