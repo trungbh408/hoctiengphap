@@ -1,0 +1,359 @@
+{
+  "date": "2026-11-04",
+  "app": "Mon Prof de Français",
+  "status": "content_only_not_integrated",
+  "vocabulary": [
+    {
+      "level": "A1",
+      "term": "la boulangerie",
+      "part_of_speech": "nom féminin",
+      "meaning_vi": "tiệm bánh mì",
+      "example_fr": "Je vais à la boulangerie acheter du pain.",
+      "example_vi": "Tôi đến tiệm bánh mua bánh mì."
+    },
+    {
+      "level": "A1",
+      "term": "le ticket",
+      "part_of_speech": "nom masculin",
+      "meaning_vi": "vé, phiếu",
+      "example_fr": "Je garde mon ticket de caisse.",
+      "example_vi": "Tôi giữ hóa đơn mua hàng."
+    },
+    {
+      "level": "A1",
+      "term": "la clé",
+      "part_of_speech": "nom féminin",
+      "meaning_vi": "chìa khóa",
+      "example_fr": "La clé est sur la table.",
+      "example_vi": "Chìa khóa ở trên bàn."
+    },
+    {
+      "level": "A1",
+      "term": "ouvert",
+      "part_of_speech": "adjectif",
+      "meaning_vi": "đang mở cửa",
+      "example_fr": "Le magasin est ouvert.",
+      "example_vi": "Cửa hàng đang mở."
+    },
+    {
+      "level": "A1",
+      "term": "attendre",
+      "part_of_speech": "verbe",
+      "meaning_vi": "chờ đợi",
+      "example_fr": "J'attends le bus.",
+      "example_vi": "Tôi đang chờ xe buýt."
+    },
+    {
+      "level": "A1",
+      "term": "le quartier",
+      "part_of_speech": "nom masculin",
+      "meaning_vi": "khu phố",
+      "example_fr": "Mon quartier est calme.",
+      "example_vi": "Khu phố của tôi yên tĩnh."
+    },
+    {
+      "level": "A2",
+      "term": "un justificatif",
+      "part_of_speech": "nom masculin",
+      "meaning_vi": "giấy tờ chứng minh",
+      "example_fr": "Il faut apporter un justificatif de domicile.",
+      "example_vi": "Cần mang giấy tờ chứng minh địa chỉ."
+    },
+    {
+      "level": "A2",
+      "term": "un créneau",
+      "part_of_speech": "nom masculin",
+      "meaning_vi": "khung giờ",
+      "example_fr": "J'ai réservé un créneau à quinze heures.",
+      "example_vi": "Tôi đã đặt khung giờ lúc 15 giờ."
+    },
+    {
+      "level": "A2",
+      "term": "rembourser",
+      "part_of_speech": "verbe",
+      "meaning_vi": "hoàn tiền",
+      "example_fr": "Le magasin va me rembourser.",
+      "example_vi": "Cửa hàng sẽ hoàn tiền cho tôi."
+    },
+    {
+      "level": "A2",
+      "term": "une panne",
+      "part_of_speech": "nom féminin",
+      "meaning_vi": "sự cố hỏng hóc",
+      "example_fr": "Le chauffage est en panne.",
+      "example_vi": "Máy sưởi bị hỏng."
+    },
+    {
+      "level": "A2",
+      "term": "prévenir",
+      "part_of_speech": "verbe",
+      "meaning_vi": "báo trước, thông báo",
+      "example_fr": "Préviens-moi si tu es en retard.",
+      "example_vi": "Hãy báo tôi nếu bạn đến muộn."
+    },
+    {
+      "level": "A2",
+      "term": "un trajet",
+      "part_of_speech": "nom masculin",
+      "meaning_vi": "hành trình di chuyển",
+      "example_fr": "Le trajet dure vingt minutes.",
+      "example_vi": "Quãng đường đi mất hai mươi phút."
+    },
+    {
+      "level": "B1",
+      "term": "une démarche",
+      "part_of_speech": "nom féminin",
+      "meaning_vi": "thủ tục hành chính",
+      "example_fr": "Cette démarche se fait en ligne.",
+      "example_vi": "Thủ tục này thực hiện trực tuyến."
+    },
+    {
+      "level": "B1",
+      "term": "un délai",
+      "part_of_speech": "nom masculin",
+      "meaning_vi": "thời hạn xử lý",
+      "example_fr": "Le délai de réponse est de dix jours.",
+      "example_vi": "Thời hạn trả lời là mười ngày."
+    },
+    {
+      "level": "B1",
+      "term": "reporter",
+      "part_of_speech": "verbe",
+      "meaning_vi": "dời lịch",
+      "example_fr": "Nous devons reporter le rendez-vous.",
+      "example_vi": "Chúng tôi phải dời lịch hẹn."
+    },
+    {
+      "level": "B1",
+      "term": "un devis",
+      "part_of_speech": "nom masculin",
+      "meaning_vi": "bảng báo giá",
+      "example_fr": "Demandez un devis avant les travaux.",
+      "example_vi": "Hãy yêu cầu báo giá trước khi sửa chữa."
+    },
+    {
+      "level": "B1",
+      "term": "fiable",
+      "part_of_speech": "adjectif",
+      "meaning_vi": "đáng tin cậy",
+      "example_fr": "Cette information semble fiable.",
+      "example_vi": "Thông tin này có vẻ đáng tin cậy."
+    },
+    {
+      "level": "B1",
+      "term": "une assurance",
+      "part_of_speech": "nom féminin",
+      "meaning_vi": "bảo hiểm",
+      "example_fr": "Je vérifie mon contrat d'assurance.",
+      "example_vi": "Tôi kiểm tra hợp đồng bảo hiểm."
+    },
+    {
+      "level": "B2",
+      "term": "une concertation",
+      "part_of_speech": "nom féminin",
+      "meaning_vi": "quá trình tham vấn",
+      "example_fr": "La mairie organise une concertation publique.",
+      "example_vi": "Tòa thị chính tổ chức tham vấn công khai."
+    },
+    {
+      "level": "B2",
+      "term": "une contrainte",
+      "part_of_speech": "nom féminin",
+      "meaning_vi": "ràng buộc, hạn chế",
+      "example_fr": "Le budget impose plusieurs contraintes.",
+      "example_vi": "Ngân sách đặt ra nhiều hạn chế."
+    },
+    {
+      "level": "B2",
+      "term": "arbitrer",
+      "part_of_speech": "verbe",
+      "meaning_vi": "cân nhắc và quyết định giữa các phương án",
+      "example_fr": "Le conseil doit arbitrer entre deux projets.",
+      "example_vi": "Hội đồng phải quyết định giữa hai dự án."
+    },
+    {
+      "level": "B2",
+      "term": "une retombée",
+      "part_of_speech": "nom féminin",
+      "meaning_vi": "tác động, lợi ích phát sinh",
+      "example_fr": "Le festival a des retombées économiques locales.",
+      "example_vi": "Lễ hội mang lại lợi ích kinh tế cho địa phương."
+    },
+    {
+      "level": "B2",
+      "term": "pérenne",
+      "part_of_speech": "adjectif",
+      "meaning_vi": "bền vững, lâu dài",
+      "example_fr": "Il faut trouver une solution pérenne.",
+      "example_vi": "Cần tìm một giải pháp lâu dài."
+    },
+    {
+      "level": "B2",
+      "term": "nuancer",
+      "part_of_speech": "verbe",
+      "meaning_vi": "đưa ra nhận định có sắc thái, tránh tuyệt đối hóa",
+      "example_fr": "Elle nuance son avis après le débat.",
+      "example_vi": "Cô ấy điều chỉnh nhận định cho cân bằng hơn sau cuộc tranh luận."
+    }
+  ],
+  "stories": [
+    {
+      "level": "A1",
+      "title": "Le carnet à la papeterie",
+      "fr": "Ce matin, Hugo entre dans une papeterie. Il cherche un petit carnet pour apprendre le français. La vendeuse lui montre deux carnets. Le bleu coûte quatre euros et le vert coûte cinq euros. Hugo choisit le bleu. Il paie et remercie la vendeuse. À la maison, il écrit cinq mots nouveaux.",
+      "vi": "Sáng nay Hugo vào cửa hàng văn phòng phẩm. Anh tìm một cuốn sổ nhỏ để học tiếng Pháp. Người bán cho anh xem hai cuốn sổ. Cuốn xanh dương giá bốn euro và cuốn xanh lá giá năm euro. Hugo chọn cuốn xanh dương. Anh thanh toán và cảm ơn người bán. Về nhà, anh viết năm từ mới.",
+      "questions": [
+        {
+          "q": "Pourquoi Hugo achète-t-il un carnet ?",
+          "a": "Pour apprendre le français."
+        },
+        {
+          "q": "Combien coûte le carnet bleu ?",
+          "a": "Quatre euros."
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Un rendez-vous chez le cordonnier",
+      "fr": "Samedi dernier, Nadia a apporté ses chaussures chez un cordonnier à Strasbourg. La semelle d'une chaussure se décollait depuis plusieurs jours. Le cordonnier a examiné la paire et a proposé une réparation à douze euros. Comme Nadia devait partir lundi, elle lui a demandé si les chaussures seraient prêtes avant dimanche soir. Il a accepté. Le lendemain, Nadia est revenue et a récupéré ses chaussures réparées.",
+      "vi": "Thứ Bảy tuần trước, Nadia mang giày đến thợ sửa giày ở Strasbourg. Đế của một chiếc giày đã bong ra nhiều ngày. Người thợ kiểm tra đôi giày và đề nghị sửa với giá mười hai euro. Vì Nadia phải đi vào thứ Hai, cô hỏi liệu giày có xong trước tối Chủ nhật không. Người thợ đồng ý. Hôm sau Nadia quay lại nhận đôi giày đã sửa.",
+      "questions": [
+        {
+          "q": "Quel problème avait la chaussure ?",
+          "a": "La semelle se décollait."
+        },
+        {
+          "q": "Pourquoi Nadia voulait-elle une réparation rapide ?",
+          "a": "Elle devait partir lundi."
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "title": "Une erreur dans le contrat de location",
+      "fr": "En relisant son contrat de location, Karim a remarqué que le numéro de son appartement était incorrect. Il avait pourtant donné la bonne information lors de la visite. Il a envoyé un courriel à l'agence immobilière avec une copie du document. L'agence lui a répondu le lendemain et a préparé une version corrigée. Avant de la signer, Karim a également vérifié le montant du loyer, les charges et la date d'entrée dans le logement. Cette expérience lui a rappelé qu'il vaut mieux lire attentivement chaque document.",
+      "vi": "Khi đọc lại hợp đồng thuê nhà, Karim nhận thấy số căn hộ bị ghi sai, dù anh đã cung cấp thông tin đúng lúc xem nhà. Anh gửi email cho công ty môi giới kèm bản sao tài liệu. Hôm sau công ty trả lời và chuẩn bị bản sửa. Trước khi ký, Karim còn kiểm tra tiền thuê, phí dịch vụ và ngày nhận nhà. Trải nghiệm này nhắc anh nên đọc kỹ từng giấy tờ.",
+      "questions": [
+        {
+          "q": "Quelle erreur Karim a-t-il trouvée ?",
+          "a": "Le numéro de son appartement était incorrect."
+        },
+        {
+          "q": "Quels autres éléments a-t-il vérifiés ?",
+          "a": "Le loyer, les charges et la date d'entrée."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Faut-il prolonger les horaires de la médiathèque ?",
+      "fr": "Dans une commune alsacienne, plusieurs habitants ont demandé que la médiathèque reste ouverte plus tard deux soirs par semaine. Les étudiants y voient un espace calme pour travailler, tandis que certains parents souhaitent pouvoir emprunter des livres après leur journée professionnelle. La municipalité reconnaît l'intérêt de cette proposition, mais souligne les contraintes de personnel et de budget. Plutôt que de trancher immédiatement, elle lance une expérimentation de trois mois. Les responsables mesureront la fréquentation, les dépenses supplémentaires et la satisfaction des usagers. La décision définitive reposera ainsi sur des résultats observables plutôt que sur de simples impressions.",
+      "vi": "Tại một xã ở Alsace, nhiều cư dân đề nghị thư viện mở muộn hơn hai tối mỗi tuần. Sinh viên coi đây là nơi yên tĩnh để học, còn một số phụ huynh muốn mượn sách sau giờ làm. Chính quyền công nhận lợi ích nhưng nhấn mạnh hạn chế nhân sự và ngân sách. Thay vì quyết định ngay, họ thử nghiệm ba tháng. Ban quản lý sẽ đo lượng khách, chi phí phát sinh và mức hài lòng. Quyết định cuối cùng sẽ dựa vào kết quả quan sát được thay vì cảm nhận chủ quan.",
+      "questions": [
+        {
+          "q": "Pourquoi la municipalité ne décide-t-elle pas immédiatement ?",
+          "a": "À cause des contraintes de personnel et de budget."
+        },
+        {
+          "q": "Quels critères serviront à évaluer l'essai ?",
+          "a": "La fréquentation, les dépenses et la satisfaction des usagers."
+        }
+      ]
+    }
+  ],
+  "verbs": [
+    {
+      "infinitive": "acheter",
+      "meaning_vi": "mua",
+      "present_je": "j'achète",
+      "present_nous": "nous achetons",
+      "passe_compose_je": "j'ai acheté",
+      "imparfait_je": "j'achetais",
+      "futur_simple_je": "j'achèterai",
+      "example_fr": "Je achète une solution.",
+      "note": "Các dạng minh họa, không phải bảng chia đủ sáu ngôi."
+    },
+    {
+      "infinitive": "choisir",
+      "meaning_vi": "chọn",
+      "present_je": "je choisis",
+      "present_nous": "nous choisissons",
+      "passe_compose_je": "j'ai choisi",
+      "imparfait_je": "je choisissais",
+      "futur_simple_je": "je choisirai",
+      "example_fr": "Je choisis une solution.",
+      "note": "Các dạng minh họa, không phải bảng chia đủ sáu ngôi."
+    },
+    {
+      "infinitive": "attendre",
+      "meaning_vi": "chờ",
+      "present_je": "j'attends",
+      "present_nous": "nous attendons",
+      "passe_compose_je": "j'ai attendu",
+      "imparfait_je": "j'attendais",
+      "futur_simple_je": "j'attendrai",
+      "example_fr": "Je attends une solution.",
+      "note": "Các dạng minh họa, không phải bảng chia đủ sáu ngôi."
+    },
+    {
+      "infinitive": "prévenir",
+      "meaning_vi": "thông báo",
+      "present_je": "je préviens",
+      "present_nous": "nous prévenons",
+      "passe_compose_je": "j'ai prévenu",
+      "imparfait_je": "je prévenais",
+      "futur_simple_je": "je préviendrai",
+      "example_fr": "Je préviens une solution.",
+      "note": "Các dạng minh họa, không phải bảng chia đủ sáu ngôi."
+    },
+    {
+      "infinitive": "réparer",
+      "meaning_vi": "sửa chữa",
+      "present_je": "je répare",
+      "present_nous": "nous réparons",
+      "passe_compose_je": "j'ai réparé",
+      "imparfait_je": "je réparais",
+      "futur_simple_je": "je réparerai",
+      "example_fr": "Je répare une solution.",
+      "note": "Các dạng minh họa, không phải bảng chia đủ sáu ngôi."
+    },
+    {
+      "infinitive": "vérifier",
+      "meaning_vi": "kiểm tra",
+      "present_je": "je vérifie",
+      "present_nous": "nous vérifions",
+      "passe_compose_je": "j'ai vérifié",
+      "imparfait_je": "je vérifiais",
+      "futur_simple_je": "je vérifierai",
+      "example_fr": "Je vérifie une solution.",
+      "note": "Các dạng minh họa, không phải bảng chia đủ sáu ngôi."
+    },
+    {
+      "infinitive": "proposer",
+      "meaning_vi": "đề xuất",
+      "present_je": "je propose",
+      "present_nous": "nous proposons",
+      "passe_compose_je": "j'ai proposé",
+      "imparfait_je": "je proposais",
+      "futur_simple_je": "je proposerai",
+      "example_fr": "Je propose une solution.",
+      "note": "Các dạng minh họa, không phải bảng chia đủ sáu ngôi."
+    },
+    {
+      "infinitive": "permettre",
+      "meaning_vi": "cho phép",
+      "present_je": "je permets",
+      "present_nous": "nous permettons",
+      "passe_compose_je": "j'ai permis",
+      "imparfait_je": "je permettais",
+      "futur_simple_je": "je permettrai",
+      "example_fr": "Je permets une solution.",
+      "note": "Các dạng minh họa, không phải bảng chia đủ sáu ngôi."
+    }
+  ],
+  "notes": [
+    "Không sửa HTML hay GitHub trong đợt này.",
+    "Cần toàn bộ HTML mới nhất để tích hợp và giữ nguyên chức năng."
+  ]
+}
