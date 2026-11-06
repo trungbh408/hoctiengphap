@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-11-05",
-  "released_count": 15,
+  "last_checked": "2026-11-06",
+  "released_count": 16,
   "total_prepared": 14,
   "lessons": [
     {
@@ -569,6 +569,44 @@
           "vi": "muốn",
           "present": "je veux",
           "passe_compose": "j'ai voulu"
+        }
+      ],
+      "kind": "review"
+    },
+    {
+      "day": 16,
+      "level": "A1",
+      "title": "Ôn tập — À la gare",
+      "story": "Ce matin, Lina arrive à la gare. Son train a dix minutes de retard. Elle lit le panneau et attend sur le quai numéro trois.",
+      "vocabulary": [
+        {
+          "word": "le quai",
+          "vi": "sân ga",
+          "example": "Le train arrive sur le quai."
+        },
+        {
+          "word": "le retard",
+          "vi": "sự chậm trễ",
+          "example": "Le bus a du retard."
+        },
+        {
+          "word": "le billet",
+          "vi": "vé tàu",
+          "example": "Je garde mon billet."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "attendre",
+          "vi": "chờ",
+          "present": "j'attends",
+          "passe_compose": "j'ai attendu"
+        },
+        {
+          "infinitive": "partir",
+          "vi": "khởi hành",
+          "present": "je pars",
+          "passe_compose": "je suis parti(e)"
         }
       ],
       "kind": "review"
