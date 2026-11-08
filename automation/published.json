@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-11-07",
-  "released_count": 17,
+  "last_checked": "2026-11-08",
+  "released_count": 18,
   "total_prepared": 14,
   "lessons": [
     {
@@ -645,6 +645,44 @@
           "vi": "đọc",
           "present": "je lis",
           "passe_compose": "j'ai lu"
+        }
+      ],
+      "kind": "review"
+    },
+    {
+      "day": 18,
+      "level": "A2",
+      "title": "Ôn tập — Chez le médecin",
+      "story": "Depuis hier, Zoé a mal à la gorge. Elle téléphone au cabinet médical et obtient un rendez-vous. Le médecin lui conseille de se reposer et de boire de l'eau.",
+      "vocabulary": [
+        {
+          "word": "la gorge",
+          "vi": "cổ họng",
+          "example": "J'ai mal à la gorge."
+        },
+        {
+          "word": "le rendez-vous",
+          "vi": "cuộc hẹn",
+          "example": "J'ai un rendez-vous demain."
+        },
+        {
+          "word": "se reposer",
+          "vi": "nghỉ ngơi",
+          "example": "Je dois me reposer."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "conseiller",
+          "vi": "khuyên",
+          "present": "je conseille",
+          "passe_compose": "j'ai conseillé"
+        },
+        {
+          "infinitive": "boire",
+          "vi": "uống",
+          "present": "je bois",
+          "passe_compose": "j'ai bu"
         }
       ],
       "kind": "review"
