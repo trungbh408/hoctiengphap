@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-11-08",
-  "released_count": 18,
+  "last_checked": "2026-11-09",
+  "released_count": 19,
   "total_prepared": 14,
   "lessons": [
     {
@@ -683,6 +683,44 @@
           "vi": "uống",
           "present": "je bois",
           "passe_compose": "j'ai bu"
+        }
+      ],
+      "kind": "review"
+    },
+    {
+      "day": 19,
+      "level": "A2",
+      "title": "Ôn tập — Un appartement",
+      "story": "Paul visite un petit appartement près du centre-ville. Le salon est lumineux, mais la cuisine est étroite. Il demande si les charges sont comprises dans le loyer.",
+      "vocabulary": [
+        {
+          "word": "le loyer",
+          "vi": "tiền thuê nhà",
+          "example": "Le loyer est de huit cents euros."
+        },
+        {
+          "word": "les charges",
+          "vi": "phí sinh hoạt đi kèm",
+          "example": "Les charges sont comprises."
+        },
+        {
+          "word": "lumineux",
+          "vi": "nhiều ánh sáng",
+          "example": "Le salon est lumineux."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "visiter",
+          "vi": "tham quan",
+          "present": "je visite",
+          "passe_compose": "j'ai visité"
+        },
+        {
+          "infinitive": "comprendre",
+          "vi": "bao gồm; hiểu",
+          "present": "je comprends",
+          "passe_compose": "j'ai compris"
         }
       ],
       "kind": "review"
