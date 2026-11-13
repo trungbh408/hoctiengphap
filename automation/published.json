@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-11-12",
-  "released_count": 22,
+  "last_checked": "2026-11-13",
+  "released_count": 23,
   "total_prepared": 14,
   "lessons": [
     {
@@ -835,6 +835,44 @@
           "vi": "chọn",
           "present": "je choisis",
           "passe_compose": "j'ai choisi"
+        }
+      ],
+      "kind": "review"
+    },
+    {
+      "day": 23,
+      "level": "B1",
+      "title": "Ôn tập — Le voisinage",
+      "story": "Chaque dimanche, les habitants de l'immeuble nettoient le jardin commun. Cette semaine, ils plantent des fleurs. Les enfants apportent de l'eau et tout le monde participe.",
+      "vocabulary": [
+        {
+          "word": "l'immeuble",
+          "vi": "tòa nhà chung cư",
+          "example": "J'habite dans cet immeuble."
+        },
+        {
+          "word": "commun",
+          "vi": "chung",
+          "example": "C'est un jardin commun."
+        },
+        {
+          "word": "participer",
+          "vi": "tham gia",
+          "example": "Tout le monde participe."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "nettoyer",
+          "vi": "dọn sạch",
+          "present": "je nettoie",
+          "passe_compose": "j'ai nettoyé"
+        },
+        {
+          "infinitive": "apporter",
+          "vi": "mang đến",
+          "present": "j'apporte",
+          "passe_compose": "j'ai apporté"
         }
       ],
       "kind": "review"
