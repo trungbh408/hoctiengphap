@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-11-14",
-  "released_count": 24,
+  "last_checked": "2026-11-15",
+  "released_count": 25,
   "total_prepared": 14,
   "lessons": [
     {
@@ -911,6 +911,44 @@
           "vi": "hỏi; yêu cầu",
           "present": "je demande",
           "passe_compose": "j'ai demandé"
+        }
+      ],
+      "kind": "review"
+    },
+    {
+      "day": 25,
+      "level": "B2",
+      "title": "Ôn tập — Un entretien",
+      "story": "Avant son entretien d'embauche, Minh relit son CV. Il prépare des exemples de projets réalisés. Pendant la rencontre, il parle calmement de son expérience.",
+      "vocabulary": [
+        {
+          "word": "l'entretien d'embauche",
+          "vi": "buổi phỏng vấn xin việc",
+          "example": "Mon entretien est mardi."
+        },
+        {
+          "word": "le CV",
+          "vi": "sơ yếu lý lịch xin việc",
+          "example": "J'envoie mon CV."
+        },
+        {
+          "word": "l'expérience",
+          "vi": "kinh nghiệm",
+          "example": "J'ai de l'expérience."
+        }
+      ],
+      "verbs": [
+        {
+          "infinitive": "préparer",
+          "vi": "chuẩn bị",
+          "present": "je prépare",
+          "passe_compose": "j'ai préparé"
+        },
+        {
+          "infinitive": "réaliser",
+          "vi": "thực hiện",
+          "present": "je réalise",
+          "passe_compose": "j'ai réalisé"
         }
       ],
       "kind": "review"
